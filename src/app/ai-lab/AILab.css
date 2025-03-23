@@ -1,0 +1,2870 @@
+.StarParticles_particles {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: var(--animation-fade-in);
+  animation-duration: 2s;
+}
+.StarParticles_particles__particle:after {
+  content: '';
+  position: absolute;
+  top: 160rem;
+  background: transparent;
+}
+.StarParticles_particles__particle--1 {
+  box-shadow: 0 0 #ab66ff, 25.6875rem 40.875rem #ab66ff,
+    117.0625rem 59.125rem #ab66ff, 30.125rem 32.6875rem #ab66ff,
+    94.875rem 153.5rem #ab66ff, 41.75rem 90.5rem #ab66ff,
+    2.75rem 0.75rem #ab66ff, 104.0625rem 78.375rem #ab66ff,
+    39.625rem 149.5625rem #ab66ff, 71.25rem 16.75rem #ab66ff,
+    54.125rem 47.25rem #ab66ff, 84rem 97.3125rem #ab66ff,
+    105.25rem 96.3125rem #ab66ff, 12.1875rem 60.5rem #ab66ff,
+    26rem 95.875rem #ab66ff, 2.75rem 139.6875rem #ab66ff,
+    125.25rem 10.1875rem #ab66ff, 66.25rem 27.875rem #ab66ff,
+    32.625rem 93.875rem #ab66ff, 107.5625rem 27.375rem #ab66ff,
+    38.4375rem 37.5625rem #ab66ff, 106.25rem 112.625rem #ab66ff,
+    93.375rem 28.5625rem #ab66ff, 27.4375rem 105.375rem #ab66ff,
+    89.25rem 51.75rem #ab66ff, 41.75rem 139.125rem #ab66ff,
+    11.6875rem 6.375rem #ab66ff, 26.6875rem 145rem #ab66ff,
+    88.25rem 79.125rem #ab66ff, 105.8125rem 105.25rem #ab66ff,
+    45.9375rem 136.375rem #ab66ff, 18.4375rem 96.125rem #ab66ff,
+    68.875rem 19.25rem #ab66ff, 154.25rem 91.8125rem #ab66ff,
+    6.1875rem 66.5625rem #ab66ff, 90.375rem 106.625rem #ab66ff,
+    138.125rem 25rem #ab66ff, 51rem 78.9375rem #ab66ff,
+    47.875rem 15.25rem #ab66ff, 1.5rem 110.875rem #ab66ff,
+    108.5625rem 156.625rem #ab66ff, 126.125rem 30.75rem #ab66ff,
+    111.5625rem 107rem #ab66ff, 80.875rem 143.25rem #ab66ff,
+    49.1875rem 14.6875rem #ab66ff, 71.5rem 79.0625rem #ab66ff,
+    44.9375rem 94.3125rem #ab66ff, 145.8125rem 7.375rem #ab66ff,
+    148.375rem 4.875rem #ab66ff, 122.875rem 123.3125rem #ab66ff,
+    43.375rem 44.8125rem #ab66ff, 136.3125rem 24.6875rem #ab66ff,
+    79.6875rem 128.0625rem #ab66ff, 81.3125rem 149.6875rem #ab66ff,
+    93.625rem 141.25rem #ab66ff, 123.6875rem 139.4375rem #ab66ff,
+    45.875rem 156.375rem #ab66ff, 22.4375rem 75.625rem #ab66ff,
+    132.9375rem 91.0625rem #ab66ff, 114.4375rem 9.375rem #ab66ff,
+    147.0625rem 86rem #ab66ff, 118.125rem 125.6875rem #ab66ff,
+    129.8125rem 11.1875rem #ab66ff, 142.1875rem 7rem #ab66ff,
+    129.625rem 47.5625rem #ab66ff, 76.375rem 39.3125rem #ab66ff,
+    105.125rem 55.8125rem #ab66ff, 90.6875rem 36.625rem #ab66ff,
+    96.25rem 150rem #ab66ff, 101.1875rem 23.75rem #ab66ff,
+    97.25rem 27.8125rem #ab66ff, 32.8125rem 71.125rem #ab66ff,
+    129.5rem 51.75rem #ab66ff, 78.875rem 5.875rem #ab66ff,
+    157.8125rem 2.875rem #ab66ff, 90.8125rem 18.625rem #ab66ff,
+    133.0625rem 139.125rem #ab66ff, 124.6875rem 126.625rem #ab66ff,
+    43.1875rem 9.6875rem #ab66ff, 1.5rem 159.5625rem #ab66ff,
+    128.625rem 82.3125rem #ab66ff, 84.8125rem 57rem #ab66ff,
+    93.625rem 138.6875rem #ab66ff, 37.3125rem 117.8125rem #ab66ff,
+    84.3125rem 61.4375rem #ab66ff, 143.875rem 16.25rem #ab66ff,
+    10.6875rem 69.5rem #ab66ff, 150rem 110.1875rem #ab66ff,
+    140.875rem 51.6875rem #ab66ff, 36.25rem 67.375rem #ab66ff,
+    71.5625rem 145.375rem #ab66ff, 75.5625rem 111.375rem #ab66ff,
+    64.5rem 49.5625rem #ab66ff, 69.0625rem 151.625rem #ab66ff,
+    54.3125rem 95.8125rem #ab66ff, 5.25rem 143.4375rem #ab66ff,
+    44.25rem 38.5rem #ab66ff, 151.9375rem 118.5rem #ab66ff,
+    126.125rem 121.1875rem #ab66ff, 144.75rem 18.5rem #ab66ff,
+    55.6875rem 18.9375rem #ab66ff, 115.1875rem 156.3125rem #ab66ff,
+    0.8125rem 55.9375rem #ab66ff, 2.5rem 83.5rem #ab66ff,
+    57.125rem 76.0625rem #ab66ff, 98.8125rem 33.0625rem #ab66ff,
+    71.8125rem 86.0625rem #ab66ff, 98.375rem 5rem #ab66ff,
+    26.875rem 151.4375rem #ab66ff, 11.3125rem 92.8125rem #ab66ff,
+    159.0625rem 82.5rem #ab66ff, 100.5625rem 140.8125rem #ab66ff,
+    40.125rem 3.0625rem #ab66ff, 82.4375rem 27.9375rem #ab66ff,
+    97.5rem 50.9375rem #ab66ff, 82.25rem 35.25rem #ab66ff,
+    62.125rem 94.1875rem #ab66ff, 28.6875rem 80.375rem #ab66ff,
+    16.6875rem 122.875rem #ab66ff, 72.4375rem 21.6875rem #ab66ff,
+    48.6875rem 40.8125rem #ab66ff, 132.375rem 39.5625rem #ab66ff,
+    86.3125rem 82.875rem #ab66ff, 153.125rem 147.5625rem #ab66ff,
+    89.25rem 113.9375rem #ab66ff, 154.375rem 50.625rem #ab66ff,
+    2.8125rem 116.9375rem #ab66ff, 106.875rem 131.0625rem #ab66ff,
+    30.4375rem 58.8125rem #ab66ff, 143.625rem 70rem #ab66ff,
+    31.875rem 73.625rem #ab66ff, 120.6875rem 109.9375rem #ab66ff,
+    60.8125rem 83.125rem #ab66ff, 122.375rem 66.4375rem #ab66ff,
+    134.3125rem 120.3125rem #ab66ff, 84.25rem 131.3125rem #ab66ff,
+    34.625rem 86.8125rem #ab66ff, 153.5rem 17.5625rem #ab66ff,
+    40.5rem 137.8125rem #ab66ff, 137.8125rem 99.75rem #ab66ff,
+    33.625rem 74.3125rem #ab66ff, 50.4375rem 119.3125rem #ab66ff,
+    131.875rem 69.375rem #ab66ff, 154.9375rem 154.375rem #ab66ff,
+    18.6875rem 51rem #ab66ff, 100.25rem 128rem #ab66ff,
+    16.25rem 34.1875rem #ab66ff, 26.3125rem 57.0625rem #ab66ff,
+    95.875rem 18rem #ab66ff, 32.3125rem 22.625rem #ab66ff,
+    22.6875rem 8.9375rem #ab66ff, 63.5625rem 138.375rem #ab66ff,
+    14.9375rem 149.875rem #ab66ff, 101.875rem 1.3125rem #ab66ff,
+    34.25rem 73.25rem #ab66ff, 60.875rem 100rem #ab66ff,
+    59.6875rem 97.9375rem #ab66ff, 66rem 141.1875rem #ab66ff,
+    18.4375rem 120.4375rem #ab66ff, 95.25rem 15.625rem #ab66ff,
+    135.8125rem 112.5625rem #ab66ff, 67.5rem 76.6875rem #ab66ff,
+    5.6875rem 54.75rem #ab66ff, 24.25rem 133.625rem #ab66ff,
+    49.6875rem 2.1875rem #ab66ff, 102.6875rem 114.75rem #ab66ff,
+    124.6875rem 129.5625rem #ab66ff, 114.5625rem 157rem #ab66ff,
+    3.125rem 95.25rem #ab66ff, 14.25rem 130.4375rem #ab66ff,
+    5.1875rem 51.25rem #ab66ff, 66.625rem 126.9375rem #ab66ff,
+    107.4375rem 115.9375rem #ab66ff, 16.1875rem 79.375rem #ab66ff,
+    131.75rem 5.8125rem #ab66ff, 132.75rem 82.625rem #ab66ff,
+    73.6875rem 37.8125rem #ab66ff, 114.6875rem 105.6875rem #ab66ff,
+    92.75rem 0.25rem #ab66ff, 141.4375rem 59rem #ab66ff,
+    155.375rem 115.3125rem #ab66ff, 116.875rem 68.8125rem #ab66ff,
+    21.25rem 155.3125rem #ab66ff, 80.5625rem 73.5625rem #ab66ff,
+    98.5rem 40.4375rem #ab66ff, 74.875rem 93.25rem #ab66ff,
+    131.625rem 11rem #ab66ff, 153.4375rem 20.125rem #ab66ff,
+    5rem 25.0625rem #ab66ff, 86.9375rem 100.5rem #ab66ff,
+    104.4375rem 40.6875rem #ab66ff, 19.5rem 21.375rem #ab66ff,
+    149.25rem 54.6875rem #ab66ff, 149.0625rem 40.4375rem #ab66ff,
+    32.0625rem 156.0625rem #ab66ff, 78.25rem 70.5rem #ab66ff,
+    82.125rem 76.6875rem #ab66ff, 44.4375rem 104.875rem #ab66ff,
+    110.6875rem 55.0625rem #ab66ff, 14.3125rem 100.1875rem #ab66ff,
+    130.75rem 63.5rem #ab66ff, 137.3125rem 93.125rem #ab66ff,
+    26.1875rem 30.75rem #ab66ff, 52rem 136.0625rem #ab66ff,
+    58.875rem 75.3125rem #ab66ff, 70.0625rem 50.25rem #ab66ff,
+    101.25rem 144.9375rem #ab66ff, 107.4375rem 65.25rem #ab66ff,
+    21.5625rem 62.625rem #ab66ff, 23.5625rem 136.4375rem #ab66ff,
+    41.25rem 69.8125rem #ab66ff, 112.3125rem 30.125rem #ab66ff,
+    120rem 103.8125rem #ab66ff, 119.6875rem 112.25rem #ab66ff,
+    85.125rem 78.625rem #ab66ff, 50.8125rem 32.75rem #ab66ff,
+    45.5625rem 108.0625rem #ab66ff, 28.375rem 53.25rem #ab66ff,
+    147.5rem 48.25rem #ab66ff, 81.125rem 44.125rem #ab66ff,
+    42.75rem 149.375rem #ab66ff, 139.5625rem 17.375rem #ab66ff,
+    99.5rem 53.3125rem #ab66ff, 69.6875rem 103.5rem #ab66ff,
+    44.3125rem 122.6875rem #ab66ff, 31.4375rem 103.6875rem #ab66ff,
+    102.875rem 59.625rem #ab66ff, 52.375rem 85.3125rem #ab66ff,
+    76.4375rem 106.3125rem #ab66ff, 56.9375rem 60rem #ab66ff,
+    3.625rem 114.6875rem #ab66ff, 138.25rem 9.625rem #ab66ff,
+    144.5rem 48.5625rem #ab66ff, 41.375rem 89.125rem #ab66ff,
+    131.5rem 121.5625rem #ab66ff, 15rem 81.0625rem #ab66ff,
+    58.375rem 37.1875rem #ab66ff, 107.3125rem 44.0625rem #ab66ff,
+    131.6875rem 64.5625rem #ab66ff, 140.5625rem 151.3125rem #ab66ff,
+    94.6875rem 132.4375rem #ab66ff, 8.5rem 91.875rem #ab66ff,
+    10rem 28.9375rem #ab66ff, 52.5rem 17.3125rem #ab66ff,
+    122.4375rem 71.75rem #ab66ff, 132.25rem 125.1875rem #ab66ff,
+    95.5rem 89.1875rem #ab66ff, 159.5625rem 80.3125rem #ab66ff,
+    104.875rem 68.375rem #ab66ff, 94.9375rem 154.6875rem #ab66ff,
+    134.625rem 104.9375rem #ab66ff, 76.4375rem 135.9375rem #ab66ff,
+    91.4375rem 59.4375rem #ab66ff, 93.375rem 53.5rem #ab66ff,
+    97.5rem 131.625rem #ab66ff, 85.375rem 119.625rem #ab66ff,
+    35.9375rem 54.125rem #ab66ff, 101.6875rem 11.5rem #ab66ff,
+    65.5625rem 114.9375rem #ab66ff, 70.3125rem 145.0625rem #ab66ff,
+    85.0625rem 120.5625rem #ab66ff, 3.875rem 141.0625rem #ab66ff,
+    14.8125rem 124.75rem #ab66ff, 141.75rem 41.625rem #ab66ff,
+    11.5625rem 130.0625rem #ab66ff, 61.375rem 91.6875rem #ab66ff,
+    28.3125rem 145.6875rem #ab66ff, 5.875rem 119.9375rem #ab66ff,
+    141.6875rem 101.375rem #ab66ff, 73.125rem 72.5rem #ab66ff,
+    18.75rem 126.625rem #ab66ff, 60.0625rem 119.75rem #ab66ff,
+    82.375rem 34.1875rem #ab66ff, 150.6875rem 138.875rem #ab66ff,
+    94.375rem 150.875rem #ab66ff, 20.4375rem 33rem #ab66ff,
+    100.1875rem 90.0625rem #ab66ff, 105.3125rem 31.5rem #ab66ff,
+    13.0625rem 64.0625rem #ab66ff, 24.1875rem 7rem #ab66ff,
+    59.4375rem 154rem #ab66ff, 67.4375rem 132.1875rem #ab66ff,
+    159.8125rem 123.6875rem #ab66ff, 8.75rem 20.625rem #ab66ff,
+    106.9375rem 53.4375rem #ab66ff, 148.5rem 87.25rem #ab66ff,
+    2.5625rem 11.4375rem #ab66ff, 124.375rem 3.9375rem #ab66ff,
+    121.25rem 152.6875rem #ab66ff, 111.8125rem 64.0625rem #ab66ff,
+    71.875rem 29.375rem #ab66ff, 15rem 35.125rem #ab66ff,
+    88.8125rem 159.875rem #ab66ff, 125.9375rem 138.0625rem #ab66ff,
+    96.0625rem 11.8125rem #ab66ff, 10.3125rem 132.5625rem #ab66ff,
+    73.375rem 30.75rem #ab66ff, 2.625rem 43.875rem #ab66ff,
+    110.1875rem 85.6875rem #ab66ff, 63.4375rem 105.4375rem #ab66ff,
+    121.125rem 21.5rem #ab66ff;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  animation: StarParticles_animate-particles__IJq6Z 90s linear infinite;
+}
+.StarParticles_particles__particle--1:after {
+  box-shadow: 0 0 #ab66ff, 78.5625rem 111.625rem #ab66ff,
+    71.1875rem 64.9375rem #ab66ff, 22.3125rem 56.5rem #ab66ff,
+    95.9375rem 119rem #ab66ff, 92.5rem 22.875rem #ab66ff,
+    15.125rem 12.9375rem #ab66ff, 49.5rem 104.4375rem #ab66ff,
+    41.625rem 20.6875rem #ab66ff, 129.0625rem 146.8125rem #ab66ff,
+    59.375rem 139.6875rem #ab66ff, 141.5rem 111.8125rem #ab66ff,
+    69.8125rem 90.5625rem #ab66ff, 96.3125rem 113.8125rem #ab66ff,
+    17.25rem 4.5625rem #ab66ff, 100.125rem 11.125rem #ab66ff,
+    5.375rem 29.9375rem #ab66ff, 81.0625rem 106.4375rem #ab66ff,
+    147.625rem 102.375rem #ab66ff, 116.5625rem 28.9375rem #ab66ff,
+    15.3125rem 94.9375rem #ab66ff, 85.4375rem 60rem #ab66ff,
+    142rem 157.1875rem #ab66ff, 87.4375rem 110.8125rem #ab66ff,
+    25.875rem 151.5625rem #ab66ff, 137.3125rem 141.4375rem #ab66ff,
+    145.8125rem 74rem #ab66ff, 152rem 37.4375rem #ab66ff,
+    5.4375rem 139.4375rem #ab66ff, 63.3125rem 27.375rem #ab66ff,
+    98.5rem 2.875rem #ab66ff, 89.6875rem 26.4375rem #ab66ff,
+    134.4375rem 82.5rem #ab66ff, 52.3125rem 37.3125rem #ab66ff,
+    62.3125rem 22.4375rem #ab66ff, 18.3125rem 1.1875rem #ab66ff,
+    85.5rem 70.1875rem #ab66ff, 82.5rem 92.75rem #ab66ff,
+    97.5rem 27.9375rem #ab66ff, 87.75rem 12.5625rem #ab66ff,
+    131.75rem 126.125rem #ab66ff, 119rem 127.8125rem #ab66ff,
+    9.25rem 62.375rem #ab66ff, 154.375rem 111.8125rem #ab66ff,
+    96.5rem 52.4375rem #ab66ff, 29.3125rem 23rem #ab66ff,
+    143.75rem 83.6875rem #ab66ff, 140.8125rem 69rem #ab66ff,
+    156.5625rem 86.875rem #ab66ff, 113.6875rem 64.25rem #ab66ff,
+    150rem 14.4375rem #ab66ff, 70.5rem 99.125rem #ab66ff,
+    90rem 82.4375rem #ab66ff, 130.25rem 29.25rem #ab66ff,
+    108.6875rem 23.8125rem #ab66ff, 77.9375rem 146.4375rem #ab66ff,
+    90.0625rem 145.5625rem #ab66ff, 106.3125rem 12.625rem #ab66ff,
+    51.5625rem 102rem #ab66ff, 130.5625rem 135.6875rem #ab66ff,
+    18.875rem 55.1875rem #ab66ff, 156.4375rem 41.375rem #ab66ff,
+    94.6875rem 99.3125rem #ab66ff, 116.25rem 78.375rem #ab66ff,
+    70.3125rem 58.9375rem #ab66ff, 125.5rem 83rem #ab66ff,
+    145.75rem 83.8125rem #ab66ff, 13.6875rem 4.3125rem #ab66ff,
+    15.8125rem 127.3125rem #ab66ff, 96.1875rem 6.125rem #ab66ff,
+    22.4375rem 143.75rem #ab66ff, 52.9375rem 110.875rem #ab66ff,
+    104.5625rem 110.625rem #ab66ff, 23.75rem 140.1875rem #ab66ff,
+    35.6875rem 39.5rem #ab66ff, 54.625rem 151.5rem #ab66ff,
+    109.1875rem 13.6875rem #ab66ff, 44.9375rem 72.6875rem #ab66ff,
+    69.875rem 90.3125rem #ab66ff, 71.8125rem 115rem #ab66ff,
+    91.125rem 23.25rem #ab66ff, 72rem 140.875rem #ab66ff,
+    32.75rem 29.3125rem #ab66ff, 1.1875rem 15.875rem #ab66ff,
+    46.125rem 114.5625rem #ab66ff, 29.4375rem 26.125rem #ab66ff,
+    116.6875rem 72.3125rem #ab66ff, 47.6875rem 140.75rem #ab66ff,
+    93.4375rem 147.75rem #ab66ff, 120.25rem 65.0625rem #ab66ff,
+    59.0625rem 47.8125rem #ab66ff, 49.9375rem 128.5625rem #ab66ff,
+    140.0625rem 6rem #ab66ff, 22.6875rem 159.875rem #ab66ff,
+    55.125rem 1.4375rem #ab66ff, 62.9375rem 152.375rem #ab66ff,
+    116.4375rem 35.5625rem #ab66ff, 114.25rem 157.125rem #ab66ff,
+    66.3125rem 100.4375rem #ab66ff, 52.625rem 46.4375rem #ab66ff,
+    148.375rem 146.0625rem #ab66ff, 9.5rem 13.6875rem #ab66ff,
+    6.625rem 62.8125rem #ab66ff, 135.4375rem 85.625rem #ab66ff,
+    142.0625rem 45.6875rem #ab66ff, 14rem 70.25rem #ab66ff,
+    94.625rem 54.3125rem #ab66ff, 100.9375rem 8.875rem #ab66ff,
+    106.1875rem 22.0625rem #ab66ff, 71.125rem 133.8125rem #ab66ff,
+    133.5625rem 141.375rem #ab66ff, 102.125rem 144.3125rem #ab66ff,
+    0.9375rem 42.5625rem #ab66ff, 47.9375rem 68.6875rem #ab66ff,
+    83.4375rem 142.6875rem #ab66ff, 46.3125rem 57.375rem #ab66ff,
+    51.8125rem 111.8125rem #ab66ff, 131.9375rem 99.3125rem #ab66ff,
+    39.4375rem 20.1875rem #ab66ff, 34.9375rem 101rem #ab66ff,
+    156.375rem 48.125rem #ab66ff, 85.1875rem 90.4375rem #ab66ff,
+    141.375rem 138.5625rem #ab66ff, 112.5625rem 18.0625rem #ab66ff,
+    1.25rem 26.875rem #ab66ff, 40.6875rem 101.5rem #ab66ff,
+    92.6875rem 87.75rem #ab66ff, 79.25rem 2.375rem #ab66ff,
+    66.0625rem 30.6875rem #ab66ff, 112rem 20.6875rem #ab66ff,
+    34.1875rem 16.5625rem #ab66ff, 1.5625rem 145.5625rem #ab66ff,
+    108.4375rem 116.25rem #ab66ff, 56.6875rem 64.8125rem #ab66ff,
+    113.75rem 81.625rem #ab66ff, 111.6875rem 2.5rem #ab66ff,
+    148.125rem 16rem #ab66ff, 125.0625rem 23.6875rem #ab66ff,
+    118.9375rem 41.4375rem #ab66ff, 117.5625rem 49.0625rem #ab66ff,
+    113.1875rem 58.9375rem #ab66ff, 104.75rem 21.25rem #ab66ff,
+    144.8125rem 19.5625rem #ab66ff, 34.5625rem 139.5625rem #ab66ff,
+    6.75rem 98.9375rem #ab66ff, 2.9375rem 31.8125rem #ab66ff,
+    97.5625rem 131.9375rem #ab66ff, 52.625rem 68.9375rem #ab66ff,
+    120.0625rem 38.0625rem #ab66ff, 27rem 5.8125rem #ab66ff,
+    46.5625rem 121.9375rem #ab66ff, 19.25rem 130.125rem #ab66ff,
+    123.25rem 144.8125rem #ab66ff, 25.25rem 64.5625rem #ab66ff,
+    5.4375rem 158.125rem #ab66ff, 104.125rem 144.5625rem #ab66ff,
+    50.625rem 115.5rem #ab66ff, 1rem 120rem #ab66ff,
+    44.0625rem 122.375rem #ab66ff, 15.3125rem 26.875rem #ab66ff,
+    77.75rem 49.5rem #ab66ff, 62.5625rem 137.8125rem #ab66ff,
+    45.1875rem 67.875rem #ab66ff, 139rem 33.5625rem #ab66ff,
+    159.6875rem 73.125rem #ab66ff, 49.4375rem 75rem #ab66ff,
+    91.5625rem 83.3125rem #ab66ff, 145.25rem 70.1875rem #ab66ff,
+    26rem 139.125rem #ab66ff, 26.0625rem 68.875rem #ab66ff,
+    30.875rem 5.625rem #ab66ff, 9.25rem 157.625rem #ab66ff,
+    37.9375rem 90.6875rem #ab66ff, 81.375rem 106rem #ab66ff,
+    72.6875rem 29rem #ab66ff, 131.25rem 153.125rem #ab66ff,
+    90.375rem 100.5rem #ab66ff, 35.25rem 157rem #ab66ff,
+    49.75rem 17.5625rem #ab66ff, 101.75rem 74.8125rem #ab66ff,
+    158.25rem 120.0625rem #ab66ff, 14.4375rem 32.875rem #ab66ff,
+    139.625rem 22.75rem #ab66ff, 4.25rem 20.875rem #ab66ff,
+    87.875rem 75.375rem #ab66ff, 111.125rem 59.0625rem #ab66ff,
+    49.5625rem 86.125rem #ab66ff, 27.125rem 91.375rem #ab66ff,
+    3.5625rem 9.0625rem #ab66ff, 83.375rem 140.875rem #ab66ff,
+    141.3125rem 88.3125rem #ab66ff, 147.8125rem 96.0625rem #ab66ff,
+    116.8125rem 31.625rem #ab66ff, 40.6875rem 71.25rem #ab66ff,
+    56.875rem 45.125rem #ab66ff, 138.125rem 81.5rem #ab66ff,
+    26.3125rem 71.625rem #ab66ff, 89.25rem 123.25rem #ab66ff,
+    150.9375rem 91.3125rem #ab66ff, 142.4375rem 150.8125rem #ab66ff,
+    97.375rem 6.25rem #ab66ff, 101.1875rem 56.0625rem #ab66ff,
+    99.875rem 33.0625rem #ab66ff, 133.75rem 34.6875rem #ab66ff,
+    51.625rem 26.25rem #ab66ff, 152.75rem 90.6875rem #ab66ff,
+    98.875rem 137rem #ab66ff, 10.8125rem 113.875rem #ab66ff,
+    32.9375rem 115.125rem #ab66ff, 48.5rem 72.25rem #ab66ff,
+    8.5625rem 140.625rem #ab66ff, 88.375rem 48.875rem #ab66ff,
+    58.8125rem 110.375rem #ab66ff, 52.6875rem 145.5rem #ab66ff,
+    0.4375rem 76.3125rem #ab66ff, 101.1875rem 49.4375rem #ab66ff,
+    11.5rem 24.4375rem #ab66ff, 74.875rem 105.25rem #ab66ff,
+    76.875rem 145.6875rem #ab66ff, 38.375rem 2.6875rem #ab66ff,
+    116.625rem 7.75rem #ab66ff, 120.25rem 21.4375rem #ab66ff,
+    154.1875rem 73.0625rem #ab66ff, 105.3125rem 136.125rem #ab66ff,
+    28.5rem 83.5625rem #ab66ff, 5.75rem 9.9375rem #ab66ff,
+    90.25rem 82.875rem #ab66ff, 76.8125rem 14.5625rem #ab66ff,
+    56.625rem 89.625rem #ab66ff, 115.125rem 131.8125rem #ab66ff,
+    13.125rem 87.5625rem #ab66ff, 86.6875rem 2.0625rem #ab66ff,
+    102.1875rem 111.5rem #ab66ff, 16.3125rem 3.6875rem #ab66ff,
+    136rem 31.9375rem #ab66ff, 88.0625rem 38.4375rem #ab66ff,
+    105.3125rem 91.25rem #ab66ff, 137.0625rem 112.1875rem #ab66ff,
+    110.75rem 111.1875rem #ab66ff, 43.25rem 132rem #ab66ff,
+    89.25rem 132.125rem #ab66ff, 87.8125rem 141.9375rem #ab66ff,
+    128.875rem 9.5rem #ab66ff, 141.75rem 75rem #ab66ff,
+    93.6875rem 75.625rem #ab66ff, 133.625rem 38rem #ab66ff,
+    3.5625rem 65.25rem #ab66ff, 82.875rem 48.375rem #ab66ff,
+    4.4375rem 111.5625rem #ab66ff, 38.8125rem 35.625rem #ab66ff,
+    80.0625rem 144.5rem #ab66ff, 75.375rem 23.5rem #ab66ff,
+    28.75rem 108.0625rem #ab66ff, 31.125rem 97rem #ab66ff,
+    47rem 30.0625rem #ab66ff, 121.875rem 103.25rem #ab66ff,
+    80.125rem 144.375rem #ab66ff, 91.1875rem 66.3125rem #ab66ff,
+    77.5rem 145.125rem #ab66ff, 152.75rem 18.25rem #ab66ff,
+    66.0625rem 134.875rem #ab66ff, 82.5625rem 25.75rem #ab66ff,
+    39.75rem 111rem #ab66ff, 130.25rem 74.375rem #ab66ff,
+    152.625rem 145.1875rem #ab66ff, 42.125rem 19.875rem #ab66ff,
+    46.9375rem 11.625rem #ab66ff, 107.4375rem 47.0625rem #ab66ff,
+    30.1875rem 133.375rem #ab66ff, 153.0625rem 146.1875rem #ab66ff,
+    38.625rem 26.5rem #ab66ff, 145.5625rem 47.5rem #ab66ff,
+    61.6875rem 93.25rem #ab66ff, 65.4375rem 94rem #ab66ff, 60rem 157rem #ab66ff,
+    99.75rem 42.5625rem #ab66ff, 124.4375rem 24.125rem #ab66ff,
+    112.75rem 93.6875rem #ab66ff, 120.1875rem 9.1875rem #ab66ff,
+    28.0625rem 156.75rem #ab66ff, 53.9375rem 118rem #ab66ff,
+    28.3125rem 77.375rem #ab66ff, 16.0625rem 3.75rem #ab66ff,
+    43.0625rem 72rem #ab66ff, 138.0625rem 100.1875rem #ab66ff,
+    59.5625rem 0.8125rem #ab66ff, 6.3125rem 1.125rem #ab66ff,
+    62.75rem 3.875rem #ab66ff, 132.375rem 91.875rem #ab66ff,
+    128.3125rem 114.25rem #ab66ff, 3.8125rem 46.75rem #ab66ff,
+    68.5rem 46.875rem #ab66ff, 140.9375rem 68.5rem #ab66ff,
+    41.5625rem 50.25rem #ab66ff, 59.875rem 9.1875rem #ab66ff,
+    102.625rem 83.6875rem #ab66ff, 113.1875rem 156.625rem #ab66ff,
+    70.75rem 45.1875rem #ab66ff, 152.5625rem 14.75rem #ab66ff,
+    142.0625rem 2.5rem #ab66ff, 147.8125rem 78.6875rem #ab66ff;
+  width: 0.0625rem;
+  height: 0.0625rem;
+}
+.StarParticles_particles__particle--2 {
+  box-shadow: 0 0 #ab66ff, 82.125rem 138.5625rem #ab66ff,
+    22.75rem 58.9375rem #ab66ff, 43.3125rem 72.8125rem #ab66ff,
+    74.375rem 14rem #ab66ff, 131.25rem 42.625rem #ab66ff,
+    19.875rem 91.6875rem #ab66ff, 67.875rem 25.125rem #ab66ff,
+    59rem 110.6875rem #ab66ff, 159.125rem 105.25rem #ab66ff,
+    81.8125rem 101.1875rem #ab66ff, 130.125rem 154rem #ab66ff,
+    70.25rem 77.125rem #ab66ff, 96.1875rem 88.5rem #ab66ff,
+    29.375rem 92.4375rem #ab66ff, 37.5625rem 112.125rem #ab66ff,
+    134.9375rem 2.8125rem #ab66ff, 135.8125rem 2.3125rem #ab66ff,
+    32.625rem 17.8125rem #ab66ff, 77.0625rem 49.3125rem #ab66ff,
+    114.875rem 66rem #ab66ff, 18.125rem 110.4375rem #ab66ff,
+    90.3125rem 135.9375rem #ab66ff, 79.625rem 133.75rem #ab66ff,
+    74.6875rem 102.4375rem #ab66ff, 17.875rem 2.1875rem #ab66ff,
+    42.8125rem 86.3125rem #ab66ff, 142.4375rem 21.125rem #ab66ff,
+    63.875rem 143.5rem #ab66ff, 130.875rem 81.6875rem #ab66ff,
+    94.875rem 96.5rem #ab66ff, 136.75rem 94.875rem #ab66ff,
+    43.4375rem 142.6875rem #ab66ff, 109.1875rem 47.0625rem #ab66ff,
+    35.6875rem 77.9375rem #ab66ff, 3.3125rem 4.875rem #ab66ff,
+    57.5625rem 12.25rem #ab66ff, 53.125rem 74.3125rem #ab66ff,
+    110.75rem 117rem #ab66ff, 56.1875rem 44.75rem #ab66ff,
+    81.25rem 90.8125rem #ab66ff, 47.375rem 45.5rem #ab66ff,
+    25.4375rem 144.25rem #ab66ff, 34.9375rem 136.5rem #ab66ff,
+    34.625rem 145.3125rem #ab66ff, 28.5625rem 26.1875rem #ab66ff,
+    4.625rem 100rem #ab66ff, 49.125rem 142.3125rem #ab66ff,
+    1rem 48.125rem #ab66ff, 123.625rem 59.5625rem #ab66ff,
+    124rem 145.6875rem #ab66ff, 62.25rem 14.5625rem #ab66ff,
+    86.3125rem 84.5rem #ab66ff, 115.5625rem 128.125rem #ab66ff,
+    116.6875rem 96.5rem #ab66ff, 53.375rem 11.5rem #ab66ff,
+    48.8125rem 149.3125rem #ab66ff, 135.125rem 110.9375rem #ab66ff,
+    5.4375rem 157.75rem #ab66ff, 65.375rem 73.6875rem #ab66ff,
+    49rem 143.125rem #ab66ff, 24.4375rem 74.875rem #ab66ff,
+    3.1875rem 2.0625rem #ab66ff, 46.5rem 20.9375rem #ab66ff,
+    158.75rem 22.875rem #ab66ff, 69.1875rem 28.875rem #ab66ff,
+    105.5rem 125.9375rem #ab66ff, 1.4375rem 121.4375rem #ab66ff,
+    32.6875rem 114.1875rem #ab66ff, 101.0625rem 76.8125rem #ab66ff,
+    75.4375rem 19.8125rem #ab66ff, 35.375rem 108.25rem #ab66ff,
+    71.625rem 149.5rem #ab66ff, 118.1875rem 75.625rem #ab66ff,
+    3.125rem 154.25rem #ab66ff, 76.375rem 87.875rem #ab66ff,
+    107.0625rem 136.5625rem #ab66ff, 150rem 159.1875rem #ab66ff,
+    64.375rem 14.75rem #ab66ff, 24.75rem 110.9375rem #ab66ff,
+    88.6875rem 103.125rem #ab66ff, 145.3125rem 67.375rem #ab66ff,
+    57.125rem 137.25rem #ab66ff, 147.4375rem 77.3125rem #ab66ff,
+    60.875rem 103.5625rem #ab66ff, 77.5rem 156.5625rem #ab66ff,
+    10.9375rem 156.8125rem #ab66ff, 111.8125rem 94.875rem #ab66ff,
+    125.4375rem 26.9375rem #ab66ff, 136.5rem 89.8125rem #ab66ff,
+    11.8125rem 5.6875rem #ab66ff, 79.625rem 65rem #ab66ff,
+    33.25rem 130.1875rem #ab66ff, 89.9375rem 125.9375rem #ab66ff,
+    71.25rem 133.875rem #ab66ff, 149.9375rem 128.375rem #ab66ff,
+    42.5625rem 62.75rem #ab66ff, 97.25rem 131.125rem #ab66ff, 6rem 15rem #ab66ff,
+    27.25rem 154.8125rem #ab66ff, 115rem 50.0625rem #ab66ff;
+  width: 0.125rem;
+  height: 0.125rem;
+  animation: StarParticles_animate-particles__IJq6Z 180s linear infinite;
+}
+.StarParticles_particles__particle--2:after {
+  box-shadow: 0 0 #ab66ff, 118.9375rem 33.1875rem #ab66ff,
+    144.875rem 153.3125rem #ab66ff, 74rem 136.375rem #ab66ff,
+    55.3125rem 73.4375rem #ab66ff, 7.9375rem 105.375rem #ab66ff,
+    70.6875rem 108.25rem #ab66ff, 98.3125rem 5rem #ab66ff,
+    8.75rem 26.125rem #ab66ff, 35.625rem 33.0625rem #ab66ff,
+    32.25rem 77.6875rem #ab66ff, 149.375rem 143.5rem #ab66ff,
+    117.75rem 150.5625rem #ab66ff, 1.25rem 155.5625rem #ab66ff,
+    5.875rem 14rem #ab66ff, 115.75rem 11.25rem #ab66ff,
+    148.5625rem 25.625rem #ab66ff, 81.8125rem 119.4375rem #ab66ff,
+    36.0625rem 155.375rem #ab66ff, 29.125rem 86.3125rem #ab66ff,
+    46.125rem 70.4375rem #ab66ff, 157.375rem 64.5625rem #ab66ff,
+    134.1875rem 106.5625rem #ab66ff, 158rem 134.0625rem #ab66ff,
+    97.5625rem 114.0625rem #ab66ff, 135.8125rem 143.25rem #ab66ff,
+    80.4375rem 58.875rem #ab66ff, 72.1875rem 144.9375rem #ab66ff,
+    145.9375rem 26.3125rem #ab66ff, 81rem 135.5625rem #ab66ff,
+    154.0625rem 146.4375rem #ab66ff, 111.9375rem 142.6875rem #ab66ff,
+    109.75rem 98.0625rem #ab66ff, 96rem 3.75rem #ab66ff,
+    17rem 15.4375rem #ab66ff, 39.25rem 60.6875rem #ab66ff,
+    138.25rem 106.5rem #ab66ff, 96.375rem 49rem #ab66ff,
+    9.5rem 76.8125rem #ab66ff, 57.1875rem 125.875rem #ab66ff,
+    151.625rem 23.875rem #ab66ff, 24.4375rem 69.5rem #ab66ff,
+    99.0625rem 129.625rem #ab66ff, 126.25rem 19.5rem #ab66ff,
+    39.5rem 43.875rem #ab66ff, 71.1875rem 14.9375rem #ab66ff,
+    52.1875rem 75.4375rem #ab66ff, 57.625rem 5.9375rem #ab66ff,
+    3.5625rem 139.4375rem #ab66ff, 3.125rem 52.1875rem #ab66ff,
+    2.625rem 124.4375rem #ab66ff, 107.4375rem 110.125rem #ab66ff,
+    99.1875rem 59.4375rem #ab66ff, 123.3125rem 15.9375rem #ab66ff,
+    39.5rem 87.875rem #ab66ff, 103.6875rem 42.125rem #ab66ff,
+    7.5625rem 19.9375rem #ab66ff, 151.8125rem 47.6875rem #ab66ff,
+    154.4375rem 25.375rem #ab66ff, 11.5625rem 4.375rem #ab66ff,
+    132.625rem 6.375rem #ab66ff, 144rem 8.1875rem #ab66ff,
+    93.75rem 27.75rem #ab66ff, 30.5rem 30.1875rem #ab66ff,
+    151.4375rem 141.25rem #ab66ff, 77.5rem 67.9375rem #ab66ff,
+    3.4375rem 0.9375rem #ab66ff, 127.25rem 70.9375rem #ab66ff,
+    23rem 33.375rem #ab66ff, 140.75rem 76rem #ab66ff,
+    107.8125rem 7.5625rem #ab66ff, 155.1875rem 98.375rem #ab66ff,
+    120.375rem 100.0625rem #ab66ff, 1.9375rem 77.75rem #ab66ff,
+    137.8125rem 140.875rem #ab66ff, 101.0625rem 141.3125rem #ab66ff,
+    57.875rem 81.875rem #ab66ff, 95.1875rem 0.125rem #ab66ff,
+    16.9375rem 97.5rem #ab66ff, 30.625rem 118.5rem #ab66ff,
+    26.125rem 45.375rem #ab66ff, 93.1875rem 101.4375rem #ab66ff,
+    66.5625rem 15.4375rem #ab66ff, 142.4375rem 89.25rem #ab66ff,
+    153.1875rem 50.5625rem #ab66ff, 132.3125rem 15.875rem #ab66ff,
+    142.5625rem 96rem #ab66ff, 104.5rem 29.25rem #ab66ff,
+    38.75rem 118.4375rem #ab66ff, 123.875rem 119.125rem #ab66ff,
+    156.25rem 99.0625rem #ab66ff, 114.5625rem 59rem #ab66ff,
+    63.375rem 142.3125rem #ab66ff, 97rem 97.3125rem #ab66ff,
+    155.8125rem 41.1875rem #ab66ff, 24.1875rem 94.375rem #ab66ff,
+    18.0625rem 42.9375rem #ab66ff, 153.9375rem 101.4375rem #ab66ff,
+    113.3125rem 139.375rem #ab66ff, 68.1875rem 37.5rem #ab66ff,
+    85.75rem 119.875rem #ab66ff;
+  width: 0.125rem;
+  height: 0.125rem;
+}
+@keyframes StarParticles_animate-particles__IJq6Z {
+  0% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-160rem);
+  }
+}
+
+.XSymbol_x-symbol {
+  position: absolute;
+  top: 80%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(calc(-50% + 31.25rem), -50%);
+  display: none;
+  width: 97.9375rem;
+  height: 92.125rem;
+  background-color: var(--color-ninja);
+  -webkit-clip-path: url(#x-symbol-mask);
+  clip-path: url(#x-symbol-mask);
+}
+.XSymbol_x-symbol__video-container {
+  isolation: isolate;
+  position: absolute;
+  top: 10.625rem;
+  left: 0.625rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  place-items: center;
+  width: 100rem;
+  height: 31.25rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.XSymbol_x-symbol__video-container video {
+  width: 75rem;
+  height: auto;
+  transition: transform 0.3s;
+}
+.XSymbol_x-symbol__video-container.XSymbol_focus-visible__d1pdm
+  .XSymbol_x-symbol__play-button__3m5ze {
+  outline: 0.1875rem dotted var(--color-white);
+  outline-offset: 0.3125rem;
+}
+.XSymbol_x-symbol__video-container:focus-visible
+  .XSymbol_x-symbol__play-button__3m5ze {
+  outline: 0.1875rem dotted var(--color-white);
+  outline-offset: 0.3125rem;
+}
+.XSymbol_x-symbol__video-container:hover svg path:last-of-type {
+  fill: var(--color-ninja);
+}
+.XSymbol_x-symbol__video-container:hover svg path:first-of-type {
+  fill: var(--color-white);
+}
+@media (min-width: 64rem) {
+  .XSymbol_x-symbol {
+    display: block;
+  }
+}
+.WhatsNewGrad_whats-new-grad {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 1.5625rem;
+  color: var(--color-black);
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(3.125rem);
+  backdrop-filter: blur(3.125rem);
+  border-bottom: 0.125rem solid #100d14;
+}
+.WhatsNewGrad_whats-new-grad__container {
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+.WhatsNewGrad_whats-new-grad__title {
+  max-width: 20ch;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-white);
+  letter-spacing: -0.00875rem;
+  opacity: 0;
+}
+@media (min-width: 48rem) {
+  .WhatsNewGrad_whats-new-grad__title {
+    font-size: 3rem;
+  }
+}
+.WhatsNewGrad_whats-new-grad--reveal .WhatsNewGrad_whats-new-grad__title {
+  animation: var(--animation-fade-in), var(--animation-slide-up);
+}
+.WhatsNewGrad_whats-new-grad__description {
+  max-width: 46ch;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+  opacity: 0;
+  background: radial-gradient(
+    120.96% 120.96% at 50% -20.96%,
+    #595959 0,
+    hsla(0, 0%, 100%, 0.8) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.WhatsNewGrad_whats-new-grad--reveal .WhatsNewGrad_whats-new-grad__description {
+  animation: var(--animation-fade-in), var(--animation-slide-up);
+  animation-delay: 0.1s;
+}
+@media (min-width: 64rem) {
+  .WhatsNewGrad_whats-new-grad {
+    display: block;
+  }
+}
+.ai-lab-welcome {
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+  height: 60rem;
+  padding-top: 2em;
+  color: var(--color-white);
+  background: linear-gradient(180deg, #090015, #000);
+}
+
+.Hero_hero__container__ailab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  text-align: center;
+}
+.Hero_hero__title__ailab {
+  max-width: 20ch;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01rem;
+  opacity: 0;
+  background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0.6) 114.74%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .Hero_hero__title__ailab {
+    font-size: 3.375rem;
+  }
+}
+@media (min-width: 64rem) {
+  .Hero_hero__title__ailab {
+    font-size: 5.25rem;
+  }
+}
+.Hero_hero--reveal .Hero_hero__title__ailab {
+  animation: var(--animation-fade-in), var(--animation-slide-up);
+}
+.Hero_hero__description__ailab {
+  max-width: 30ch;
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.2;
+  opacity: 0;
+  background: radial-gradient(
+    120.96% 120.96% at 50% -20.96%,
+    #393939 0,
+    hsla(0, 0%, 100%, 0.8) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .Hero_hero__description__ailab {
+    margin-top: 1.5rem;
+    font-size: 2.1875rem;
+  }
+}
+@media (min-width: 64rem) {
+  .Hero_hero__description__ailab {
+    margin-top: 2rem;
+  }
+}
+.Hero_hero--reveal .Hero_hero__description__ailab {
+  animation: var(--animation-fade-in), var(--animation-slide-up);
+  animation-delay: 0.4s;
+}
+.Hero_hero__apply__ailab {
+  margin-top: 1.5rem;
+  opacity: 0;
+}
+@media (min-width: 48rem) {
+  .Hero_hero__apply__ailab {
+    margin-top: 2.25rem;
+  }
+}
+@media (min-width: 64rem) {
+  .Hero_hero__apply__ailab {
+    margin-top: 3rem;
+  }
+}
+.ai-lab-welcome .Hero_hero__apply__ailab {
+  animation: var(--animation-fade-in), var(--animation-slide-up);
+  animation-delay: 0.8s;
+}
+@media (min-width: 48rem) {
+  .ai-lab-welcome {
+    height: 70rem;
+    padding-top: 3em;
+  }
+}
+@media (min-width: 90rem) {
+  .ai-lab-welcome {
+    padding-left: 0;
+  }
+}
+.Hero_animation-wrapper__scSCC {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Hero_particle__QhW3o:after {
+  content: '';
+  position: absolute;
+  top: 160rem;
+  background: transparent;
+}
+.Hero_particle-1__ijwaI {
+  box-shadow: 0 0 #ae6cff, 85.9375rem 21.375rem #ae6cff,
+    42.875rem 87.875rem #ae6cff, 114.1875rem 81.3125rem #ae6cff,
+    43rem 9.75rem #ae6cff, 87.3125rem 85.8125rem #ae6cff,
+    15.3125rem 123.5rem #ae6cff, 153.1875rem 36.0625rem #ae6cff,
+    38.5rem 159.0625rem #ae6cff, 57.5625rem 137.5625rem #ae6cff,
+    99.4375rem 88.125rem #ae6cff, 1.5rem 130.75rem #ae6cff,
+    58.875rem 64.1875rem #ae6cff, 135.1875rem 156rem #ae6cff,
+    99.875rem 14.6875rem #ae6cff, 23.1875rem 53.375rem #ae6cff,
+    155.875rem 38.9375rem #ae6cff, 22.5625rem 39.0625rem #ae6cff,
+    54.9375rem 134.5625rem #ae6cff, 4.0625rem 61.1875rem #ae6cff,
+    127.3125rem 6.5rem #ae6cff, 91.375rem 153.125rem #ae6cff,
+    148.75rem 6.6875rem #ae6cff, 124.4375rem 114.1875rem #ae6cff,
+    103.75rem 46.25rem #ae6cff, 105.375rem 56.125rem #ae6cff,
+    22.625rem 94.6875rem #ae6cff, 59.8125rem 42.125rem #ae6cff,
+    147rem 131.625rem #ae6cff, 113.25rem 71.6875rem #ae6cff,
+    159.5rem 1.25rem #ae6cff, 30rem 12.4375rem #ae6cff,
+    50.9375rem 35.375rem #ae6cff, 3.4375rem 52.8125rem #ae6cff,
+    106rem 51.25rem #ae6cff, 75.3125rem 126.5625rem #ae6cff,
+    54.5625rem 154.1875rem #ae6cff, 134.375rem 106.125rem #ae6cff,
+    50.1875rem 35.125rem #ae6cff, 10.6875rem 68.5625rem #ae6cff,
+    143.75rem 36.1875rem #ae6cff, 133rem 92.6875rem #ae6cff,
+    25.25rem 71.625rem #ae6cff, 131.9375rem 3.875rem #ae6cff,
+    116.0625rem 20.5rem #ae6cff, 1.1875rem 77rem #ae6cff,
+    133.125rem 77.8125rem #ae6cff, 137.0625rem 113.25rem #ae6cff,
+    125.6875rem 61.25rem #ae6cff, 44.8125rem 56.5rem #ae6cff,
+    91.625rem 81.875rem #ae6cff, 131.625rem 73.5625rem #ae6cff,
+    9.375rem 94.5625rem #ae6cff, 150rem 51.875rem #ae6cff,
+    16.8125rem 138.4375rem #ae6cff, 112.8125rem 63.6875rem #ae6cff,
+    19.9375rem 128.6875rem #ae6cff, 61.375rem 19.9375rem #ae6cff,
+    96.6875rem 116.4375rem #ae6cff, 60.5625rem 109.1875rem #ae6cff,
+    90.625rem 85.4375rem #ae6cff, 78.375rem 39.0625rem #ae6cff,
+    25.875rem 141.75rem #ae6cff, 150.75rem 69.5625rem #ae6cff,
+    130.5625rem 42.25rem #ae6cff, 89.75rem 25.4375rem #ae6cff,
+    49.5625rem 142.125rem #ae6cff, 38.0625rem 143.5625rem #ae6cff,
+    131.75rem 134.1875rem #ae6cff, 153.375rem 53.3125rem #ae6cff,
+    11.9375rem 116.8125rem #ae6cff, 48.75rem 119.875rem #ae6cff,
+    76.3125rem 49.0625rem #ae6cff, 40.875rem 136.9375rem #ae6cff,
+    93.125rem 108.9375rem #ae6cff, 135.9375rem 59.9375rem #ae6cff,
+    12.5rem 51rem #ae6cff, 53rem 77.875rem #ae6cff,
+    33.625rem 142.3125rem #ae6cff, 28.5625rem 28.75rem #ae6cff,
+    88.9375rem 154.4375rem #ae6cff, 78.4375rem 12rem #ae6cff,
+    43.625rem 97.375rem #ae6cff, 87.4375rem 149.0625rem #ae6cff,
+    114.4375rem 0.4375rem #ae6cff, 69.5625rem 44.8125rem #ae6cff,
+    143.9375rem 31.9375rem #ae6cff, 124.5rem 31.5625rem #ae6cff,
+    145.9375rem 29.0625rem #ae6cff, 77.4375rem 105.0625rem #ae6cff,
+    51.1875rem 92.1875rem #ae6cff, 42.8125rem 72.3125rem #ae6cff,
+    48.3125rem 34.125rem #ae6cff, 45.375rem 13.1875rem #ae6cff,
+    29.75rem 23rem #ae6cff, 1.9375rem 110.8125rem #ae6cff,
+    94.75rem 107.9375rem #ae6cff, 22.375rem 150.9375rem #ae6cff,
+    0.5625rem 108.1875rem #ae6cff, 9.375rem 77.125rem #ae6cff,
+    61.5625rem 1.0625rem #ae6cff, 116.8125rem 134.5625rem #ae6cff,
+    112.3125rem 132.5rem #ae6cff, 64.9375rem 60.75rem #ae6cff,
+    21.5625rem 67.3125rem #ae6cff, 50.5625rem 51.75rem #ae6cff,
+    18.6875rem 6.6875rem #ae6cff, 113.625rem 79.0625rem #ae6cff,
+    122.875rem 59.6875rem #ae6cff, 95.625rem 82.4375rem #ae6cff,
+    38.9375rem 26rem #ae6cff, 120rem 106.4375rem #ae6cff,
+    117.9375rem 39.6875rem #ae6cff, 155.4375rem 105.125rem #ae6cff,
+    116.5rem 119.5rem #ae6cff, 78.4375rem 62.9375rem #ae6cff,
+    116.5rem 87.625rem #ae6cff, 106.625rem 54.4375rem #ae6cff,
+    135.8125rem 148.4375rem #ae6cff, 122.4375rem 8.3125rem #ae6cff,
+    82.6875rem 5.875rem #ae6cff, 91.0625rem 119.5625rem #ae6cff,
+    93.4375rem 120.625rem #ae6cff, 111.75rem 146.875rem #ae6cff,
+    113.875rem 107.5rem #ae6cff, 49rem 159.875rem #ae6cff,
+    142.75rem 53.0625rem #ae6cff, 100.5rem 35.25rem #ae6cff,
+    70.5625rem 42rem #ae6cff, 17.8125rem 99.0625rem #ae6cff,
+    117.375rem 142.125rem #ae6cff, 65.4375rem 142.3125rem #ae6cff,
+    1.4375rem 3.75rem #ae6cff, 125.9375rem 15.5625rem #ae6cff,
+    4.125rem 50rem #ae6cff, 91.125rem 68.9375rem #ae6cff,
+    100.9375rem 52.8125rem #ae6cff, 128.0625rem 15.9375rem #ae6cff,
+    96.6875rem 153.375rem #ae6cff, 128.1875rem 67.9375rem #ae6cff,
+    88.9375rem 152.5rem #ae6cff, 126.0625rem 134.5625rem #ae6cff,
+    124.9375rem 100.75rem #ae6cff, 59.1875rem 72.9375rem #ae6cff,
+    106.875rem 127.75rem #ae6cff, 152.375rem 128.125rem #ae6cff,
+    90.375rem 83.625rem #ae6cff, 124.375rem 78.5rem #ae6cff,
+    96.375rem 9.25rem #ae6cff, 90.75rem 144.8125rem #ae6cff,
+    82.6875rem 145.4375rem #ae6cff, 76.4375rem 39.5625rem #ae6cff,
+    42.0625rem 100.375rem #ae6cff, 139.9375rem 102.375rem #ae6cff,
+    76.1875rem 103.4375rem #ae6cff, 88.625rem 119.4375rem #ae6cff,
+    44.4375rem 43.0625rem #ae6cff, 156.6875rem 145.125rem #ae6cff,
+    141.75rem 57.5625rem #ae6cff, 76rem 0.4375rem #ae6cff,
+    36.1875rem 156.9375rem #ae6cff, 129.25rem 11.8125rem #ae6cff,
+    82.9375rem 32.75rem #ae6cff, 144.125rem 45.875rem #ae6cff,
+    77.375rem 108.5rem #ae6cff, 51.375rem 159.8125rem #ae6cff,
+    90.625rem 11.8125rem #ae6cff, 145.125rem 2.125rem #ae6cff,
+    46.25rem 101.1875rem #ae6cff, 4.3125rem 23.875rem #ae6cff,
+    81.1875rem 37.875rem #ae6cff, 145.125rem 83.3125rem #ae6cff,
+    17.9375rem 141.3125rem #ae6cff, 113.5rem 4.3125rem #ae6cff,
+    44.25rem 80.8125rem #ae6cff, 94.8125rem 107.25rem #ae6cff,
+    28.25rem 28.3125rem #ae6cff, 36.75rem 52.875rem #ae6cff,
+    36.5rem 120.1875rem #ae6cff, 149.6875rem 127.875rem #ae6cff,
+    136.375rem 106.875rem #ae6cff, 124.0625rem 11.625rem #ae6cff,
+    25.3125rem 47.5rem #ae6cff, 122.6875rem 71.4375rem #ae6cff,
+    99.75rem 68.125rem #ae6cff, 29.625rem 130.125rem #ae6cff,
+    115.4375rem 97.9375rem #ae6cff, 4.9375rem 77.75rem #ae6cff,
+    98.0625rem 117.6875rem #ae6cff, 45rem 43.5625rem #ae6cff,
+    78.25rem 90.6875rem #ae6cff, 23.1875rem 42.125rem #ae6cff,
+    60.9375rem 120.0625rem #ae6cff, 139.0625rem 52.25rem #ae6cff,
+    19.3125rem 34.125rem #ae6cff, 154.4375rem 107.5625rem #ae6cff,
+    17.125rem 159.5rem #ae6cff, 90.4375rem 142.75rem #ae6cff,
+    90.9375rem 14.625rem #ae6cff, 119.8125rem 120.25rem #ae6cff,
+    9.1875rem 97.75rem #ae6cff, 128.3125rem 89.5625rem #ae6cff,
+    5.375rem 53.6875rem #ae6cff, 89rem 30.125rem #ae6cff,
+    51.1875rem 63.1875rem #ae6cff, 150.625rem 81.625rem #ae6cff,
+    117.8125rem 5.0625rem #ae6cff, 158.5625rem 24.75rem #ae6cff,
+    124.6875rem 135.9375rem #ae6cff, 86.75rem 144.6875rem #ae6cff,
+    73.5rem 152.125rem #ae6cff, 66.0625rem 71rem #ae6cff,
+    140.125rem 138.5rem #ae6cff, 29.75rem 144.1875rem #ae6cff,
+    67.75rem 144.625rem #ae6cff, 1.375rem 101.875rem #ae6cff,
+    24.3125rem 116.9375rem #ae6cff, 139.9375rem 102.6875rem #ae6cff,
+    140.8125rem 106.9375rem #ae6cff, 61.375rem 115.875rem #ae6cff,
+    3rem 110.5rem #ae6cff, 129.0625rem 75.9375rem #ae6cff,
+    54.8125rem 80.1875rem #ae6cff, 110.25rem 33.75rem #ae6cff,
+    74.0625rem 96.5rem #ae6cff, 105.625rem 154.9375rem #ae6cff,
+    112.625rem 92.375rem #ae6cff, 110.9375rem 3.5625rem #ae6cff,
+    130.4375rem 152.9375rem #ae6cff, 146.3125rem 70.375rem #ae6cff,
+    71.75rem 11.5rem #ae6cff, 150.6875rem 89.3125rem #ae6cff,
+    149.875rem 139.0625rem #ae6cff, 134.1875rem 72.5rem #ae6cff,
+    115.9375rem 116.25rem #ae6cff, 113.25rem 119.8125rem #ae6cff,
+    66.1875rem 40.5rem #ae6cff, 111.0625rem 83.5625rem #ae6cff,
+    21.875rem 70.375rem #ae6cff, 63.4375rem 55.25rem #ae6cff,
+    127.5rem 104.875rem #ae6cff, 97.5rem 58.25rem #ae6cff,
+    72.875rem 98.125rem #ae6cff, 21.9375rem 59.5rem #ae6cff,
+    82.375rem 49rem #ae6cff, 60.9375rem 80.875rem #ae6cff,
+    145.9375rem 71.75rem #ae6cff, 21.0625rem 109.0625rem #ae6cff,
+    47rem 41.25rem #ae6cff, 146.9375rem 91.1875rem #ae6cff,
+    105.9375rem 51.875rem #ae6cff, 155.1875rem 136rem #ae6cff,
+    39.125rem 51.75rem #ae6cff, 84.5rem 98.875rem #ae6cff,
+    27.5rem 129.5rem #ae6cff, 126.125rem 100.75rem #ae6cff,
+    4.5625rem 13.625rem #ae6cff, 136.0625rem 7.1875rem #ae6cff,
+    36.25rem 15.8125rem #ae6cff, 127.8125rem 101.125rem #ae6cff,
+    124.25rem 117rem #ae6cff, 100.1875rem 157.5625rem #ae6cff,
+    35.5625rem 34.75rem #ae6cff, 142.4375rem 47.375rem #ae6cff,
+    63.5rem 34.6875rem #ae6cff, 155.8125rem 112.875rem #ae6cff,
+    32.9375rem 49.25rem #ae6cff, 141.4375rem 111.9375rem #ae6cff,
+    43.25rem 13.3125rem #ae6cff, 154.0625rem 28.75rem #ae6cff,
+    24.75rem 93.375rem #ae6cff, 100.3125rem 129.8125rem #ae6cff,
+    13.375rem 72.5625rem #ae6cff, 26.1875rem 68.1875rem #ae6cff,
+    0.875rem 152.6875rem #ae6cff, 20.5rem 29.4375rem #ae6cff,
+    133.1875rem 14.25rem #ae6cff, 157.375rem 52.875rem #ae6cff,
+    4.25rem 40.75rem #ae6cff, 5.25rem 107.375rem #ae6cff,
+    104.3125rem 98.625rem #ae6cff, 122.6875rem 22.0625rem #ae6cff,
+    67.6875rem 92.625rem #ae6cff, 136.25rem 100.3125rem #ae6cff,
+    126.625rem 56.25rem #ae6cff, 2.1875rem 98.4375rem #ae6cff,
+    33.9375rem 87.75rem #ae6cff, 54.0625rem 105.625rem #ae6cff,
+    58.625rem 108.125rem #ae6cff, 110.8125rem 19.5rem #ae6cff,
+    140.3125rem 4.75rem #ae6cff, 14.1875rem 6.75rem #ae6cff,
+    60.125rem 135.625rem #ae6cff, 136.625rem 131.25rem #ae6cff,
+    5.6875rem 144.5625rem #ae6cff, 20rem 136.4375rem #ae6cff,
+    18.1875rem 89.5625rem #ae6cff, 107.375rem 150.0625rem #ae6cff,
+    57.6875rem 22rem #ae6cff, 88.0625rem 51.5625rem #ae6cff,
+    133.625rem 64.0625rem #ae6cff, 115.75rem 153.0625rem #ae6cff,
+    140.25rem 88.375rem #ae6cff, 156.375rem 106.75rem #ae6cff,
+    9.25rem 46.6875rem #ae6cff, 28.875rem 102.375rem #ae6cff,
+    108.125rem 81.125rem #ae6cff, 131.3125rem 153.5rem #ae6cff,
+    54.0625rem 20.5625rem #ae6cff, 34rem 64.3125rem #ae6cff,
+    26.0625rem 99.875rem #ae6cff, 52.1875rem 31.1875rem #ae6cff,
+    91.875rem 123.1875rem #ae6cff, 43.4375rem 125.4375rem #ae6cff,
+    60.1875rem 105rem #ae6cff, 31.8125rem 83.4375rem #ae6cff,
+    51.0625rem 56.5rem #ae6cff, 2.75rem 14.375rem #ae6cff,
+    125rem 46.6875rem #ae6cff, 91.25rem 113.1875rem #ae6cff,
+    4.6875rem 36.4375rem #ae6cff, 109.0625rem 129.625rem #ae6cff,
+    20.875rem 106.8125rem #ae6cff, 139.5rem 72.8125rem #ae6cff,
+    133rem 116.3125rem #ae6cff, 59.125rem 144.8125rem #ae6cff,
+    12rem 86.9375rem #ae6cff, 131.3125rem 55.25rem #ae6cff,
+    124.625rem 144.25rem #ae6cff, 12.6875rem 51.8125rem #ae6cff,
+    159.1875rem 148.6875rem #ae6cff, 116.875rem 24.125rem #ae6cff,
+    139.6875rem 116.875rem #ae6cff, 133.75rem 139rem #ae6cff,
+    56.5625rem 4.0625rem #ae6cff, 128.625rem 77.625rem #ae6cff,
+    18.8125rem 154rem #ae6cff, 70.25rem 154.8125rem #ae6cff,
+    34.25rem 3.1875rem #ae6cff, 80.6875rem 60.3125rem #ae6cff,
+    34rem 43.6875rem #ae6cff, 6.3125rem 70.75rem #ae6cff,
+    105.5rem 27.5rem #ae6cff, 97.0625rem 80.5rem #ae6cff,
+    102.8125rem 67.375rem #ae6cff, 35rem 118.875rem #ae6cff,
+    92.375rem 146.875rem #ae6cff, 50.0625rem 140.0625rem #ae6cff,
+    107.625rem 145.75rem #ae6cff, 55.5625rem 35.625rem #ae6cff,
+    153.8125rem 44.9375rem #ae6cff, 38.8125rem 5.9375rem #ae6cff,
+    122.75rem 58.375rem #ae6cff, 71.25rem 117.25rem #ae6cff,
+    148.375rem 145.125rem #ae6cff, 20.125rem 43rem #ae6cff,
+    55.5rem 88.4375rem #ae6cff, 42.6875rem 18rem #ae6cff,
+    143.125rem 98.125rem #ae6cff, 154.4375rem 16.25rem #ae6cff,
+    21.125rem 90.9375rem #ae6cff, 9.5625rem 97.1875rem #ae6cff,
+    9.6875rem 126.875rem #ae6cff, 133.0625rem 99.3125rem #ae6cff,
+    83.625rem 141.25rem #ae6cff, 115.6875rem 133.125rem #ae6cff,
+    16.625rem 151.3125rem #ae6cff, 89.875rem 13.6875rem #ae6cff,
+    53.6875rem 107rem #ae6cff, 153.6875rem 46.8125rem #ae6cff,
+    17rem 58.0625rem #ae6cff, 31.8125rem 34.5rem #ae6cff,
+    5.625rem 86.6875rem #ae6cff, 100.9375rem 78.375rem #ae6cff,
+    62.625rem 55.25rem #ae6cff, 37.375rem 145rem #ae6cff,
+    93rem 69.875rem #ae6cff, 98.375rem 9.25rem #ae6cff, 6rem 115.25rem #ae6cff,
+    126.125rem 91.125rem #ae6cff, 93.5rem 66.9375rem #ae6cff,
+    157.75rem 134.5625rem #ae6cff, 10.625rem 138.3125rem #ae6cff,
+    27.625rem 9.875rem #ae6cff, 27.1875rem 31.1875rem #ae6cff,
+    154.1875rem 46.625rem #ae6cff, 82.8125rem 129.125rem #ae6cff,
+    58.5rem 80.25rem #ae6cff, 89.5625rem 97.3125rem #ae6cff,
+    18.9375rem 24.3125rem #ae6cff, 18.6875rem 74.5625rem #ae6cff,
+    24.6875rem 90.625rem #ae6cff, 148.625rem 150.5rem #ae6cff,
+    72.75rem 48.6875rem #ae6cff, 114.75rem 135.375rem #ae6cff,
+    57.75rem 73.8125rem #ae6cff, 121.5rem 123.0625rem #ae6cff,
+    103.9375rem 102.5625rem #ae6cff, 43.75rem 46.75rem #ae6cff,
+    133.9375rem 67.75rem #ae6cff, 6.25rem 95.0625rem #ae6cff,
+    112.5625rem 15.3125rem #ae6cff, 148.25rem 29.5625rem #ae6cff,
+    136.625rem 126.375rem #ae6cff, 146.1875rem 132.125rem #ae6cff,
+    124.4375rem 46rem #ae6cff, 150.0625rem 69rem #ae6cff,
+    44.9375rem 142.1875rem #ae6cff, 49.4375rem 100.5625rem #ae6cff,
+    91.5rem 87.8125rem #ae6cff, 47.1875rem 60.0625rem #ae6cff,
+    14.0625rem 17rem #ae6cff, 92.1875rem 31.5rem #ae6cff,
+    51.8125rem 21.6875rem #ae6cff, 129.0625rem 26.625rem #ae6cff,
+    50.5625rem 75.1875rem #ae6cff, 55.5rem 99.5625rem #ae6cff,
+    19.5625rem 61.125rem #ae6cff, 139.3125rem 144.1875rem #ae6cff,
+    10.625rem 6.3125rem #ae6cff, 113.125rem 136.875rem #ae6cff,
+    154.3125rem 142.5625rem #ae6cff, 20.5625rem 106.1875rem #ae6cff,
+    59.1875rem 41.9375rem #ae6cff, 4.3125rem 114.6875rem #ae6cff,
+    0.375rem 2.6875rem #ae6cff, 128.125rem 131.1875rem #ae6cff,
+    135.8125rem 92.4375rem #ae6cff, 133.9375rem 27.1875rem #ae6cff,
+    104.8125rem 159.375rem #ae6cff, 25.5rem 152.125rem #ae6cff,
+    95.9375rem 139.6875rem #ae6cff, 88.6875rem 110.5625rem #ae6cff,
+    20.9375rem 65.6875rem #ae6cff, 2.0625rem 149.625rem #ae6cff,
+    126.8125rem 115.5625rem #ae6cff, 48.6875rem 10.4375rem #ae6cff,
+    35.5rem 82.875rem #ae6cff, 71.9375rem 149.8125rem #ae6cff,
+    102.5rem 145.4375rem #ae6cff, 118.0625rem 88.6875rem #ae6cff,
+    40.0625rem 66.6875rem #ae6cff, 3.1875rem 139.6875rem #ae6cff,
+    74.5rem 140.875rem #ae6cff, 111.0625rem 61.8125rem #ae6cff,
+    69.4375rem 33.5rem #ae6cff, 27.375rem 147.25rem #ae6cff,
+    72.6875rem 56rem #ae6cff, 107.625rem 34.0625rem #ae6cff,
+    38.125rem 82rem #ae6cff, 125.8125rem 133.25rem #ae6cff,
+    63.25rem 86.625rem #ae6cff, 134.625rem 0.9375rem #ae6cff,
+    124.75rem 89.625rem #ae6cff, 19.125rem 38.25rem #ae6cff,
+    127.75rem 146.1875rem #ae6cff, 29.75rem 72.1875rem #ae6cff,
+    25.25rem 143.75rem #ae6cff, 114.4375rem 4.875rem #ae6cff,
+    3.4375rem 78.75rem #ae6cff, 1.6875rem 54.6875rem #ae6cff,
+    127.5625rem 124.6875rem #ae6cff, 63.3125rem 159.625rem #ae6cff,
+    133.125rem 14.375rem #ae6cff, 19.1875rem 55.625rem #ae6cff,
+    25rem 17.5rem #ae6cff, 62.75rem 89.6875rem #ae6cff,
+    123.125rem 31.75rem #ae6cff, 136.125rem 100.4375rem #ae6cff,
+    86.9375rem 58.25rem #ae6cff, 49.4375rem 24.75rem #ae6cff,
+    120.6875rem 53.1875rem #ae6cff, 151.0625rem 57.25rem #ae6cff,
+    25.4375rem 106.4375rem #ae6cff, 132.3125rem 15.3125rem #ae6cff,
+    107.5rem 110.5625rem #ae6cff, 55.0625rem 156.4375rem #ae6cff,
+    156.6875rem 65.875rem #ae6cff, 120.375rem 32.25rem #ae6cff,
+    9rem 60.5625rem #ae6cff, 70.4375rem 74.4375rem #ae6cff,
+    63.3125rem 115.6875rem #ae6cff, 99.1875rem 40.8125rem #ae6cff,
+    11.5rem 55.125rem #ae6cff, 155.0625rem 1.1875rem #ae6cff,
+    102.875rem 106.75rem #ae6cff, 63.5rem 74.125rem #ae6cff,
+    149.8125rem 5.5625rem #ae6cff, 0.3125rem 94.25rem #ae6cff,
+    12.125rem 56.75rem #ae6cff, 82.875rem 48.375rem #ae6cff,
+    12.1875rem 155.6875rem #ae6cff, 26.0625rem 14.625rem #ae6cff,
+    52rem 28.25rem #ae6cff, 66.0625rem 82.875rem #ae6cff,
+    56.0625rem 131.875rem #ae6cff, 73rem 92.375rem #ae6cff,
+    86.4375rem 27.25rem #ae6cff, 2.8125rem 97.4375rem #ae6cff,
+    92.125rem 84.3125rem #ae6cff, 146.8125rem 89.6875rem #ae6cff,
+    79rem 107.3125rem #ae6cff, 64rem 69.875rem #ae6cff,
+    80.6875rem 106.625rem #ae6cff, 142.6875rem 2.5625rem #ae6cff,
+    109.875rem 24.625rem #ae6cff, 130.375rem 82.5rem #ae6cff,
+    146.25rem 31.3125rem #ae6cff, 31.3125rem 146.1875rem #ae6cff,
+    102.1875rem 57.375rem #ae6cff, 125.4375rem 130.4375rem #ae6cff,
+    159.375rem 17.0625rem #ae6cff, 123.125rem 120.1875rem #ae6cff,
+    99.1875rem 21.8125rem #ae6cff, 64.1875rem 137.375rem #ae6cff,
+    89.125rem 50.375rem #ae6cff, 138.6875rem 111.25rem #ae6cff,
+    152.5rem 100.1875rem #ae6cff, 69.4375rem 6.875rem #ae6cff,
+    27.0625rem 127.625rem #ae6cff, 7.4375rem 153.375rem #ae6cff,
+    65.875rem 19.25rem #ae6cff, 75.875rem 65.3125rem #ae6cff,
+    1.75rem 155.0625rem #ae6cff, 23.125rem 41.8125rem #ae6cff,
+    92.25rem 47.5625rem #ae6cff, 70.3125rem 123.375rem #ae6cff,
+    114.5625rem 90.1875rem #ae6cff, 43.875rem 86.8125rem #ae6cff,
+    42.75rem 18.625rem #ae6cff, 114.1875rem 26.5rem #ae6cff,
+    9.5rem 49.125rem #ae6cff, 96.25rem 66rem #ae6cff, 147.5rem 38.125rem #ae6cff,
+    91.6875rem 142.9375rem #ae6cff, 148.9375rem 139.9375rem #ae6cff,
+    64.25rem 113.375rem #ae6cff, 78.3125rem 64.125rem #ae6cff,
+    115.125rem 12.125rem #ae6cff, 80.9375rem 25.9375rem #ae6cff,
+    133rem 109.9375rem #ae6cff, 147.6875rem 101.375rem #ae6cff,
+    3.3125rem 144.875rem #ae6cff, 19.5rem 108.125rem #ae6cff,
+    49.9375rem 119.3125rem #ae6cff, 130.9375rem 9.4375rem #ae6cff,
+    98.75rem 114.0625rem #ae6cff, 152.875rem 95.3125rem #ae6cff,
+    4.375rem 7.4375rem #ae6cff, 120.625rem 1.4375rem #ae6cff,
+    154.6875rem 63.4375rem #ae6cff, 91.4375rem 37.9375rem #ae6cff,
+    117.1875rem 59.6875rem #ae6cff, 4.5rem 93.25rem #ae6cff,
+    122.25rem 111.25rem #ae6cff, 52.75rem 122.875rem #ae6cff,
+    137.125rem 130.875rem #ae6cff, 98.125rem 79.8125rem #ae6cff,
+    68.125rem 38.8125rem #ae6cff, 59.5625rem 83.625rem #ae6cff,
+    78.4375rem 78.0625rem #ae6cff, 39.0625rem 137.5rem #ae6cff,
+    122.9375rem 20.3125rem #ae6cff, 83.3125rem 56.9375rem #ae6cff,
+    49.5625rem 92.125rem #ae6cff, 129.4375rem 57.9375rem #ae6cff,
+    96.0625rem 71.9375rem #ae6cff, 83.75rem 22.0625rem #ae6cff,
+    103.0625rem 53.0625rem #ae6cff, 80.25rem 80rem #ae6cff,
+    28.1875rem 76.9375rem #ae6cff, 15.0625rem 128.25rem #ae6cff,
+    37.8125rem 25.1875rem #ae6cff, 49.875rem 146.25rem #ae6cff,
+    53rem 48.6875rem #ae6cff, 149.125rem 4.1875rem #ae6cff,
+    33.25rem 108.0625rem #ae6cff, 78.4375rem 89.875rem #ae6cff,
+    78.625rem 53.75rem #ae6cff, 104.1875rem 95.9375rem #ae6cff,
+    44.25rem 26.3125rem #ae6cff, 12.8125rem 55.9375rem #ae6cff,
+    140.875rem 129.75rem #ae6cff, 32.8125rem 121.125rem #ae6cff,
+    106.375rem 63.375rem #ae6cff, 137.375rem 84.875rem #ae6cff,
+    128rem 41.875rem #ae6cff, 15.9375rem 22.8125rem #ae6cff,
+    9.9375rem 14.375rem #ae6cff, 55rem 109.1875rem #ae6cff,
+    112.0625rem 26.5625rem #ae6cff, 63.6875rem 26.875rem #ae6cff,
+    153.625rem 59.5rem #ae6cff, 38.3125rem 128.4375rem #ae6cff,
+    117.9375rem 154.5rem #ae6cff, 95.625rem 35rem #ae6cff,
+    152.25rem 68.125rem #ae6cff, 146.9375rem 122.25rem #ae6cff,
+    38.0625rem 37.875rem #ae6cff, 99.9375rem 58rem #ae6cff,
+    32.4375rem 93rem #ae6cff;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  animation: Hero_animate-particles__msr2N 60s linear infinite;
+}
+.Hero_particle-1__ijwaI:after {
+  box-shadow: 0 0 #ae6cff, 159rem 14.5rem #ae6cff, 87.1875rem 69rem #ae6cff,
+    63.875rem 149.375rem #ae6cff, 98.9375rem 7.375rem #ae6cff,
+    12.6875rem 53.75rem #ae6cff, 42.3125rem 13.5rem #ae6cff,
+    129.75rem 26.875rem #ae6cff, 126.375rem 26.5625rem #ae6cff,
+    73.125rem 154.875rem #ae6cff, 112.125rem 99rem #ae6cff,
+    26.8125rem 99.375rem #ae6cff, 38.9375rem 77.625rem #ae6cff,
+    40.9375rem 25.1875rem #ae6cff, 117.25rem 52.1875rem #ae6cff,
+    126.875rem 105.375rem #ae6cff, 112.125rem 88.25rem #ae6cff,
+    147.9375rem 85.5625rem #ae6cff, 14.875rem 108.1875rem #ae6cff,
+    146.5rem 120.25rem #ae6cff, 145.125rem 142.5rem #ae6cff,
+    71.4375rem 62.5625rem #ae6cff, 124.4375rem 67.0625rem #ae6cff,
+    103.625rem 19.0625rem #ae6cff, 4.5625rem 71.3125rem #ae6cff,
+    135.625rem 86.0625rem #ae6cff, 24.3125rem 148.9375rem #ae6cff,
+    115.4375rem 139.875rem #ae6cff, 142.8125rem 137.4375rem #ae6cff,
+    24.5rem 139.75rem #ae6cff, 115.875rem 98.9375rem #ae6cff,
+    20.6875rem 23.6875rem #ae6cff, 141.3125rem 68.5rem #ae6cff,
+    15.75rem 87.3125rem #ae6cff, 61.8125rem 34.3125rem #ae6cff,
+    72.875rem 107.0625rem #ae6cff, 67.3125rem 128.875rem #ae6cff,
+    146.8125rem 47.3125rem #ae6cff, 113.25rem 158rem #ae6cff,
+    119.3125rem 116.8125rem #ae6cff, 136.75rem 111.5625rem #ae6cff,
+    114.0625rem 145.0625rem #ae6cff, 14.9375rem 40.9375rem #ae6cff,
+    12.625rem 131rem #ae6cff, 49.375rem 71.5625rem #ae6cff,
+    62.6875rem 0.0625rem #ae6cff, 2.0625rem 84.125rem #ae6cff,
+    50.375rem 32.375rem #ae6cff, 154.625rem 116.125rem #ae6cff,
+    33.375rem 31.1875rem #ae6cff, 146rem 61rem #ae6cff,
+    102.875rem 138.75rem #ae6cff, 77.25rem 21.3125rem #ae6cff,
+    153.1875rem 131.6875rem #ae6cff, 130.8125rem 134.5rem #ae6cff,
+    36.75rem 81.4375rem #ae6cff, 14.5rem 56.1875rem #ae6cff,
+    113.5625rem 127.5625rem #ae6cff, 69.75rem 6.3125rem #ae6cff,
+    70.75rem 0.9375rem #ae6cff, 42.4375rem 20.25rem #ae6cff,
+    113.875rem 81.625rem #ae6cff, 103.3125rem 73.875rem #ae6cff,
+    156.8125rem 147.8125rem #ae6cff, 142.9375rem 40.75rem #ae6cff,
+    12.875rem 31.375rem #ae6cff, 121.9375rem 98.9375rem #ae6cff,
+    66.25rem 18.4375rem #ae6cff, 76.25rem 133.8125rem #ae6cff,
+    60.25rem 98.8125rem #ae6cff, 3.25rem 90.875rem #ae6cff,
+    54rem 22.3125rem #ae6cff, 132.8125rem 134.3125rem #ae6cff,
+    10.9375rem 73.5rem #ae6cff, 108.25rem 108.625rem #ae6cff,
+    53.875rem 55.75rem #ae6cff, 93.875rem 93.1875rem #ae6cff,
+    29.4375rem 50rem #ae6cff, 70.25rem 75rem #ae6cff,
+    140.625rem 23.625rem #ae6cff, 117.0625rem 124.0625rem #ae6cff,
+    45.875rem 101.9375rem #ae6cff, 136.625rem 47.5625rem #ae6cff,
+    37.3125rem 16.125rem #ae6cff, 82.125rem 63.25rem #ae6cff,
+    23.0625rem 6.8125rem #ae6cff, 33.6875rem 106.875rem #ae6cff,
+    23.75rem 12.75rem #ae6cff, 81.0625rem 126.25rem #ae6cff,
+    151.4375rem 86.625rem #ae6cff, 48.625rem 57.8125rem #ae6cff,
+    88.125rem 122.625rem #ae6cff, 81.9375rem 130.5625rem #ae6cff,
+    67.25rem 50.5rem #ae6cff, 124.375rem 94.625rem #ae6cff,
+    80.375rem 32.625rem #ae6cff, 7.9375rem 8.3125rem #ae6cff,
+    30.125rem 123.25rem #ae6cff, 59rem 38.4375rem #ae6cff,
+    67.125rem 8.5rem #ae6cff, 100.4375rem 45.875rem #ae6cff,
+    91rem 84.4375rem #ae6cff, 119.0625rem 66.375rem #ae6cff,
+    124.5rem 118.3125rem #ae6cff, 140.75rem 35.4375rem #ae6cff,
+    14.5rem 68.625rem #ae6cff, 94.6875rem 156.9375rem #ae6cff,
+    89.8125rem 142.1875rem #ae6cff, 157.8125rem 28.9375rem #ae6cff,
+    122.3125rem 81.4375rem #ae6cff, 144.1875rem 20.875rem #ae6cff,
+    33.5rem 7.25rem #ae6cff, 158.8125rem 135.125rem #ae6cff,
+    152.1875rem 128.25rem #ae6cff, 9.875rem 114.8125rem #ae6cff,
+    106.5rem 59.5625rem #ae6cff, 26.125rem 62rem #ae6cff,
+    121.8125rem 111.3125rem #ae6cff, 102.4375rem 146.1875rem #ae6cff,
+    31.8125rem 140.9375rem #ae6cff, 18rem 47.6875rem #ae6cff,
+    19.75rem 154.625rem #ae6cff, 37.8125rem 103.0625rem #ae6cff,
+    118.125rem 33.8125rem #ae6cff, 44.75rem 21.375rem #ae6cff,
+    126.0625rem 62.875rem #ae6cff, 120.3125rem 126.625rem #ae6cff,
+    130.3125rem 142.9375rem #ae6cff, 22rem 103rem #ae6cff,
+    132.5625rem 62.4375rem #ae6cff, 147.9375rem 79.375rem #ae6cff,
+    49.1875rem 41.125rem #ae6cff, 15.4375rem 102.6875rem #ae6cff,
+    50.1875rem 8.875rem #ae6cff, 110rem 154.5rem #ae6cff,
+    6.375rem 150rem #ae6cff, 153.25rem 30.25rem #ae6cff, 134rem 88.75rem #ae6cff,
+    51.1875rem 54.375rem #ae6cff, 102.5rem 97.125rem #ae6cff,
+    75.8125rem 15.5rem #ae6cff, 64.625rem 3.9375rem #ae6cff,
+    117.5625rem 10.125rem #ae6cff, 41.5625rem 121.4375rem #ae6cff,
+    60.6875rem 119.1875rem #ae6cff, 60.9375rem 78.875rem #ae6cff,
+    129.9375rem 17rem #ae6cff, 53rem 31.9375rem #ae6cff,
+    101.5rem 68.4375rem #ae6cff, 129.5625rem 97.0625rem #ae6cff,
+    154.3125rem 6.8125rem #ae6cff, 136.625rem 53.8125rem #ae6cff,
+    27.625rem 156.3125rem #ae6cff, 11.5625rem 131rem #ae6cff,
+    0.0625rem 70.0625rem #ae6cff, 21.5625rem 84.625rem #ae6cff,
+    117.125rem 95.4375rem #ae6cff, 12.375rem 31.8125rem #ae6cff,
+    102.25rem 134.5625rem #ae6cff, 20.375rem 39rem #ae6cff,
+    14.9375rem 56.4375rem #ae6cff, 22.6875rem 66.625rem #ae6cff,
+    79.1875rem 124.6875rem #ae6cff, 97.3125rem 51.4375rem #ae6cff,
+    45.8125rem 3.125rem #ae6cff, 141.375rem 144.5625rem #ae6cff,
+    153rem 91.4375rem #ae6cff, 37.125rem 120.125rem #ae6cff,
+    11.75rem 79.5625rem #ae6cff, 27rem 128.1875rem #ae6cff,
+    14.25rem 59.125rem #ae6cff, 2.3125rem 61.0625rem #ae6cff,
+    148.6875rem 88.9375rem #ae6cff, 134rem 121.625rem #ae6cff,
+    31.4375rem 67.375rem #ae6cff, 95.5625rem 38.125rem #ae6cff,
+    70.0625rem 98.4375rem #ae6cff, 1rem 156.375rem #ae6cff,
+    17.625rem 9.8125rem #ae6cff, 33.75rem 68.8125rem #ae6cff,
+    137.75rem 83.25rem #ae6cff, 46.1875rem 22rem #ae6cff,
+    4.6875rem 146.3125rem #ae6cff, 27.9375rem 7.375rem #ae6cff,
+    21.9375rem 150.5625rem #ae6cff, 46.625rem 149.375rem #ae6cff,
+    39rem 148rem #ae6cff, 46.125rem 8.3125rem #ae6cff,
+    151.5625rem 35.375rem #ae6cff, 123.1875rem 99.25rem #ae6cff,
+    100.1875rem 37.6875rem #ae6cff, 136.3125rem 126.375rem #ae6cff,
+    75.6875rem 40.75rem #ae6cff, 35.0625rem 96.9375rem #ae6cff,
+    137.0625rem 5.125rem #ae6cff, 44rem 156.75rem #ae6cff,
+    97.25rem 71.75rem #ae6cff, 42.75rem 146.1875rem #ae6cff,
+    43.0625rem 136.3125rem #ae6cff, 61.375rem 40.75rem #ae6cff,
+    147.25rem 145.5625rem #ae6cff, 18.5625rem 91.875rem #ae6cff,
+    33.75rem 155.0625rem #ae6cff, 51.6875rem 96.4375rem #ae6cff,
+    6rem 119.0625rem #ae6cff, 84rem 82.25rem #ae6cff,
+    109.0625rem 3.6875rem #ae6cff, 108.75rem 49.1875rem #ae6cff,
+    22.9375rem 90.0625rem #ae6cff, 27.4375rem 102.125rem #ae6cff,
+    106.125rem 155.6875rem #ae6cff, 104rem 77.875rem #ae6cff,
+    84.5rem 55.125rem #ae6cff, 41.8125rem 29.125rem #ae6cff,
+    48.375rem 53.25rem #ae6cff, 95.1875rem 77.0625rem #ae6cff,
+    20.0625rem 88.625rem #ae6cff, 66.625rem 84.75rem #ae6cff,
+    126.75rem 60.5625rem #ae6cff, 15.3125rem 113.9375rem #ae6cff,
+    115rem 88.0625rem #ae6cff, 31.9375rem 49.3125rem #ae6cff,
+    151.1875rem 96.5625rem #ae6cff, 2.9375rem 50.3125rem #ae6cff,
+    70.125rem 148.1875rem #ae6cff, 154.625rem 139.5rem #ae6cff,
+    99.0625rem 82.125rem #ae6cff, 82.8125rem 53.75rem #ae6cff,
+    54.75rem 70.4375rem #ae6cff, 128.5625rem 156.125rem #ae6cff,
+    22.3125rem 140.75rem #ae6cff, 18.8125rem 26.0625rem #ae6cff,
+    114.75rem 158.875rem #ae6cff, 122.375rem 112.5625rem #ae6cff,
+    2.6875rem 7.5625rem #ae6cff, 94.9375rem 151.4375rem #ae6cff,
+    149.9375rem 101rem #ae6cff, 58.9375rem 136.6875rem #ae6cff,
+    7.625rem 94.0625rem #ae6cff, 91.375rem 65.875rem #ae6cff,
+    43.625rem 88.5625rem #ae6cff, 119.125rem 145.1875rem #ae6cff,
+    18rem 104rem #ae6cff, 63.125rem 60.0625rem #ae6cff,
+    9.9375rem 143.3125rem #ae6cff, 155.0625rem 42.25rem #ae6cff,
+    35.625rem 32.125rem #ae6cff, 13.0625rem 81.5rem #ae6cff,
+    83.5rem 149.25rem #ae6cff, 115.5rem 0.25rem #ae6cff,
+    111.1875rem 90.6875rem #ae6cff, 82.1875rem 42.0625rem #ae6cff,
+    56.0625rem 82.1875rem #ae6cff, 82.8125rem 94.5rem #ae6cff,
+    40.3125rem 81rem #ae6cff, 138.625rem 21.125rem #ae6cff,
+    141.6875rem 112.4375rem #ae6cff, 62.25rem 71.375rem #ae6cff,
+    117.1875rem 89.375rem #ae6cff, 16.5625rem 24.5625rem #ae6cff,
+    76.375rem 86.625rem #ae6cff, 43.125rem 25.3125rem #ae6cff,
+    20.1875rem 140.75rem #ae6cff, 72.875rem 114.1875rem #ae6cff,
+    30.0625rem 13.625rem #ae6cff, 94.5625rem 122.625rem #ae6cff,
+    41.6875rem 6.625rem #ae6cff, 83.6875rem 53.5rem #ae6cff,
+    152.6875rem 93.9375rem #ae6cff, 50.0625rem 114.8125rem #ae6cff,
+    137.0625rem 158.625rem #ae6cff, 145.875rem 93.125rem #ae6cff,
+    95.8125rem 121.5rem #ae6cff, 159.6875rem 104.75rem #ae6cff,
+    4.4375rem 12.25rem #ae6cff, 24rem 123.4375rem #ae6cff,
+    83.3125rem 47.3125rem #ae6cff, 123.625rem 24.6875rem #ae6cff,
+    6.6875rem 121.6875rem #ae6cff, 5.5625rem 14.875rem #ae6cff,
+    110.3125rem 27.6875rem #ae6cff, 118.4375rem 14.3125rem #ae6cff,
+    46.1875rem 138.5rem #ae6cff, 68.25rem 43.125rem #ae6cff,
+    62.3125rem 157rem #ae6cff, 20.5625rem 53rem #ae6cff,
+    75.3125rem 73.75rem #ae6cff, 44.625rem 147.625rem #ae6cff,
+    44.1875rem 153.4375rem #ae6cff, 100.625rem 114.8125rem #ae6cff,
+    72.125rem 39.875rem #ae6cff, 37.75rem 99.25rem #ae6cff,
+    135.3125rem 24.8125rem #ae6cff, 84.875rem 22.625rem #ae6cff,
+    153.0625rem 115.9375rem #ae6cff, 138.5rem 128.5rem #ae6cff,
+    4.5rem 158.5625rem #ae6cff, 142.625rem 1.375rem #ae6cff,
+    62.6875rem 46.6875rem #ae6cff, 67.8125rem 101.875rem #ae6cff,
+    77.375rem 21.4375rem #ae6cff, 24.375rem 147.375rem #ae6cff,
+    38.3125rem 56.625rem #ae6cff, 123.0625rem 11rem #ae6cff,
+    4.625rem 46.4375rem #ae6cff, 10.125rem 78.1875rem #ae6cff,
+    101.0625rem 120.3125rem #ae6cff, 3.25rem 136.6875rem #ae6cff,
+    33.25rem 34.8125rem #ae6cff, 127.1875rem 58rem #ae6cff,
+    24rem 138.5rem #ae6cff, 131.1875rem 75.25rem #ae6cff,
+    25.125rem 122.375rem #ae6cff, 56.3125rem 139.3125rem #ae6cff,
+    133.9375rem 142.0625rem #ae6cff, 154.5625rem 59.75rem #ae6cff,
+    114rem 16.6875rem #ae6cff, 114.5rem 122.625rem #ae6cff,
+    32.1875rem 24.125rem #ae6cff, 105.25rem 88.6875rem #ae6cff,
+    56.9375rem 116.6875rem #ae6cff, 139.5625rem 142.9375rem #ae6cff,
+    116.4375rem 22.625rem #ae6cff, 2.8125rem 135.875rem #ae6cff,
+    90.3125rem 39.625rem #ae6cff, 78.75rem 69.8125rem #ae6cff,
+    104.0625rem 102.25rem #ae6cff, 57.9375rem 138.4375rem #ae6cff,
+    59.625rem 141.0625rem #ae6cff, 6.4375rem 5.0625rem #ae6cff,
+    156.75rem 77.75rem #ae6cff, 109.3125rem 78.8125rem #ae6cff,
+    82.75rem 109.8125rem #ae6cff, 75.3125rem 85.625rem #ae6cff,
+    51.375rem 152.6875rem #ae6cff, 19.5625rem 15.375rem #ae6cff,
+    55.5rem 100.375rem #ae6cff, 108.375rem 56rem #ae6cff,
+    44.6875rem 34.9375rem #ae6cff, 96.1875rem 115.6875rem #ae6cff,
+    23.875rem 7.875rem #ae6cff, 79.625rem 26.9375rem #ae6cff,
+    113.625rem 118.8125rem #ae6cff, 116.125rem 83.1875rem #ae6cff,
+    68.9375rem 58.375rem #ae6cff, 81.0625rem 18.4375rem #ae6cff,
+    14.3125rem 94.9375rem #ae6cff, 99rem 19rem #ae6cff,
+    103.3125rem 62.625rem #ae6cff, 57.1875rem 88.8125rem #ae6cff,
+    143.0625rem 114.5625rem #ae6cff, 80.25rem 3.9375rem #ae6cff,
+    152.3125rem 97.875rem #ae6cff, 155.25rem 118.6875rem #ae6cff,
+    79.125rem 125.9375rem #ae6cff, 153.5625rem 146.3125rem #ae6cff,
+    82.1875rem 87.9375rem #ae6cff, 20.875rem 127.3125rem #ae6cff,
+    23.4375rem 103.25rem #ae6cff, 58.9375rem 95.625rem #ae6cff,
+    89.25rem 124.9375rem #ae6cff, 56.25rem 136.6875rem #ae6cff,
+    63.1875rem 60.8125rem #ae6cff, 109.5rem 66.25rem #ae6cff,
+    133.375rem 13.375rem #ae6cff, 8.0625rem 126.5rem #ae6cff,
+    129.1875rem 140.375rem #ae6cff, 106.0625rem 30.25rem #ae6cff,
+    116.625rem 128.75rem #ae6cff, 3.25rem 127.1875rem #ae6cff,
+    96.3125rem 111rem #ae6cff, 121.5rem 112.5625rem #ae6cff,
+    13.0625rem 141.375rem #ae6cff, 0.4375rem 151.375rem #ae6cff,
+    73.375rem 50rem #ae6cff, 79.1875rem 68.125rem #ae6cff,
+    61.0625rem 0.375rem #ae6cff, 118.25rem 150.75rem #ae6cff,
+    126.0625rem 21.75rem #ae6cff, 157.5rem 87.75rem #ae6cff,
+    132.5rem 117.125rem #ae6cff, 105.4375rem 8rem #ae6cff, 33.5rem 55rem #ae6cff,
+    58.5625rem 128.1875rem #ae6cff, 151rem 4.25rem #ae6cff,
+    41.375rem 158.6875rem #ae6cff, 113.625rem 31.6875rem #ae6cff,
+    107.6875rem 129.0625rem #ae6cff, 55.25rem 88.5625rem #ae6cff,
+    145.4375rem 74.0625rem #ae6cff, 145.8125rem 7.0625rem #ae6cff,
+    79.125rem 31.4375rem #ae6cff, 116.375rem 22.5625rem #ae6cff,
+    44.1875rem 125.5rem #ae6cff, 89rem 61.1875rem #ae6cff,
+    15.8125rem 40.5rem #ae6cff, 152.5625rem 49.3125rem #ae6cff,
+    139.6875rem 70.75rem #ae6cff, 97.5rem 75.3125rem #ae6cff,
+    50.6875rem 138.6875rem #ae6cff, 131.75rem 148.4375rem #ae6cff,
+    5.75rem 156.4375rem #ae6cff, 128.6875rem 61.5rem #ae6cff,
+    125.9375rem 101.1875rem #ae6cff, 150.1875rem 90.8125rem #ae6cff,
+    52.5rem 5.625rem #ae6cff, 132.5625rem 95.9375rem #ae6cff,
+    29.25rem 154.0625rem #ae6cff, 60.5rem 159.375rem #ae6cff,
+    93.3125rem 103.6875rem #ae6cff, 60.25rem 17.8125rem #ae6cff,
+    48.625rem 126.375rem #ae6cff, 27.25rem 77.1875rem #ae6cff,
+    107rem 21.75rem #ae6cff, 113.3125rem 75.625rem #ae6cff,
+    144.9375rem 61.9375rem #ae6cff, 36.375rem 36.0625rem #ae6cff,
+    131.375rem 108.75rem #ae6cff, 101.9375rem 134.1875rem #ae6cff,
+    77.5rem 133.6875rem #ae6cff, 96.5625rem 84.625rem #ae6cff,
+    157.3125rem 121.875rem #ae6cff, 122rem 77.5rem #ae6cff,
+    80.5625rem 49.6875rem #ae6cff, 110.8125rem 146.1875rem #ae6cff,
+    55.125rem 121.375rem #ae6cff, 107.125rem 50.3125rem #ae6cff,
+    28.5rem 55.4375rem #ae6cff, 117.6875rem 93.8125rem #ae6cff,
+    65.5625rem 95.4375rem #ae6cff, 71.3125rem 113.375rem #ae6cff,
+    2.0625rem 46.875rem #ae6cff, 73.1875rem 61.0625rem #ae6cff,
+    20.1875rem 64.5rem #ae6cff, 92.6875rem 112.0625rem #ae6cff,
+    128.25rem 135.75rem #ae6cff, 102.6875rem 53.1875rem #ae6cff,
+    122.9375rem 129.0625rem #ae6cff, 66.4375rem 120.5rem #ae6cff,
+    67.25rem 20.5625rem #ae6cff, 48.25rem 104rem #ae6cff,
+    118.0625rem 41.4375rem #ae6cff, 14.375rem 34.8125rem #ae6cff,
+    153.1875rem 43.5625rem #ae6cff, 23.375rem 141.625rem #ae6cff,
+    122.25rem 43.125rem #ae6cff, 80.75rem 126.0625rem #ae6cff,
+    131.3125rem 109.4375rem #ae6cff, 32.5rem 77rem #ae6cff,
+    92.25rem 23.6875rem #ae6cff, 54.8125rem 84rem #ae6cff,
+    7.625rem 57.125rem #ae6cff, 4.0625rem 31.625rem #ae6cff,
+    59.0625rem 130.5rem #ae6cff, 42.3125rem 61.875rem #ae6cff,
+    139.9375rem 144.625rem #ae6cff, 29.0625rem 15.5625rem #ae6cff,
+    99.1875rem 107.75rem #ae6cff, 143.3125rem 121.25rem #ae6cff,
+    77.8125rem 97.875rem #ae6cff, 133.375rem 124.25rem #ae6cff,
+    60rem 80.125rem #ae6cff, 2.375rem 114.3125rem #ae6cff,
+    18.125rem 4.1875rem #ae6cff, 77.875rem 98rem #ae6cff,
+    151.0625rem 132.625rem #ae6cff, 84.875rem 50.75rem #ae6cff,
+    125.25rem 122.875rem #ae6cff, 32.8125rem 74.5625rem #ae6cff,
+    93.5625rem 13.625rem #ae6cff, 104.75rem 66.125rem #ae6cff,
+    95.6875rem 89.5rem #ae6cff, 56.8125rem 118.875rem #ae6cff,
+    66.0625rem 28.5625rem #ae6cff, 100.625rem 125rem #ae6cff,
+    10.75rem 113.4375rem #ae6cff, 15.375rem 96rem #ae6cff,
+    77.875rem 123.875rem #ae6cff, 134.125rem 85.1875rem #ae6cff,
+    156.3125rem 110.125rem #ae6cff, 158.6875rem 40.4375rem #ae6cff,
+    156.1875rem 75.1875rem #ae6cff, 119rem 7.4375rem #ae6cff,
+    115.75rem 94.5625rem #ae6cff, 28.8125rem 67.125rem #ae6cff,
+    100.4375rem 41.4375rem #ae6cff, 76.5625rem 50.3125rem #ae6cff,
+    83.5625rem 88.5rem #ae6cff, 136.8125rem 56.8125rem #ae6cff,
+    58.0625rem 94.5rem #ae6cff, 100.6875rem 75.6875rem #ae6cff,
+    120.875rem 62.75rem #ae6cff, 159.3125rem 107.3125rem #ae6cff,
+    44.9375rem 92.4375rem #ae6cff, 32.1875rem 126.25rem #ae6cff,
+    95.8125rem 5.25rem #ae6cff, 41.625rem 125.0625rem #ae6cff,
+    81.8125rem 52.375rem #ae6cff, 105.75rem 50.9375rem #ae6cff,
+    57.3125rem 145rem #ae6cff, 78rem 4.5rem #ae6cff,
+    118.4375rem 35.0625rem #ae6cff, 46.25rem 91.25rem #ae6cff,
+    95.875rem 105.25rem #ae6cff, 69rem 27.875rem #ae6cff,
+    133.25rem 94rem #ae6cff, 101.4375rem 50.125rem #ae6cff,
+    155.25rem 134.625rem #ae6cff, 53.875rem 112.6875rem #ae6cff,
+    158.4375rem 65.3125rem #ae6cff, 38.9375rem 113.5625rem #ae6cff,
+    97.4375rem 56.3125rem #ae6cff, 71.1875rem 25.1875rem #ae6cff,
+    10.4375rem 49.9375rem #ae6cff, 43.375rem 71.1875rem #ae6cff,
+    85.3125rem 12.1875rem #ae6cff, 101.5rem 114.4375rem #ae6cff,
+    19.0625rem 23.8125rem #ae6cff, 41.9375rem 21.5rem #ae6cff,
+    152.5rem 19.1875rem #ae6cff, 96.5625rem 115.25rem #ae6cff,
+    16.25rem 17.1875rem #ae6cff, 152.375rem 16rem #ae6cff,
+    38.375rem 106.625rem #ae6cff, 98.4375rem 137.25rem #ae6cff,
+    150.4375rem 126.75rem #ae6cff, 27rem 81.0625rem #ae6cff,
+    122.1875rem 110.0625rem #ae6cff, 28.5625rem 152.625rem #ae6cff,
+    156.1875rem 6.5625rem #ae6cff, 106.5rem 159.5625rem #ae6cff,
+    76.9375rem 54.5rem #ae6cff, 85.5625rem 121.9375rem #ae6cff,
+    25.75rem 91.375rem #ae6cff, 51.25rem 13.9375rem #ae6cff,
+    150.8125rem 9.875rem #ae6cff, 50.375rem 11.375rem #ae6cff,
+    40.75rem 23.625rem #ae6cff, 10.1875rem 40.875rem #ae6cff,
+    91.1875rem 23.8125rem #ae6cff, 5.8125rem 138.9375rem #ae6cff,
+    112.75rem 147.0625rem #ae6cff, 14.375rem 78.8125rem #ae6cff,
+    158.5rem 74.125rem #ae6cff, 33.5rem 100.5rem #ae6cff,
+    17.8125rem 67.375rem #ae6cff, 152rem 115.9375rem #ae6cff,
+    142.8125rem 67.625rem #ae6cff, 73.125rem 32rem #ae6cff,
+    95.8125rem 40.75rem #ae6cff, 86.125rem 46.6875rem #ae6cff,
+    136.0625rem 151.8125rem #ae6cff, 71rem 90.875rem #ae6cff,
+    72.4375rem 36.125rem #ae6cff, 145.875rem 18.0625rem #ae6cff,
+    128.75rem 97.875rem #ae6cff, 95.375rem 50.75rem #ae6cff,
+    26.625rem 97rem #ae6cff, 97.5rem 136.3125rem #ae6cff,
+    22.375rem 85.375rem #ae6cff, 120.8125rem 148.875rem #ae6cff,
+    68.3125rem 35.625rem #ae6cff, 155.125rem 29.1875rem #ae6cff,
+    41.125rem 27.875rem #ae6cff, 154.6875rem 146.0625rem #ae6cff,
+    37.1875rem 130.875rem #ae6cff, 29.875rem 153rem #ae6cff,
+    145.375rem 146rem #ae6cff, 6.5625rem 19.375rem #ae6cff,
+    1.625rem 112rem #ae6cff, 31.8125rem 9.3125rem #ae6cff,
+    45.75rem 35.75rem #ae6cff, 105.25rem 16.5625rem #ae6cff,
+    41.6875rem 143.25rem #ae6cff, 79.875rem 122.375rem #ae6cff,
+    90.0625rem 41.9375rem #ae6cff, 29.5625rem 117.875rem #ae6cff,
+    113.5625rem 148.9375rem #ae6cff, 133.1875rem 71.6875rem #ae6cff,
+    43.3125rem 88.4375rem #ae6cff, 89.125rem 93.3125rem #ae6cff,
+    78.3125rem 108.8125rem #ae6cff, 49.25rem 158.125rem #ae6cff,
+    24.8125rem 80.875rem #ae6cff, 124.875rem 62.6875rem #ae6cff,
+    11.25rem 140.875rem #ae6cff, 27.6875rem 10.9375rem #ae6cff,
+    153.5625rem 45.1875rem #ae6cff, 118.0625rem 23.0625rem #ae6cff,
+    21.1875rem 43.875rem #ae6cff, 79.75rem 82.9375rem #ae6cff,
+    84.875rem 64.625rem #ae6cff, 58.0625rem 60.4375rem #ae6cff,
+    133.75rem 76.8125rem #ae6cff, 123.5rem 153.5625rem #ae6cff,
+    76.25rem 51.125rem #ae6cff, 48.125rem 65.25rem #ae6cff,
+    19.9375rem 10.3125rem #ae6cff, 82.0625rem 77.375rem #ae6cff,
+    107.9375rem 135.9375rem #ae6cff, 109.8125rem 93.625rem #ae6cff;
+  width: 0.0625rem;
+  height: 0.0625rem;
+}
+.Hero_particle-2__1ytMG {
+  box-shadow: 0 0 #ae6cff, 65.5625rem 16.625rem #ae6cff, 4.5rem 45.75rem #ae6cff,
+    96.4375rem 48.6875rem #ae6cff, 152.5625rem 89.75rem #ae6cff,
+    40.9375rem 52rem #ae6cff, 77.125rem 125.6875rem #ae6cff,
+    110.75rem 138.0625rem #ae6cff, 50.25rem 2.625rem #ae6cff,
+    115.5rem 133.75rem #ae6cff, 123.875rem 31.5rem #ae6cff,
+    31.4375rem 151.125rem #ae6cff, 138.25rem 121.75rem #ae6cff,
+    129.625rem 156.125rem #ae6cff, 151.9375rem 30.375rem #ae6cff,
+    33.5rem 143.1875rem #ae6cff, 81.375rem 141.75rem #ae6cff,
+    153.375rem 153.625rem #ae6cff, 68.3125rem 156.1875rem #ae6cff,
+    24.6875rem 151.625rem #ae6cff, 1.3125rem 11.625rem #ae6cff,
+    24.75rem 112.625rem #ae6cff, 134.5rem 120.6875rem #ae6cff,
+    58.3125rem 142.9375rem #ae6cff, 138.3125rem 132.3125rem #ae6cff,
+    0.75rem 67.375rem #ae6cff, 93.125rem 21.125rem #ae6cff,
+    41.6875rem 31.6875rem #ae6cff, 91.0625rem 75.4375rem #ae6cff,
+    44.4375rem 84.875rem #ae6cff, 92.6875rem 130.125rem #ae6cff,
+    78.75rem 93.25rem #ae6cff, 91.25rem 116.25rem #ae6cff,
+    56.0625rem 20.8125rem #ae6cff, 91.5625rem 8.8125rem #ae6cff,
+    8.375rem 71.0625rem #ae6cff, 118.625rem 89.0625rem #ae6cff,
+    136.4375rem 2.125rem #ae6cff, 69.75rem 151.4375rem #ae6cff,
+    15.625rem 53.75rem #ae6cff, 122.25rem 47.0625rem #ae6cff,
+    145.5625rem 64.1875rem #ae6cff, 158.3125rem 85.5rem #ae6cff,
+    12.375rem 88.3125rem #ae6cff, 69.0625rem 50rem #ae6cff,
+    65.875rem 121.25rem #ae6cff, 63.625rem 95.1875rem #ae6cff,
+    155.25rem 54.75rem #ae6cff, 49.3125rem 117.8125rem #ae6cff,
+    63.6875rem 76.875rem #ae6cff, 23.125rem 17.3125rem #ae6cff,
+    87.9375rem 15.25rem #ae6cff, 133.9375rem 32.875rem #ae6cff,
+    54.3125rem 54.8125rem #ae6cff, 44.875rem 105.0625rem #ae6cff,
+    126.3125rem 89.125rem #ae6cff, 91rem 71.875rem #ae6cff,
+    74.1875rem 142.625rem #ae6cff, 92.25rem 60.625rem #ae6cff,
+    38.3125rem 87.1875rem #ae6cff, 13.0625rem 129.125rem #ae6cff,
+    155.125rem 101.1875rem #ae6cff, 143.6875rem 157.6875rem #ae6cff,
+    97.9375rem 107rem #ae6cff, 136.25rem 11.5625rem #ae6cff,
+    116.5rem 39.125rem #ae6cff, 153.5625rem 118.6875rem #ae6cff,
+    77.0625rem 41rem #ae6cff, 84.375rem 76.3125rem #ae6cff,
+    42.9375rem 14.1875rem #ae6cff, 97.8125rem 18.1875rem #ae6cff,
+    52.125rem 68.125rem #ae6cff, 132.625rem 53.6875rem #ae6cff,
+    124.875rem 58.625rem #ae6cff, 7.4375rem 151.8125rem #ae6cff,
+    96.8125rem 90.625rem #ae6cff, 2.625rem 72.125rem #ae6cff,
+    1.3125rem 64.5625rem #ae6cff, 36.3125rem 125.5625rem #ae6cff,
+    12.4375rem 14.0625rem #ae6cff, 111.375rem 136.75rem #ae6cff,
+    8.375rem 5.0625rem #ae6cff, 156.75rem 98.4375rem #ae6cff,
+    26.0625rem 29.75rem #ae6cff, 12.625rem 128.4375rem #ae6cff,
+    3rem 6rem #ae6cff, 88.4375rem 47.3125rem #ae6cff,
+    29.25rem 134.1875rem #ae6cff, 45.75rem 88.5625rem #ae6cff,
+    140.3125rem 90.75rem #ae6cff, 19.125rem 40.625rem #ae6cff,
+    5.875rem 14.3125rem #ae6cff, 147.125rem 136.625rem #ae6cff,
+    121.1875rem 144.4375rem #ae6cff, 42.125rem 62.625rem #ae6cff,
+    126.0625rem 106.375rem #ae6cff, 27rem 94.125rem #ae6cff,
+    88.4375rem 126.9375rem #ae6cff, 61.3125rem 104.3125rem #ae6cff,
+    68.4375rem 33.5rem #ae6cff, 149.125rem 63.4375rem #ae6cff,
+    61.4375rem 56.1875rem #ae6cff, 16.6875rem 115.125rem #ae6cff,
+    109.625rem 140.5rem #ae6cff, 99.375rem 69rem #ae6cff,
+    71.625rem 23.875rem #ae6cff, 115.125rem 36.875rem #ae6cff,
+    144.875rem 152.6875rem #ae6cff, 127.5625rem 45.5rem #ae6cff,
+    25.4375rem 135.0625rem #ae6cff, 93.3125rem 65.6875rem #ae6cff,
+    59.8125rem 121.625rem #ae6cff, 117.5625rem 68.5rem #ae6cff,
+    7.75rem 84.6875rem #ae6cff, 123.875rem 146.375rem #ae6cff,
+    36.625rem 19.75rem #ae6cff, 80.0625rem 3.5rem #ae6cff,
+    90.8125rem 50.4375rem #ae6cff, 26.4375rem 104rem #ae6cff,
+    100rem 111.8125rem #ae6cff, 99.25rem 52.4375rem #ae6cff,
+    8.9375rem 38.5625rem #ae6cff, 73.1875rem 93.9375rem #ae6cff,
+    72.3125rem 57.25rem #ae6cff, 80.375rem 73.8125rem #ae6cff,
+    26.4375rem 76.4375rem #ae6cff, 24.3125rem 92.1875rem #ae6cff,
+    27.6875rem 94.875rem #ae6cff, 93.8125rem 69.375rem #ae6cff,
+    132.125rem 101rem #ae6cff, 92.5rem 110.9375rem #ae6cff,
+    6.0625rem 68.125rem #ae6cff, 52.625rem 3.875rem #ae6cff,
+    155.8125rem 46.9375rem #ae6cff, 37.6875rem 36.5rem #ae6cff,
+    137.625rem 156.9375rem #ae6cff, 27.9375rem 133rem #ae6cff,
+    109.8125rem 114rem #ae6cff, 101.4375rem 127.125rem #ae6cff,
+    17.25rem 159.9375rem #ae6cff, 118.25rem 115.875rem #ae6cff,
+    31.6875rem 127.125rem #ae6cff, 34.125rem 136.5625rem #ae6cff,
+    31.3125rem 112.3125rem #ae6cff, 77.25rem 46.9375rem #ae6cff,
+    97.1875rem 5.625rem #ae6cff, 87.375rem 72.25rem #ae6cff,
+    114.75rem 157.125rem #ae6cff, 107.25rem 24.125rem #ae6cff,
+    24.0625rem 0.6875rem #ae6cff, 36rem 118.8125rem #ae6cff,
+    126.6875rem 38.5rem #ae6cff, 46.0625rem 65rem #ae6cff,
+    133.5rem 3.125rem #ae6cff, 128.4375rem 48.8125rem #ae6cff,
+    1.75rem 157.3125rem #ae6cff, 105.8125rem 84.25rem #ae6cff,
+    78.5625rem 62.75rem #ae6cff, 146.3125rem 27.3125rem #ae6cff,
+    104.6875rem 55.75rem #ae6cff, 123.9375rem 121.5625rem #ae6cff,
+    134.5625rem 120.9375rem #ae6cff, 63.4375rem 11.375rem #ae6cff,
+    114rem 19.375rem #ae6cff, 67.125rem 13.875rem #ae6cff,
+    52.5625rem 24.4375rem #ae6cff, 25.1875rem 15.6875rem #ae6cff,
+    59.125rem 135.9375rem #ae6cff, 83.25rem 52.875rem #ae6cff,
+    25.1875rem 25.8125rem #ae6cff, 31.5rem 126.5625rem #ae6cff,
+    15.0625rem 143.3125rem #ae6cff, 79.125rem 96.9375rem #ae6cff,
+    146.375rem 115.8125rem #ae6cff, 113.875rem 8.625rem #ae6cff,
+    115.1875rem 159.625rem #ae6cff, 63.375rem 96.5625rem #ae6cff,
+    71.125rem 159.8125rem #ae6cff, 74.375rem 34.375rem #ae6cff,
+    18.3125rem 131.75rem #ae6cff, 55.125rem 150.5rem #ae6cff,
+    52.0625rem 11.5rem #ae6cff, 70.9375rem 94.875rem #ae6cff,
+    43.0625rem 112.0625rem #ae6cff, 60.4375rem 8.75rem #ae6cff,
+    156.625rem 94.5rem #ae6cff, 97.6875rem 124.9375rem #ae6cff,
+    43.8125rem 146.25rem #ae6cff, 21.5rem 119rem #ae6cff,
+    69.875rem 154.625rem #ae6cff, 85.375rem 11.75rem #ae6cff,
+    51rem 4.8125rem #ae6cff, 105.5rem 2.125rem #ae6cff,
+    107.75rem 77.9375rem #ae6cff, 27.4375rem 146.875rem #ae6cff,
+    125.5625rem 66.125rem #ae6cff, 5.3125rem 124.4375rem #ae6cff,
+    96.1875rem 36.0625rem #ae6cff, 68.875rem 131.25rem #ae6cff,
+    83rem 118.0625rem #ae6cff, 142.375rem 51.3125rem #ae6cff;
+  width: 0.125rem;
+  height: 0.125rem;
+  animation: Hero_animate-particles__msr2N 120s linear infinite;
+}
+.Hero_particle-2__1ytMG:after {
+  box-shadow: 0 0 #ae6cff, 109.0625rem 145.1875rem #ae6cff,
+    94.25rem 100.3125rem #ae6cff, 87.3125rem 83.75rem #ae6cff,
+    15.875rem 118.375rem #ae6cff, 71rem 107.9375rem #ae6cff,
+    10.375rem 55.5625rem #ae6cff, 8.9375rem 42.125rem #ae6cff,
+    30.8125rem 83.875rem #ae6cff, 12.5rem 56.875rem #ae6cff,
+    103.875rem 71.125rem #ae6cff, 110rem 138.6875rem #ae6cff,
+    87.9375rem 93rem #ae6cff, 76.875rem 76.75rem #ae6cff,
+    116.5625rem 128rem #ae6cff, 1.4375rem 39.3125rem #ae6cff,
+    14.6875rem 126.5rem #ae6cff, 28.9375rem 144.1875rem #ae6cff,
+    39.3125rem 1.375rem #ae6cff, 16.125rem 108.5rem #ae6cff,
+    75.8125rem 43.8125rem #ae6cff, 13.875rem 105.3125rem #ae6cff,
+    17.9375rem 1.3125rem #ae6cff, 50rem 36.25rem #ae6cff,
+    36.25rem 48.8125rem #ae6cff, 60.25rem 147.5rem #ae6cff,
+    63.9375rem 21.0625rem #ae6cff, 110.9375rem 100rem #ae6cff,
+    10.125rem 159.1875rem #ae6cff, 116.25rem 158.3125rem #ae6cff,
+    123.375rem 65.25rem #ae6cff, 102.75rem 147.125rem #ae6cff,
+    126rem 95.4375rem #ae6cff, 48.875rem 0.875rem #ae6cff,
+    143.6875rem 19.9375rem #ae6cff, 147.875rem 70.375rem #ae6cff,
+    3.875rem 35.75rem #ae6cff, 71.5625rem 0.8125rem #ae6cff,
+    127.5rem 77.8125rem #ae6cff, 24.3125rem 23.3125rem #ae6cff,
+    34.8125rem 64.125rem #ae6cff, 38.3125rem 80.75rem #ae6cff,
+    14.625rem 61.1875rem #ae6cff, 141.25rem 11.0625rem #ae6cff,
+    109.1875rem 150.25rem #ae6cff, 127rem 4.4375rem #ae6cff,
+    58.5rem 19.375rem #ae6cff, 145.3125rem 108.625rem #ae6cff,
+    25.8125rem 81.8125rem #ae6cff, 15.5rem 10.375rem #ae6cff,
+    17.75rem 91.8125rem #ae6cff, 48rem 38.25rem #ae6cff,
+    116.6875rem 89.125rem #ae6cff, 157.5625rem 99.4375rem #ae6cff,
+    56.125rem 97.625rem #ae6cff, 96.3125rem 37.9375rem #ae6cff,
+    58.9375rem 58.75rem #ae6cff, 140.4375rem 28.8125rem #ae6cff,
+    23.8125rem 101.0625rem #ae6cff, 147.625rem 105.75rem #ae6cff,
+    51.75rem 4.6875rem #ae6cff, 149.875rem 16.25rem #ae6cff,
+    52.1875rem 28.8125rem #ae6cff, 108.875rem 130.375rem #ae6cff,
+    140.8125rem 19.9375rem #ae6cff, 3.6875rem 121.1875rem #ae6cff,
+    136.9375rem 140.125rem #ae6cff, 88.5625rem 149rem #ae6cff,
+    106.5625rem 50.5rem #ae6cff, 62.75rem 13.4375rem #ae6cff,
+    89.1875rem 158.1875rem #ae6cff, 132.0625rem 67.6875rem #ae6cff,
+    99.3125rem 127.375rem #ae6cff, 38.625rem 97rem #ae6cff,
+    61.875rem 75.75rem #ae6cff, 17rem 149.25rem #ae6cff,
+    129.625rem 32.1875rem #ae6cff, 154.8125rem 90.9375rem #ae6cff,
+    88.1875rem 12.75rem #ae6cff, 18.5rem 138.5625rem #ae6cff,
+    128.625rem 140.8125rem #ae6cff, 13.75rem 96.625rem #ae6cff,
+    153.1875rem 67.5625rem #ae6cff, 97.625rem 116.5625rem #ae6cff,
+    46rem 77.3125rem #ae6cff, 64.375rem 40.3125rem #ae6cff,
+    102.6875rem 141.5625rem #ae6cff, 44.4375rem 3.5625rem #ae6cff,
+    123.3125rem 55.625rem #ae6cff, 44.5rem 142.4375rem #ae6cff,
+    26.25rem 47.4375rem #ae6cff, 25.625rem 82.4375rem #ae6cff,
+    13.5rem 41.8125rem #ae6cff, 130.375rem 28.0625rem #ae6cff,
+    6.875rem 150.8125rem #ae6cff, 132.875rem 109.3125rem #ae6cff,
+    74.3125rem 124.4375rem #ae6cff, 106.125rem 121.8125rem #ae6cff,
+    141.875rem 80rem #ae6cff, 157.25rem 105rem #ae6cff,
+    40.6875rem 121.4375rem #ae6cff, 21.4375rem 17.5625rem #ae6cff,
+    109.5625rem 152.125rem #ae6cff, 71.9375rem 40.4375rem #ae6cff,
+    86.6875rem 18.6875rem #ae6cff, 98rem 7.375rem #ae6cff,
+    141.375rem 95.375rem #ae6cff, 10.5625rem 26.75rem #ae6cff,
+    19rem 86.25rem #ae6cff, 52.875rem 25.5rem #ae6cff, 102.625rem 126rem #ae6cff,
+    106.5625rem 7.375rem #ae6cff, 78.6875rem 58.3125rem #ae6cff,
+    29.3125rem 10.375rem #ae6cff, 55.125rem 117.8125rem #ae6cff,
+    75.75rem 15.3125rem #ae6cff, 0.4375rem 83.1875rem #ae6cff,
+    44.8125rem 28.5625rem #ae6cff, 82.1875rem 78.875rem #ae6cff,
+    53.0625rem 42.375rem #ae6cff, 157.125rem 121.5rem #ae6cff,
+    81.5625rem 43.1875rem #ae6cff, 45.1875rem 37.8125rem #ae6cff,
+    4.375rem 91.375rem #ae6cff, 3.4375rem 39.9375rem #ae6cff,
+    73rem 145.6875rem #ae6cff, 59.9375rem 147.9375rem #ae6cff,
+    135.5rem 102.25rem #ae6cff, 150.8125rem 41.8125rem #ae6cff,
+    70.375rem 20.625rem #ae6cff, 81.1875rem 114.25rem #ae6cff,
+    110.1875rem 117.625rem #ae6cff, 42.5rem 10.125rem #ae6cff,
+    61.25rem 32.3125rem #ae6cff, 56.4375rem 51.5rem #ae6cff,
+    148.125rem 64.875rem #ae6cff, 86.875rem 106.9375rem #ae6cff,
+    72.75rem 17.125rem #ae6cff, 14.3125rem 108.4375rem #ae6cff,
+    32.125rem 47.4375rem #ae6cff, 107.75rem 141.75rem #ae6cff,
+    143.0625rem 7.75rem #ae6cff, 99.75rem 8.4375rem #ae6cff,
+    133.75rem 15.1875rem #ae6cff, 141.9375rem 109.5rem #ae6cff,
+    64.1875rem 71.6875rem #ae6cff, 111.9375rem 105.9375rem #ae6cff,
+    139.25rem 21rem #ae6cff, 51.6875rem 153.625rem #ae6cff,
+    48.0625rem 92.25rem #ae6cff, 152.125rem 61.0625rem #ae6cff,
+    114rem 32.625rem #ae6cff, 135.625rem 84.5rem #ae6cff,
+    66.6875rem 24rem #ae6cff, 56.4375rem 3.75rem #ae6cff,
+    35.8125rem 150.6875rem #ae6cff, 96.9375rem 111.8125rem #ae6cff,
+    25.25rem 133.375rem #ae6cff, 113.75rem 61.5rem #ae6cff,
+    75.0625rem 76.625rem #ae6cff, 30.1875rem 90.875rem #ae6cff,
+    107.4375rem 15.9375rem #ae6cff, 147rem 127.1875rem #ae6cff,
+    4.3125rem 69.875rem #ae6cff, 79.0625rem 13.75rem #ae6cff,
+    127.0625rem 35rem #ae6cff, 110.0625rem 15.875rem #ae6cff,
+    1.25rem 130.625rem #ae6cff, 45.625rem 109.1875rem #ae6cff,
+    88.75rem 128.1875rem #ae6cff, 40.6875rem 95.875rem #ae6cff,
+    127.5rem 26.25rem #ae6cff, 87.1875rem 63.5rem #ae6cff,
+    44.9375rem 135.875rem #ae6cff, 41.1875rem 27rem #ae6cff,
+    69.4375rem 97.1875rem #ae6cff, 66.5rem 116.75rem #ae6cff,
+    34.125rem 115.3125rem #ae6cff, 47.25rem 81.375rem #ae6cff,
+    156.4375rem 151.1875rem #ae6cff, 156.5625rem 109rem #ae6cff,
+    56.1875rem 98.3125rem #ae6cff, 87.9375rem 24.8125rem #ae6cff,
+    15.5625rem 41.9375rem #ae6cff, 62.6875rem 47.625rem #ae6cff,
+    50.6875rem 55.25rem #ae6cff, 32.0625rem 52.5rem #ae6cff,
+    113.625rem 26.25rem #ae6cff, 149.3125rem 151.4375rem #ae6cff,
+    38.5625rem 23.75rem #ae6cff, 7.1875rem 104.625rem #ae6cff,
+    73.8125rem 159.5rem #ae6cff, 154.5rem 116.9375rem #ae6cff,
+    125.625rem 125.375rem #ae6cff, 24.125rem 99.5rem #ae6cff,
+    158.125rem 43.5625rem #ae6cff, 13.3125rem 54.4375rem #ae6cff,
+    110.5rem 1.4375rem #ae6cff, 147.4375rem 107.1875rem #ae6cff,
+    74.1875rem 98.6875rem #ae6cff, 155.3125rem 10.0625rem #ae6cff;
+  width: 0.125rem;
+  height: 0.125rem;
+}
+.Hero_particle-3__tpqvl {
+  box-shadow: 0 0 #ae6cff, 99.4375rem 26.3125rem #ae6cff,
+    3.8125rem 9.0625rem #ae6cff, 77rem 86.125rem #ae6cff,
+    83.5rem 136.4375rem #ae6cff, 94.8125rem 154.6875rem #ae6cff,
+    155.625rem 143.9375rem #ae6cff, 48.9375rem 11.5625rem #ae6cff,
+    73.8125rem 103.5625rem #ae6cff, 106.3125rem 91.625rem #ae6cff,
+    9.1875rem 139.6875rem #ae6cff, 9.375rem 83.6875rem #ae6cff,
+    2.125rem 7.4375rem #ae6cff, 8.5rem 121.1875rem #ae6cff,
+    53.1875rem 92.375rem #ae6cff, 119.25rem 71rem #ae6cff,
+    52.375rem 93.8125rem #ae6cff, 112.9375rem 71.3125rem #ae6cff,
+    73rem 60.75rem #ae6cff, 138.25rem 91.8125rem #ae6cff,
+    94.5625rem 18.5rem #ae6cff, 102.3125rem 71.25rem #ae6cff,
+    124.25rem 28.125rem #ae6cff, 5rem 97.25rem #ae6cff,
+    105.1875rem 3.3125rem #ae6cff, 39.5rem 122.9375rem #ae6cff,
+    2.625rem 85.8125rem #ae6cff, 50.875rem 95.875rem #ae6cff,
+    9.3125rem 12.8125rem #ae6cff, 97.8125rem 27.0625rem #ae6cff,
+    138.4375rem 40.75rem #ae6cff, 46rem 121.9375rem #ae6cff,
+    100.5rem 159.5625rem #ae6cff, 98rem 59.75rem #ae6cff,
+    119.5625rem 76.1875rem #ae6cff, 33.8125rem 150.9375rem #ae6cff,
+    8.1875rem 38.8125rem #ae6cff, 97.25rem 123.75rem #ae6cff,
+    13.0625rem 126.9375rem #ae6cff, 50.0625rem 109.75rem #ae6cff,
+    49.8125rem 91.9375rem #ae6cff, 7rem 120.6875rem #ae6cff,
+    119.0625rem 61.9375rem #ae6cff, 123.6875rem 78.4375rem #ae6cff,
+    84.9375rem 40.6875rem #ae6cff, 127.125rem 51rem #ae6cff,
+    75.25rem 118.4375rem #ae6cff, 62rem 138rem #ae6cff,
+    109.4375rem 17.4375rem #ae6cff, 61.25rem 64.8125rem #ae6cff,
+    155.5625rem 68.9375rem #ae6cff, 125.5625rem 52rem #ae6cff,
+    81.9375rem 27.6875rem #ae6cff, 104.625rem 49.625rem #ae6cff,
+    80.3125rem 137.3125rem #ae6cff, 27.75rem 96.1875rem #ae6cff,
+    4.1875rem 108rem #ae6cff, 150.625rem 129.125rem #ae6cff,
+    89.25rem 143.75rem #ae6cff, 16.375rem 49rem #ae6cff,
+    16.125rem 110.6875rem #ae6cff, 16.5rem 76.375rem #ae6cff,
+    12.375rem 134.125rem #ae6cff, 116.3125rem 134.125rem #ae6cff,
+    46.375rem 149.75rem #ae6cff, 5.4375rem 149.1875rem #ae6cff,
+    134.875rem 108.125rem #ae6cff, 112.125rem 94.5625rem #ae6cff,
+    156.9375rem 51.6875rem #ae6cff, 130.3125rem 130.3125rem #ae6cff,
+    17.6875rem 69.125rem #ae6cff, 21.375rem 52.6875rem #ae6cff,
+    10.5rem 147.6875rem #ae6cff, 48.3125rem 97.375rem #ae6cff,
+    82.6875rem 27.625rem #ae6cff, 79.1875rem 129.4375rem #ae6cff,
+    28.8125rem 126.5625rem #ae6cff, 15.875rem 96.8125rem #ae6cff,
+    8.4375rem 120.6875rem #ae6cff, 108.0625rem 14.8125rem #ae6cff,
+    132.625rem 117.9375rem #ae6cff, 144.5625rem 154.25rem #ae6cff,
+    103.8125rem 121.3125rem #ae6cff, 7rem 148.25rem #ae6cff,
+    18.0625rem 64rem #ae6cff, 35.75rem 105.6875rem #ae6cff,
+    67.9375rem 147.1875rem #ae6cff, 7.375rem 38.1875rem #ae6cff,
+    146.625rem 149.5rem #ae6cff, 130.75rem 100.8125rem #ae6cff,
+    63.375rem 26.625rem #ae6cff, 8rem 114rem #ae6cff,
+    98.1875rem 46.375rem #ae6cff, 134.375rem 63.125rem #ae6cff,
+    59.5rem 106.75rem #ae6cff, 38.875rem 123.25rem #ae6cff,
+    134.5rem 115.625rem #ae6cff, 154rem 114.4375rem #ae6cff,
+    30.5rem 38.3125rem #ae6cff, 73.0625rem 109.25rem #ae6cff,
+    99.75rem 80.8125rem #ae6cff;
+  width: 0.1875rem;
+  height: 0.1875rem;
+  animation: Hero_animate-particles__msr2N 180s linear infinite;
+}
+.Hero_particle-3__tpqvl:after {
+  box-shadow: 0 0 #ae6cff, 80.875rem 12.125rem #ae6cff,
+    37.375rem 141.875rem #ae6cff, 1.75rem 2.0625rem #ae6cff,
+    91.3125rem 87.4375rem #ae6cff, 14rem 64.6875rem #ae6cff,
+    72.5rem 80.4375rem #ae6cff, 145.1875rem 27.5625rem #ae6cff,
+    82.25rem 82.6875rem #ae6cff, 26.75rem 10.9375rem #ae6cff,
+    34.125rem 110.3125rem #ae6cff, 61.25rem 14.4375rem #ae6cff,
+    5.5rem 56.375rem #ae6cff, 132.1875rem 27rem #ae6cff,
+    158.1875rem 48.4375rem #ae6cff, 70rem 57.25rem #ae6cff,
+    35.4375rem 27.1875rem #ae6cff, 120.0625rem 17.125rem #ae6cff,
+    55.8125rem 123.5rem #ae6cff, 22.3125rem 58.3125rem #ae6cff,
+    152.25rem 12.9375rem #ae6cff, 51.375rem 126.9375rem #ae6cff,
+    97.875rem 71.0625rem #ae6cff, 130.6875rem 29.6875rem #ae6cff,
+    11.6875rem 26.6875rem #ae6cff, 143.3125rem 60.625rem #ae6cff,
+    79.6875rem 62.8125rem #ae6cff, 35.6875rem 105.75rem #ae6cff,
+    16.75rem 152.75rem #ae6cff, 89.4375rem 153.1875rem #ae6cff,
+    34.5625rem 11.1875rem #ae6cff, 102.75rem 20rem #ae6cff,
+    59.4375rem 119.1875rem #ae6cff, 121.1875rem 97.4375rem #ae6cff,
+    7.5625rem 22.375rem #ae6cff, 124.75rem 105.8125rem #ae6cff,
+    134.625rem 9.0625rem #ae6cff, 16.3125rem 121rem #ae6cff,
+    80.375rem 120.5rem #ae6cff, 138.8125rem 9.3125rem #ae6cff,
+    30.4375rem 117.3125rem #ae6cff, 72.125rem 3.125rem #ae6cff,
+    59rem 56.5625rem #ae6cff, 50.875rem 97.4375rem #ae6cff,
+    130.375rem 79.75rem #ae6cff, 89.6875rem 17rem #ae6cff,
+    159.375rem 114.9375rem #ae6cff, 20.0625rem 51.5625rem #ae6cff,
+    43.4375rem 95.375rem #ae6cff, 71rem 100.625rem #ae6cff,
+    91.0625rem 29.1875rem #ae6cff, 39.8125rem 150.3125rem #ae6cff,
+    94.8125rem 64.5625rem #ae6cff, 147rem 156.4375rem #ae6cff,
+    40.1875rem 28.25rem #ae6cff, 151.6875rem 54.125rem #ae6cff,
+    19.1875rem 81.1875rem #ae6cff, 14.1875rem 81.4375rem #ae6cff,
+    141.125rem 127.375rem #ae6cff, 64rem 118.625rem #ae6cff,
+    113.8125rem 154.0625rem #ae6cff, 66rem 158.0625rem #ae6cff,
+    71.875rem 83.3125rem #ae6cff, 39rem 149.3125rem #ae6cff,
+    13.0625rem 42.6875rem #ae6cff, 78.9375rem 9.125rem #ae6cff,
+    18.875rem 15rem #ae6cff, 153.8125rem 38.0625rem #ae6cff,
+    64.9375rem 90.25rem #ae6cff, 158.9375rem 3.8125rem #ae6cff,
+    99.75rem 71.9375rem #ae6cff, 61.375rem 50.875rem #ae6cff,
+    1.625rem 84.5rem #ae6cff, 44.75rem 121.25rem #ae6cff,
+    31.875rem 8.25rem #ae6cff, 151.125rem 38.9375rem #ae6cff,
+    11.75rem 122.25rem #ae6cff, 89.1875rem 63.25rem #ae6cff,
+    114.75rem 121.3125rem #ae6cff, 95.625rem 106.1875rem #ae6cff,
+    145.625rem 124.4375rem #ae6cff, 61.5rem 151.4375rem #ae6cff,
+    25.4375rem 74.3125rem #ae6cff, 128.125rem 56.9375rem #ae6cff,
+    7.375rem 159.125rem #ae6cff, 7.1875rem 110.875rem #ae6cff,
+    55.75rem 126.0625rem #ae6cff, 100.875rem 12rem #ae6cff,
+    90.0625rem 39.75rem #ae6cff, 107.1875rem 25.875rem #ae6cff,
+    92.0625rem 21.4375rem #ae6cff, 125.625rem 41.5rem #ae6cff,
+    122.875rem 147.625rem #ae6cff, 26.5625rem 97.875rem #ae6cff,
+    54.4375rem 109.0625rem #ae6cff, 83.4375rem 152.9375rem #ae6cff,
+    128.375rem 150.375rem #ae6cff, 26.5625rem 58.625rem #ae6cff,
+    60rem 5.375rem #ae6cff, 141.5rem 56.5625rem #ae6cff,
+    37.1875rem 145.0625rem #ae6cff;
+  width: 0.1875rem;
+  height: 0.1875rem;
+}
+.Hero_particle-4__RYIzP {
+  box-shadow: 0 0 #ae6cff, 138.9375rem 5.5625rem #ae6cff,
+    5.125rem 15.9375rem #ae6cff, 11.375rem 143.1875rem #ae6cff,
+    148.1875rem 139.8125rem #ae6cff, 157.125rem 60.3125rem #ae6cff,
+    16.6875rem 72.75rem #ae6cff, 83.375rem 124.875rem #ae6cff,
+    41.625rem 154rem #ae6cff, 150.1875rem 27.6875rem #ae6cff,
+    99.1875rem 86.8125rem #ae6cff, 68.25rem 18.6875rem #ae6cff,
+    35.125rem 90.25rem #ae6cff, 86.4375rem 90.0625rem #ae6cff,
+    131.6875rem 22.9375rem #ae6cff, 85.875rem 118.0625rem #ae6cff,
+    54.5625rem 144.5rem #ae6cff, 45.125rem 99.4375rem #ae6cff,
+    152.1875rem 141.875rem #ae6cff, 151rem 73.75rem #ae6cff,
+    77.3125rem 33rem #ae6cff, 151.3125rem 157.875rem #ae6cff,
+    122rem 80.375rem #ae6cff, 94.1875rem 10.6875rem #ae6cff,
+    156.75rem 82.75rem #ae6cff, 38.625rem 64.75rem #ae6cff,
+    80.4375rem 30.0625rem #ae6cff, 144.25rem 150.0625rem #ae6cff,
+    78.625rem 81.625rem #ae6cff, 90.125rem 34.4375rem #ae6cff,
+    96.625rem 97.75rem #ae6cff, 77.125rem 69rem #ae6cff,
+    153.4375rem 95.1875rem #ae6cff, 137.6875rem 32.6875rem #ae6cff,
+    151.1875rem 41.875rem #ae6cff, 1.3125rem 3.125rem #ae6cff,
+    64.6875rem 37.5625rem #ae6cff, 151.75rem 73.25rem #ae6cff,
+    6.875rem 59.625rem #ae6cff, 47.625rem 118.8125rem #ae6cff,
+    2.0625rem 98rem #ae6cff, 124.25rem 13.1875rem #ae6cff,
+    93.625rem 29.9375rem #ae6cff, 104.8125rem 114.9375rem #ae6cff,
+    40rem 141.3125rem #ae6cff, 47.1875rem 5.5rem #ae6cff,
+    6.75rem 109.8125rem #ae6cff, 34rem 93.75rem #ae6cff,
+    136.5rem 151.1875rem #ae6cff, 46.5rem 47rem #ae6cff,
+    69.125rem 12.6875rem #ae6cff, 101.875rem 81.8125rem #ae6cff,
+    105.3125rem 85.625rem #ae6cff, 47.8125rem 146.4375rem #ae6cff,
+    80.4375rem 2.0625rem #ae6cff, 5.9375rem 36.0625rem #ae6cff,
+    37.25rem 75.25rem #ae6cff, 3.3125rem 63.625rem #ae6cff,
+    16.25rem 34.125rem #ae6cff, 45.75rem 135.5625rem #ae6cff,
+    71.125rem 87.9375rem #ae6cff, 67.625rem 96.1875rem #ae6cff,
+    147.625rem 67.8125rem #ae6cff, 14.4375rem 96.4375rem #ae6cff,
+    73.6875rem 157.4375rem #ae6cff, 43.875rem 19.25rem #ae6cff,
+    68.875rem 24.625rem #ae6cff, 82.3125rem 79.875rem #ae6cff,
+    52.9375rem 119.3125rem #ae6cff, 136.5625rem 111.375rem #ae6cff,
+    112.0625rem 9rem #ae6cff, 22.3125rem 14.125rem #ae6cff,
+    21rem 27.3125rem #ae6cff, 109rem 119.8125rem #ae6cff,
+    145.5rem 31.6875rem #ae6cff, 46.875rem 36.8125rem #ae6cff,
+    118.3125rem 132.3125rem #ae6cff, 46.125rem 24rem #ae6cff,
+    141.5rem 127.4375rem #ae6cff, 128.9375rem 76.625rem #ae6cff,
+    104.0625rem 140.5625rem #ae6cff, 2.375rem 109.5625rem #ae6cff,
+    77.0625rem 2.875rem #ae6cff, 30.3125rem 139.75rem #ae6cff,
+    121.3125rem 149.5rem #ae6cff, 22.5625rem 11.9375rem #ae6cff,
+    57rem 155.75rem #ae6cff, 127.3125rem 28rem #ae6cff,
+    63.1875rem 75.5625rem #ae6cff, 54.125rem 82.3125rem #ae6cff,
+    65.25rem 18.9375rem #ae6cff, 153.6875rem 36.75rem #ae6cff,
+    147.375rem 18.625rem #ae6cff, 20.25rem 29.5625rem #ae6cff,
+    20rem 79.5625rem #ae6cff, 26.75rem 132.0625rem #ae6cff,
+    120.25rem 143rem #ae6cff, 115.875rem 104rem #ae6cff,
+    15.4375rem 2.3125rem #ae6cff, 0.6875rem 4.4375rem #ae6cff,
+    71rem 140.1875rem #ae6cff, 159.9375rem 107.375rem #ae6cff,
+    124rem 34rem #ae6cff, 77.1875rem 137.875rem #ae6cff,
+    98.75rem 60.375rem #ae6cff, 132.5rem 6.9375rem #ae6cff,
+    126.5625rem 96.125rem #ae6cff, 155.6875rem 94.6875rem #ae6cff,
+    16.6875rem 117.5rem #ae6cff, 36rem 151.1875rem #ae6cff,
+    36.6875rem 65.6875rem #ae6cff, 59.5625rem 159.5625rem #ae6cff,
+    8.8125rem 81.5rem #ae6cff, 50.5625rem 151.4375rem #ae6cff,
+    135.75rem 60rem #ae6cff, 23.6875rem 142.25rem #ae6cff,
+    14.5rem 116.5rem #ae6cff, 101.5rem 53.875rem #ae6cff,
+    129.25rem 126.5rem #ae6cff, 39.3125rem 151.25rem #ae6cff,
+    97.75rem 104.625rem #ae6cff, 102.5625rem 65.125rem #ae6cff,
+    25.4375rem 136.25rem #ae6cff, 86.875rem 53.4375rem #ae6cff,
+    153.8125rem 150.6875rem #ae6cff, 15.625rem 102.9375rem #ae6cff,
+    11.625rem 98.5625rem #ae6cff, 64.6875rem 97.5625rem #ae6cff,
+    14.625rem 61.625rem #ae6cff, 123.5rem 54.5625rem #ae6cff,
+    28.6875rem 116.4375rem #ae6cff, 139.3125rem 6.6875rem #ae6cff,
+    145rem 18.9375rem #ae6cff, 71.125rem 27.9375rem #ae6cff,
+    143.375rem 18.8125rem #ae6cff, 137.6875rem 135.5rem #ae6cff,
+    25.75rem 82.125rem #ae6cff, 27.8125rem 47.9375rem #ae6cff,
+    61.875rem 129.875rem #ae6cff, 110.5rem 123.8125rem #ae6cff,
+    60rem 79.3125rem #ae6cff, 89.375rem 4.875rem #ae6cff,
+    133.6875rem 145.625rem #ae6cff, 63.4375rem 100.0625rem #ae6cff,
+    95.125rem 100.25rem #ae6cff, 69.3125rem 76.1875rem #ae6cff,
+    127.4375rem 1.375rem #ae6cff, 91.8125rem 101rem #ae6cff,
+    55.25rem 22.375rem #ae6cff, 102rem 44rem #ae6cff,
+    46.625rem 43.125rem #ae6cff, 95.625rem 13.875rem #ae6cff,
+    152.6875rem 74.875rem #ae6cff, 56.6875rem 29.6875rem #ae6cff,
+    119.875rem 68.5rem #ae6cff, 105.9375rem 156.6875rem #ae6cff,
+    148.8125rem 99.0625rem #ae6cff, 9.375rem 89.1875rem #ae6cff,
+    104.4375rem 122.0625rem #ae6cff, 118.25rem 1.375rem #ae6cff,
+    36.5625rem 111.6875rem #ae6cff, 14.9375rem 137.125rem #ae6cff,
+    89.375rem 91.625rem #ae6cff, 30.6875rem 1rem #ae6cff,
+    89.9375rem 110.25rem #ae6cff, 121.5rem 19.375rem #ae6cff,
+    133.3125rem 80.0625rem #ae6cff, 55.6875rem 33.1875rem #ae6cff,
+    6.875rem 116.4375rem #ae6cff, 93.5625rem 39.0625rem #ae6cff,
+    55.875rem 151.5625rem #ae6cff, 156.4375rem 108.8125rem #ae6cff,
+    78.3125rem 115.5rem #ae6cff, 98.6875rem 6.1875rem #ae6cff,
+    90.125rem 148.4375rem #ae6cff, 10.0625rem 106.375rem #ae6cff,
+    85.5rem 102.3125rem #ae6cff, 102.25rem 66rem #ae6cff,
+    12.75rem 107.0625rem #ae6cff, 147.5rem 7.9375rem #ae6cff,
+    122.4375rem 154.125rem #ae6cff, 114.5625rem 83.25rem #ae6cff,
+    49.375rem 67.9375rem #ae6cff, 72.5rem 29.875rem #ae6cff,
+    148rem 103.75rem #ae6cff, 92.5625rem 135.75rem #ae6cff,
+    156.4375rem 7.5rem #ae6cff, 113.3125rem 74.75rem #ae6cff,
+    73.9375rem 21.75rem #ae6cff, 78.0625rem 121.125rem #ae6cff,
+    138.0625rem 135.6875rem #ae6cff, 1rem 94.625rem #ae6cff,
+    5.1875rem 39.3125rem #ae6cff, 0.75rem 147.1875rem #ae6cff,
+    50.5rem 96.125rem #ae6cff, 140.3125rem 73.3125rem #ae6cff,
+    53.75rem 62.8125rem #ae6cff, 127.8125rem 100.125rem #ae6cff,
+    32.375rem 93.0625rem #ae6cff, 148.6875rem 73.9375rem #ae6cff,
+    111.5rem 56.5625rem #ae6cff, 3.75rem 123.9375rem #ae6cff,
+    55.1875rem 8.5rem #ae6cff, 88.1875rem 97.25rem #ae6cff,
+    94.625rem 69.0625rem #ae6cff, 90.875rem 35.625rem #ae6cff,
+    45.5rem 57.8125rem #ae6cff, 117.375rem 148.875rem #ae6cff,
+    101.4375rem 9.875rem #ae6cff, 103.3125rem 105.625rem #ae6cff,
+    64.9375rem 130.625rem #ae6cff, 121.9375rem 68.75rem #ae6cff,
+    84.1875rem 38.1875rem #ae6cff, 28.5625rem 82rem #ae6cff,
+    14.5rem 120.125rem #ae6cff, 22.1875rem 44.0625rem #ae6cff,
+    35.375rem 129.9375rem #ae6cff, 58rem 87.8125rem #ae6cff,
+    101.125rem 23.375rem #ae6cff, 119.25rem 71.25rem #ae6cff,
+    49.3125rem 118.6875rem #ae6cff, 36.5625rem 19.4375rem #ae6cff,
+    73.5rem 119.125rem #ae6cff, 113.3125rem 35.8125rem #ae6cff,
+    17.1875rem 60.75rem #ae6cff, 108.0625rem 139.0625rem #ae6cff,
+    3.875rem 65.5rem #ae6cff, 13.875rem 8.125rem #ae6cff,
+    7.0625rem 39.875rem #ae6cff, 66.875rem 70.8125rem #ae6cff,
+    27.6875rem 129.125rem #ae6cff, 78.875rem 40.5625rem #ae6cff,
+    86.875rem 129.8125rem #ae6cff, 153.875rem 88.9375rem #ae6cff,
+    157.25rem 20.125rem #ae6cff, 34.375rem 137.875rem #ae6cff,
+    75.5625rem 93.9375rem #ae6cff, 14.1875rem 38.125rem #ae6cff,
+    87.1875rem 96.1875rem #ae6cff, 86.3125rem 62.0625rem #ae6cff,
+    147.5rem 140.4375rem #ae6cff, 107.3125rem 59.625rem #ae6cff,
+    103.125rem 120rem #ae6cff, 13.1875rem 71.125rem #ae6cff,
+    33.375rem 138.1875rem #ae6cff, 133.3125rem 42.875rem #ae6cff,
+    1.0625rem 111.1875rem #ae6cff, 59rem 76.9375rem #ae6cff,
+    99.6875rem 116rem #ae6cff, 96.1875rem 134.8125rem #ae6cff,
+    45.0625rem 29.375rem #ae6cff, 55.8125rem 85.875rem #ae6cff,
+    112.3125rem 123.5rem #ae6cff, 51.1875rem 114.5rem #ae6cff,
+    139.625rem 158.25rem #ae6cff, 110.0625rem 90.5rem #ae6cff,
+    79.8125rem 128.5rem #ae6cff, 134.6875rem 21.25rem #ae6cff,
+    137.1875rem 126.9375rem #ae6cff, 35.3125rem 10.375rem #ae6cff,
+    17.75rem 60.1875rem #ae6cff, 111.0625rem 112.25rem #ae6cff,
+    117.4375rem 1.5rem #ae6cff, 138.875rem 128.4375rem #ae6cff,
+    117.6875rem 140.125rem #ae6cff, 127.9375rem 67.5rem #ae6cff,
+    131.8125rem 159.0625rem #ae6cff, 30.0625rem 130.75rem #ae6cff,
+    3.9375rem 10.875rem #ae6cff, 79.875rem 110.125rem #ae6cff,
+    113.875rem 18.0625rem #ae6cff, 45.75rem 67.5rem #ae6cff,
+    73.0625rem 79.25rem #ae6cff, 104rem 159.125rem #ae6cff,
+    31.3125rem 87.125rem #ae6cff, 0.5rem 84.6875rem #ae6cff,
+    126rem 108.75rem #ae6cff, 102.375rem 127.3125rem #ae6cff,
+    1.6875rem 33.625rem #ae6cff, 139.0625rem 79.25rem #ae6cff,
+    120.8125rem 25.375rem #ae6cff, 25.125rem 17.1875rem #ae6cff,
+    32.3125rem 115.9375rem #ae6cff, 67.25rem 21.625rem #ae6cff,
+    117.375rem 113.125rem #ae6cff, 124.625rem 49rem #ae6cff,
+    13.8125rem 81.6875rem #ae6cff, 52.625rem 11.8125rem #ae6cff,
+    108.25rem 43.625rem #ae6cff, 41rem 1.25rem #ae6cff,
+    1.125rem 7.0625rem #ae6cff, 155.875rem 5.3125rem #ae6cff,
+    61.6875rem 16.0625rem #ae6cff, 7.6875rem 54.0625rem #ae6cff,
+    82.125rem 12.0625rem #ae6cff, 18.9375rem 85.9375rem #ae6cff,
+    141.1875rem 124.5rem #ae6cff, 107.5625rem 150.9375rem #ae6cff,
+    15.0625rem 99.5rem #ae6cff, 28.9375rem 66.5rem #ae6cff,
+    152.6875rem 111.8125rem #ae6cff, 18.4375rem 141.6875rem #ae6cff,
+    76.5rem 128.5rem #ae6cff, 58.4375rem 84.375rem #ae6cff,
+    10.1875rem 57.875rem #ae6cff, 43.0625rem 50.9375rem #ae6cff,
+    102.8125rem 139rem #ae6cff, 68.0625rem 33.25rem #ae6cff,
+    14.5625rem 133.9375rem #ae6cff, 24.1875rem 10.125rem #ae6cff,
+    145.75rem 113.1875rem #ae6cff, 126.5625rem 47.125rem #ae6cff,
+    156.875rem 111.25rem #ae6cff, 44rem 125.3125rem #ae6cff,
+    20.875rem 14.25rem #ae6cff, 56.125rem 14.4375rem #ae6cff,
+    105.1875rem 14.875rem #ae6cff, 59.9375rem 26.375rem #ae6cff,
+    132.75rem 82.25rem #ae6cff, 61.5rem 86.25rem #ae6cff, 0.875rem 58rem #ae6cff,
+    31.4375rem 120.375rem #ae6cff, 34.5rem 23.6875rem #ae6cff,
+    11.3125rem 17rem #ae6cff, 10.9375rem 110.5rem #ae6cff,
+    137.375rem 23.5625rem #ae6cff, 120.5625rem 44.3125rem #ae6cff,
+    110.1875rem 2.25rem #ae6cff, 141.3125rem 55.8125rem #ae6cff,
+    140.3125rem 83.5625rem #ae6cff, 0.375rem 76.375rem #ae6cff,
+    136.75rem 149.6875rem #ae6cff, 76rem 124.4375rem #ae6cff,
+    37.875rem 91.1875rem #ae6cff, 99.375rem 0.9375rem #ae6cff,
+    146.1875rem 65.875rem #ae6cff, 63.9375rem 103.75rem #ae6cff,
+    41.9375rem 132.0625rem #ae6cff, 145.4375rem 94.0625rem #ae6cff,
+    103.3125rem 141.3125rem #ae6cff, 91rem 93.6875rem #ae6cff,
+    22.8125rem 97.875rem #ae6cff, 144.4375rem 3.4375rem #ae6cff,
+    55.8125rem 5.5625rem #ae6cff, 150.625rem 129.6875rem #ae6cff,
+    56.5625rem 32.0625rem #ae6cff, 92.25rem 146.9375rem #ae6cff,
+    138.4375rem 152.8125rem #ae6cff, 60rem 21rem #ae6cff,
+    56.625rem 0.4375rem #ae6cff, 31.5625rem 118.75rem #ae6cff,
+    63.4375rem 29.0625rem #ae6cff, 122.375rem 153.4375rem #ae6cff,
+    38.8125rem 68.3125rem #ae6cff, 138.125rem 122.875rem #ae6cff,
+    113rem 30.0625rem #ae6cff, 105.9375rem 24.625rem #ae6cff,
+    59.4375rem 32.125rem #ae6cff, 58.625rem 39.3125rem #ae6cff,
+    48.1875rem 70.75rem #ae6cff, 124.1875rem 18.5rem #ae6cff,
+    40.9375rem 6.4375rem #ae6cff, 144.625rem 149.625rem #ae6cff,
+    60.3125rem 120.6875rem #ae6cff, 158.625rem 8.25rem #ae6cff,
+    21.4375rem 116.875rem #ae6cff, 90.25rem 0.875rem #ae6cff,
+    34.5rem 11.4375rem #ae6cff, 37.875rem 107.625rem #ae6cff,
+    159.25rem 109.625rem #ae6cff, 10rem 115.6875rem #ae6cff,
+    134.4375rem 21.5625rem #ae6cff, 32.875rem 145rem #ae6cff,
+    39.9375rem 64.0625rem #ae6cff, 64.5625rem 141.875rem #ae6cff,
+    12.625rem 151.25rem #ae6cff, 88.5rem 91.125rem #ae6cff,
+    55rem 122.625rem #ae6cff, 78rem 114.25rem #ae6cff, 131rem 132.75rem #ae6cff,
+    33.75rem 45.4375rem #ae6cff, 143.9375rem 26.9375rem #ae6cff,
+    14.0625rem 6.5rem #ae6cff, 52.1875rem 61rem #ae6cff,
+    5.1875rem 64.375rem #ae6cff, 144.5625rem 36.5rem #ae6cff,
+    145.75rem 67.5rem #ae6cff, 52.375rem 82.5625rem #ae6cff,
+    8.3125rem 55.5rem #ae6cff, 56.3125rem 3.1875rem #ae6cff,
+    98.125rem 84.0625rem #ae6cff, 45.9375rem 38.6875rem #ae6cff,
+    54.0625rem 114.875rem #ae6cff, 115.0625rem 138.625rem #ae6cff,
+    130.75rem 62.5rem #ae6cff, 3.9375rem 7.5625rem #ae6cff,
+    66.125rem 122.0625rem #ae6cff, 118.75rem 45.125rem #ae6cff,
+    116.1875rem 77.5625rem #ae6cff, 122rem 61.75rem #ae6cff,
+    35.875rem 140.0625rem #ae6cff;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  animation: Hero_animate-particles__msr2N 600s linear infinite;
+}
+.Hero_particle-4__RYIzP:after {
+  box-shadow: 0 0 #ae6cff, 116.4375rem 121.75rem #ae6cff,
+    102.8125rem 79.25rem #ae6cff, 28.9375rem 127.4375rem #ae6cff,
+    27.5625rem 106.3125rem #ae6cff, 23.1875rem 93.5625rem #ae6cff,
+    62.3125rem 7.125rem #ae6cff, 23.5625rem 80.5rem #ae6cff,
+    113.4375rem 107.125rem #ae6cff, 133.75rem 86.5rem #ae6cff,
+    76.25rem 70.8125rem #ae6cff, 154.25rem 3.75rem #ae6cff,
+    1.25rem 69.5rem #ae6cff, 28.25rem 153.8125rem #ae6cff,
+    85.625rem 24.5rem #ae6cff, 55.75rem 52.6875rem #ae6cff,
+    33.1875rem 99.5rem #ae6cff, 111.625rem 127.75rem #ae6cff,
+    84.5625rem 44.9375rem #ae6cff, 85.3125rem 5.9375rem #ae6cff,
+    112.6875rem 51.875rem #ae6cff, 130.6875rem 63.3125rem #ae6cff,
+    143.1875rem 9.625rem #ae6cff, 146.1875rem 50.5625rem #ae6cff,
+    113.5625rem 93.9375rem #ae6cff, 95.3125rem 64.8125rem #ae6cff,
+    133.1875rem 68.75rem #ae6cff, 158.125rem 51.875rem #ae6cff,
+    45.75rem 139rem #ae6cff, 12.125rem 38.4375rem #ae6cff,
+    16.8125rem 113.625rem #ae6cff, 31.8125rem 95.875rem #ae6cff,
+    62.5rem 60.25rem #ae6cff, 47.1875rem 10.375rem #ae6cff,
+    140.9375rem 103.625rem #ae6cff, 69.0625rem 148.6875rem #ae6cff,
+    22.6875rem 159.1875rem #ae6cff, 71.25rem 72.25rem #ae6cff,
+    98.6875rem 74.6875rem #ae6cff, 1.9375rem 151.3125rem #ae6cff,
+    20.125rem 88.6875rem #ae6cff, 98.125rem 109.9375rem #ae6cff,
+    61.75rem 139.25rem #ae6cff, 99.1875rem 112.8125rem #ae6cff,
+    78.1875rem 121.0625rem #ae6cff, 143.3125rem 34.875rem #ae6cff,
+    56.5rem 16.125rem #ae6cff, 138.4375rem 145.3125rem #ae6cff,
+    44.1875rem 100.5625rem #ae6cff, 105.5625rem 26.1875rem #ae6cff,
+    69.3125rem 93.8125rem #ae6cff, 35.5625rem 9.0625rem #ae6cff,
+    34.6875rem 40.0625rem #ae6cff, 39.3125rem 47.25rem #ae6cff,
+    78.3125rem 23rem #ae6cff, 146.3125rem 75.6875rem #ae6cff,
+    140.625rem 60.375rem #ae6cff, 64.625rem 142.5625rem #ae6cff,
+    11rem 141.4375rem #ae6cff, 28.125rem 7rem #ae6cff, 71rem 109.5625rem #ae6cff,
+    36.625rem 117.5rem #ae6cff, 107.125rem 60rem #ae6cff,
+    148.875rem 53.3125rem #ae6cff, 117.0625rem 49.375rem #ae6cff,
+    112.9375rem 147.0625rem #ae6cff, 17.625rem 106.9375rem #ae6cff,
+    51.5625rem 6.4375rem #ae6cff, 67.6875rem 45.5625rem #ae6cff,
+    76.375rem 19.8125rem #ae6cff, 7.25rem 100.0625rem #ae6cff,
+    61.75rem 153.375rem #ae6cff, 118.4375rem 153.3125rem #ae6cff,
+    96.125rem 18.25rem #ae6cff, 13.4375rem 138.8125rem #ae6cff,
+    44.0625rem 73.8125rem #ae6cff, 90.8125rem 57.6875rem #ae6cff,
+    4.375rem 46.625rem #ae6cff, 18.75rem 112.3125rem #ae6cff,
+    119.375rem 77.5625rem #ae6cff, 92.4375rem 141.5rem #ae6cff,
+    4.375rem 64.5rem #ae6cff, 142.5rem 143.875rem #ae6cff,
+    153.375rem 8.6875rem #ae6cff, 89.625rem 118.4375rem #ae6cff,
+    155.9375rem 45.1875rem #ae6cff, 104.6875rem 124rem #ae6cff,
+    58.375rem 5.8125rem #ae6cff, 44.625rem 139.5rem #ae6cff,
+    157.8125rem 129rem #ae6cff, 104.1875rem 104.5625rem #ae6cff,
+    2.375rem 81.9375rem #ae6cff, 125rem 150.125rem #ae6cff,
+    155.875rem 60.5rem #ae6cff, 36.1875rem 142.1875rem #ae6cff,
+    96.375rem 113.9375rem #ae6cff, 138.8125rem 18.6875rem #ae6cff,
+    32rem 139.9375rem #ae6cff, 94.125rem 117.1875rem #ae6cff,
+    5.625rem 84.25rem #ae6cff, 139rem 114.875rem #ae6cff,
+    87.6875rem 138.3125rem #ae6cff, 95.5rem 69.5625rem #ae6cff,
+    143.875rem 112rem #ae6cff, 57.3125rem 12.9375rem #ae6cff,
+    97.375rem 67.5rem #ae6cff, 157.5625rem 88.25rem #ae6cff,
+    159.5625rem 63.4375rem #ae6cff, 63.0625rem 38.6875rem #ae6cff,
+    11.5625rem 18.375rem #ae6cff, 65.625rem 108.6875rem #ae6cff,
+    73.25rem 72.5rem #ae6cff, 33.125rem 111.5rem #ae6cff,
+    32.375rem 157.6875rem #ae6cff, 98.875rem 138.9375rem #ae6cff,
+    132.4375rem 29.9375rem #ae6cff, 110.75rem 74.125rem #ae6cff,
+    42.0625rem 86.5625rem #ae6cff, 1.6875rem 59rem #ae6cff,
+    153.6875rem 117.4375rem #ae6cff, 20.375rem 2.1875rem #ae6cff,
+    125.3125rem 150.6875rem #ae6cff, 115.8125rem 159.625rem #ae6cff,
+    13.875rem 43.5625rem #ae6cff, 127.1875rem 89.5rem #ae6cff,
+    6.125rem 149.1875rem #ae6cff, 130.625rem 4.9375rem #ae6cff,
+    6.6875rem 109.1875rem #ae6cff, 101.125rem 140.25rem #ae6cff,
+    28.3125rem 39.1875rem #ae6cff, 142.5rem 108rem #ae6cff,
+    140.5625rem 57.75rem #ae6cff, 129.125rem 71.25rem #ae6cff,
+    47.5rem 27.875rem #ae6cff, 86.6875rem 100.125rem #ae6cff,
+    64.25rem 88.125rem #ae6cff, 49.9375rem 104.4375rem #ae6cff,
+    22.4375rem 132.1875rem #ae6cff, 49.625rem 83.875rem #ae6cff,
+    142.625rem 26.625rem #ae6cff, 89.0625rem 123.75rem #ae6cff,
+    72.625rem 5rem #ae6cff, 70.25rem 67.4375rem #ae6cff,
+    149.625rem 92.4375rem #ae6cff, 12.375rem 79.75rem #ae6cff,
+    96.5625rem 63.1875rem #ae6cff, 57.1875rem 158.5625rem #ae6cff,
+    96.375rem 83.1875rem #ae6cff, 110rem 138.3125rem #ae6cff,
+    69.9375rem 0.8125rem #ae6cff, 11.875rem 99.5625rem #ae6cff,
+    12.9375rem 92.1875rem #ae6cff, 48rem 156.6875rem #ae6cff,
+    2.8125rem 122.25rem #ae6cff, 83.75rem 153.3125rem #ae6cff,
+    76rem 145.1875rem #ae6cff, 107.0625rem 73.4375rem #ae6cff,
+    37.75rem 65.5rem #ae6cff, 16.1875rem 70.0625rem #ae6cff,
+    121.5625rem 81.125rem #ae6cff, 102.6875rem 129.5rem #ae6cff,
+    92.875rem 53.1875rem #ae6cff, 25.3125rem 42.3125rem #ae6cff,
+    19.625rem 141rem #ae6cff, 2.5rem 154.5625rem #ae6cff,
+    49.9375rem 92.5625rem #ae6cff, 130.375rem 18.5625rem #ae6cff,
+    55.875rem 66.875rem #ae6cff, 151.875rem 76.5rem #ae6cff,
+    128.8125rem 141rem #ae6cff, 30.4375rem 131.6875rem #ae6cff,
+    1.6875rem 18.75rem #ae6cff, 132.9375rem 31.4375rem #ae6cff,
+    153.5rem 85rem #ae6cff, 61.3125rem 46.8125rem #ae6cff,
+    105.8125rem 101.375rem #ae6cff, 147.6875rem 19.3125rem #ae6cff,
+    89.875rem 131.9375rem #ae6cff, 16.625rem 28.75rem #ae6cff,
+    123.75rem 128.3125rem #ae6cff, 72.8125rem 35.25rem #ae6cff,
+    25.3125rem 53.75rem #ae6cff, 136.125rem 25.375rem #ae6cff,
+    11.75rem 88.75rem #ae6cff, 150.75rem 79.9375rem #ae6cff,
+    17.125rem 63.8125rem #ae6cff, 30.375rem 65.8125rem #ae6cff,
+    64.125rem 43.8125rem #ae6cff, 58.4375rem 124.1875rem #ae6cff,
+    40.8125rem 84.625rem #ae6cff, 154.5rem 133.5rem #ae6cff,
+    78rem 74.125rem #ae6cff, 19.875rem 68.9375rem #ae6cff,
+    125.3125rem 87.8125rem #ae6cff, 126.8125rem 55.9375rem #ae6cff,
+    30.875rem 77.125rem #ae6cff, 80.1875rem 155.4375rem #ae6cff,
+    155.25rem 137.625rem #ae6cff, 127.375rem 64.5625rem #ae6cff,
+    40.5625rem 78.875rem #ae6cff, 127.1875rem 14.75rem #ae6cff,
+    156.6875rem 33.375rem #ae6cff, 94.375rem 117.3125rem #ae6cff,
+    26.625rem 65.5625rem #ae6cff, 49.375rem 120.4375rem #ae6cff,
+    106rem 157.875rem #ae6cff, 18.0625rem 109.5625rem #ae6cff,
+    145.4375rem 88.5rem #ae6cff, 36.9375rem 50.125rem #ae6cff,
+    34.6875rem 136.875rem #ae6cff, 124.9375rem 81.0625rem #ae6cff,
+    107.0625rem 152.6875rem #ae6cff, 43.6875rem 101.125rem #ae6cff,
+    75.75rem 58.8125rem #ae6cff, 8.875rem 76.6875rem #ae6cff,
+    121.125rem 128.5rem #ae6cff, 116.125rem 49.25rem #ae6cff,
+    100.875rem 5.875rem #ae6cff, 12.375rem 16.3125rem #ae6cff,
+    106.1875rem 149.8125rem #ae6cff, 91.9375rem 5.125rem #ae6cff,
+    33.0625rem 84rem #ae6cff, 10.3125rem 29.375rem #ae6cff,
+    108.5625rem 112.6875rem #ae6cff, 96.625rem 84.1875rem #ae6cff,
+    89.75rem 122.0625rem #ae6cff, 65.375rem 48.5625rem #ae6cff,
+    151.25rem 71.875rem #ae6cff, 54.0625rem 124.875rem #ae6cff,
+    39.25rem 27.9375rem #ae6cff, 35rem 79.5625rem #ae6cff,
+    67.3125rem 93.75rem #ae6cff, 93.8125rem 59.8125rem #ae6cff,
+    138.3125rem 9.1875rem #ae6cff, 103.8125rem 100.75rem #ae6cff,
+    19.0625rem 80.75rem #ae6cff, 118.1875rem 32.4375rem #ae6cff,
+    102.8125rem 31.125rem #ae6cff, 19.9375rem 62.8125rem #ae6cff,
+    45.125rem 127.75rem #ae6cff, 68.8125rem 136.875rem #ae6cff,
+    103.75rem 72.3125rem #ae6cff, 136rem 22.125rem #ae6cff,
+    13.9375rem 100.0625rem #ae6cff, 82.375rem 60.625rem #ae6cff,
+    88.75rem 12.8125rem #ae6cff, 150.6875rem 37.75rem #ae6cff,
+    127.6875rem 71.25rem #ae6cff, 132.375rem 127.25rem #ae6cff,
+    60rem 147.1875rem #ae6cff, 127.5rem 76.1875rem #ae6cff,
+    92.9375rem 22.625rem #ae6cff, 40.875rem 144.0625rem #ae6cff,
+    63.9375rem 91.8125rem #ae6cff, 153rem 153.4375rem #ae6cff,
+    120.8125rem 139.375rem #ae6cff, 15.9375rem 24rem #ae6cff,
+    64.75rem 133.75rem #ae6cff, 134.625rem 155.1875rem #ae6cff,
+    93.8125rem 130.125rem #ae6cff, 132.9375rem 119.0625rem #ae6cff,
+    152.5625rem 0.25rem #ae6cff, 70.25rem 56.75rem #ae6cff,
+    82.5625rem 41.9375rem #ae6cff, 73.8125rem 38.6875rem #ae6cff,
+    74.625rem 89.75rem #ae6cff, 102.0625rem 5.5625rem #ae6cff,
+    152.4375rem 70.5rem #ae6cff, 58rem 70.4375rem #ae6cff,
+    38.375rem 150.4375rem #ae6cff, 24.5rem 138.125rem #ae6cff,
+    94.6875rem 26rem #ae6cff, 50.3125rem 104.5rem #ae6cff, 143rem 71rem #ae6cff,
+    127.5rem 28.4375rem #ae6cff, 140.625rem 79.4375rem #ae6cff,
+    142rem 40.25rem #ae6cff, 71.5rem 134.3125rem #ae6cff,
+    91.875rem 80.25rem #ae6cff, 153.9375rem 136.875rem #ae6cff,
+    21.6875rem 37.3125rem #ae6cff, 24.5rem 10.125rem #ae6cff,
+    35.25rem 141.3125rem #ae6cff, 120.5625rem 73.9375rem #ae6cff,
+    22.8125rem 111.375rem #ae6cff, 96.5625rem 99.1875rem #ae6cff,
+    27.375rem 85.8125rem #ae6cff, 145.875rem 15.875rem #ae6cff,
+    10.1875rem 140.625rem #ae6cff, 141.5rem 38.3125rem #ae6cff,
+    15.6875rem 158.6875rem #ae6cff, 113.3125rem 47.125rem #ae6cff,
+    152.0625rem 152.6875rem #ae6cff, 68.4375rem 51.5rem #ae6cff,
+    139.9375rem 122.625rem #ae6cff, 40.125rem 69.1875rem #ae6cff,
+    139.9375rem 79.3125rem #ae6cff, 83.9375rem 136.625rem #ae6cff,
+    57.875rem 36.25rem #ae6cff, 91.6875rem 140.625rem #ae6cff,
+    141.1875rem 112.75rem #ae6cff, 14.5rem 157.75rem #ae6cff,
+    19.0625rem 72.3125rem #ae6cff, 65.5625rem 144.75rem #ae6cff,
+    90.4375rem 53.625rem #ae6cff, 87.3125rem 133.625rem #ae6cff,
+    0.3125rem 4.25rem #ae6cff, 59.5625rem 158.625rem #ae6cff,
+    37.25rem 27.875rem #ae6cff, 107.4375rem 40.875rem #ae6cff,
+    78.5625rem 60.1875rem #ae6cff, 132.625rem 54.6875rem #ae6cff,
+    78.4375rem 111.5rem #ae6cff, 126rem 0.8125rem #ae6cff,
+    7.625rem 0.3125rem #ae6cff, 80.8125rem 144.3125rem #ae6cff,
+    140rem 75.8125rem #ae6cff, 50.625rem 61.3125rem #ae6cff,
+    115.375rem 109.9375rem #ae6cff, 23.75rem 30.25rem #ae6cff,
+    86.0625rem 22.1875rem #ae6cff, 76.9375rem 99.6875rem #ae6cff,
+    63.0625rem 27.75rem #ae6cff, 141.9375rem 1.875rem #ae6cff,
+    14rem 107.875rem #ae6cff, 33.625rem 19.5rem #ae6cff,
+    27.75rem 105.625rem #ae6cff, 18.4375rem 152.75rem #ae6cff,
+    151.625rem 8.75rem #ae6cff, 67.75rem 68.1875rem #ae6cff,
+    47.6875rem 54.9375rem #ae6cff, 140.125rem 143.875rem #ae6cff,
+    154.5rem 117.4375rem #ae6cff, 64.9375rem 85.0625rem #ae6cff,
+    144.4375rem 87.6875rem #ae6cff, 56.6875rem 71.125rem #ae6cff,
+    23rem 150.5rem #ae6cff, 90.125rem 49.4375rem #ae6cff,
+    14.25rem 40.9375rem #ae6cff, 105.1875rem 4.1875rem #ae6cff,
+    22.625rem 84.5625rem #ae6cff, 159.3125rem 66.9375rem #ae6cff,
+    91.9375rem 16.5625rem #ae6cff, 99.1875rem 34.8125rem #ae6cff,
+    95rem 101.75rem #ae6cff, 120rem 50.3125rem #ae6cff,
+    115rem 40.3125rem #ae6cff, 55.375rem 73.4375rem #ae6cff,
+    104.6875rem 149.4375rem #ae6cff, 7.125rem 33.6875rem #ae6cff,
+    67.4375rem 99.125rem #ae6cff, 61.875rem 5.6875rem #ae6cff,
+    94.9375rem 28.5625rem #ae6cff, 69.75rem 12.9375rem #ae6cff,
+    59.25rem 17.4375rem #ae6cff, 72.5rem 105.125rem #ae6cff,
+    28.9375rem 19.3125rem #ae6cff, 112.25rem 137.9375rem #ae6cff,
+    70.8125rem 51.25rem #ae6cff, 81rem 84.375rem #ae6cff,
+    73.375rem 103.5625rem #ae6cff, 24.8125rem 62.875rem #ae6cff,
+    144.75rem 74.75rem #ae6cff, 103.125rem 151.3125rem #ae6cff,
+    150.25rem 142.875rem #ae6cff, 106.6875rem 77.875rem #ae6cff,
+    156.25rem 154.125rem #ae6cff, 80.625rem 158.5rem #ae6cff,
+    104.125rem 145rem #ae6cff, 30.625rem 79.0625rem #ae6cff,
+    154.375rem 53.125rem #ae6cff, 101.0625rem 97.375rem #ae6cff,
+    118.25rem 156.125rem #ae6cff, 18.625rem 61.0625rem #ae6cff,
+    91.3125rem 134.125rem #ae6cff, 148.8125rem 42.5625rem #ae6cff,
+    33.875rem 154.6875rem #ae6cff, 0.6875rem 98.625rem #ae6cff,
+    154.3125rem 70.75rem #ae6cff, 139.375rem 53.8125rem #ae6cff,
+    132.3125rem 31.625rem #ae6cff, 18rem 117.6875rem #ae6cff,
+    99.75rem 36.0625rem #ae6cff, 103.8125rem 139.6875rem #ae6cff,
+    46.0625rem 27.75rem #ae6cff, 114.5rem 24rem #ae6cff,
+    120rem 35.3125rem #ae6cff, 74.4375rem 54.0625rem #ae6cff,
+    86.3125rem 40.1875rem #ae6cff, 71.125rem 9.375rem #ae6cff,
+    96.25rem 5.8125rem #ae6cff, 38.125rem 50.75rem #ae6cff,
+    145.9375rem 13.4375rem #ae6cff, 147.75rem 143.4375rem #ae6cff,
+    148.8125rem 20.3125rem #ae6cff, 146.125rem 85.3125rem #ae6cff,
+    75.125rem 128.9375rem #ae6cff, 73.8125rem 51.6875rem #ae6cff,
+    156.0625rem 104.5rem #ae6cff, 55.5625rem 81.9375rem #ae6cff,
+    94.5625rem 44.875rem #ae6cff;
+  width: 0.0625rem;
+  height: 0.0625rem;
+}
+@keyframes Hero_animate-particles__msr2N {
+  0% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-160rem);
+  }
+}
+.ReasonItem_reason-item {
+  --y: calc((var(--cursor-y) * 0.0625rem));
+  --x: calc((var(--cursor-x) * 0.0625rem));
+  --animation-delay: 300ms;
+  --border-width: 0.0625rem;
+  position: relative;
+  overflow: hidden;
+  padding: var(--border-width);
+  opacity: 0;
+  background-color: hsla(0, 0%, 100%, 0.16);
+  border-radius: 1rem;
+}
+.ReasonItem_reason-item:before {
+  opacity: var(--border-hover-opacity);
+  background: radial-gradient(
+    62.5rem circle at var(--x) var(--y),
+    #8c8c8c,
+    transparent 40%
+  );
+}
+.ReasonItem_reason-item:after,
+.ReasonItem_reason-item:before {
+  pointer-events: none;
+  will-change: background, opacity;
+  content: '';
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+  transition: opacity 0.4s;
+}
+.ReasonItem_reason-item:after {
+  opacity: 0;
+  background: radial-gradient(
+    62.5rem circle at var(--x) var(--y),
+    hsla(0, 0%, 100%, 0.08),
+    transparent 40%
+  );
+}
+.ReasonItem_reason-item--reveal__D8EWh {
+  animation: var(--animation-fade-in), var(--animation-zoom-in);
+}
+.ReasonItem_reason-item:nth-child(2) {
+  animation-delay: var(--animation-delay);
+}
+.ReasonItem_reason-item:nth-child(3) {
+  animation-delay: calc(3 * var(--animation-delay));
+}
+@media (min-width: 30rem) {
+  .ReasonItem_reason-item:nth-child(3) {
+    animation-delay: calc(2 * var(--animation-delay));
+  }
+}
+.ReasonItem_reason-item:nth-child(4) {
+  animation-delay: calc(2 * var(--animation-delay));
+}
+@media (min-width: 30rem) {
+  .ReasonItem_reason-item:nth-child(4) {
+    animation-delay: calc(3 * var(--animation-delay));
+  }
+}
+.ReasonItem_reason-item:hover:after {
+  opacity: 1;
+}
+.ReasonItem_reason-item__background {
+  position: absolute;
+  top: var(--border-width);
+  right: var(--border-width);
+  bottom: var(--border-width);
+  left: var(--border-width);
+  background-color: var(--color-ninja);
+  border-radius: inherit;
+}
+.ReasonItem_reason-item--variant-cutting-edge {
+  grid-area: cutting-edge;
+}
+.ReasonItem_reason-item--variant-contributing-industry {
+  grid-area: contributing-industry;
+}
+.ReasonItem_reason-item--variant-collaborative-community {
+  grid-area: collaborative-community;
+}
+.ReasonItem_reason-item--variant-career-development {
+  grid-area: career-development;
+}
+.ReasonItem_reason-item__wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: inherit;
+}
+@media (min-width: 30rem) {
+  .ReasonItem_reason-item__wrapper {
+    padding: 1.5rem 2rem;
+  }
+}
+@media (min-width: 48rem) {
+  .ReasonItem_reason-item__wrapper {
+    padding: 2rem 2.5rem;
+  }
+}
+.ReasonItem_reason-item__content {
+  isolation: isolate;
+  max-width: 40ch;
+}
+@media (min-width: 64rem) {
+  .ReasonItem_reason-item__content {
+    max-width: 35ch;
+  }
+}
+.ReasonItem_reason-item__title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (min-width: 48rem) {
+  .ReasonItem_reason-item__title {
+    font-size: 1.75rem;
+  }
+}
+.ReasonItem_reason-item__description {
+  margin-top: 0.3125rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  background: radial-gradient(
+    120.96% 120.96% at 50% -20.96%,
+    #2e2e2e 0,
+    hsla(0, 0%, 100%, 0.8) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .ReasonItem_reason-item__description {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+  }
+}
+.ReasonItem_reason-item__globe {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: -1;
+  right: -3.125rem;
+  bottom: -6.25rem;
+  transform: rotate(24deg);
+  opacity: 0;
+}
+.ReasonItem_reason-item__globe img {
+  width: 15.625rem;
+  height: 22.5rem;
+}
+@media (min-width: 30rem) {
+  .ReasonItem_reason-item__globe img {
+    width: 23.75rem;
+    height: 33.8125rem;
+  }
+}
+.ReasonItem_reason-item__globe--show {
+  animation: var(--animation-fade-in);
+}
+@media (min-width: 30rem) {
+  .ReasonItem_reason-item__globe {
+    right: -6.8125rem;
+    bottom: -10.25rem;
+  }
+}
+@media (min-width: 48rem) {
+  .ReasonItem_reason-item__globe {
+    top: -3.5rem;
+    right: -5.5rem;
+    transform: rotate(3deg);
+  }
+}
+.ReasonItem_reason-item__cubes {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: -1;
+  right: -5.8125rem;
+  bottom: -6.4375rem;
+  opacity: 0;
+}
+.ReasonItem_reason-item__cubes--show {
+  animation: var(--animation-fade-in);
+}
+.ReasonItem_reason-item__cubes img {
+  width: 20rem;
+  height: 21.5rem;
+}
+@media (min-width: 30rem) {
+  .ReasonItem_reason-item__cubes img {
+    width: 32.3125rem;
+    height: 34.75rem;
+  }
+  .ReasonItem_reason-item__cubes {
+    right: -14.375rem;
+    bottom: -15rem;
+  }
+}
+@media (min-width: 48rem) {
+  .ReasonItem_reason-item__cubes {
+    right: -11.5625rem;
+    bottom: -8.75rem;
+  }
+}
+.ReasonItem_reason-item--variant-create-impact
+  .ReasonItem_reason-item__content {
+  margin-bottom: 11.875rem;
+}
+@media (min-width: 48rem) {
+  .ReasonItem_reason-item--variant-create-impact
+    .ReasonItem_reason-item__content {
+    margin-bottom: 7.75rem;
+  }
+}
+.ReasonItem_reason-item--variant-tech-stack .ReasonItem_reason-item__content {
+  margin-bottom: 11.875rem;
+}
+@media (min-width: 48rem) {
+  .ReasonItem_reason-item--variant-tech-stack .ReasonItem_reason-item__content {
+    margin-bottom: 10.25rem;
+  }
+}
+.ReasonList_reason-list {
+  --border-hover-opacity: 0;
+  display: grid;
+  grid-template-areas: 'cutting-edge' 'contributing-industry' 'career-development' 'collaborative-community';
+  grid-gap: 0.875rem;
+  gap: 0.875rem;
+  width: 100%;
+  margin: 3rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.ReasonList_reason-list:hover {
+  --border-hover-opacity: 1;
+}
+@media (min-width: 48rem) {
+  .ReasonList_reason-list {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 30rem) {
+  .ReasonList_reason-list {
+    grid-template-areas: 'cutting-edge cutting-edge' 'contributing-industry collaborative-community' 'career-development career-development';
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 64rem) {
+  .ReasonList_reason-list {
+    grid-template-areas: 'cutting-edge cutting-edge contributing-industry' 'collaborative-community  career-development career-development';
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5.3125rem;
+  }
+}
+.WhyNewGrad_why-new-grad {
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+  padding: calc(var(--spacing-layout-vertical) * 0.57)
+    var(--spacing-layout-horizontal) var(--spacing-layout-vertical);
+  color: var(--color-white);
+  background-color: var(--color-ninja);
+}
+.WhyNewGrad_why-new-grad__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+.WhyNewGrad_why-new-grad__subtitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.01em;
+  opacity: 0;
+  background: radial-gradient(
+      71.59% 388.33% at 3.53% -8.33%,
+      #ffbd80 0,
+      rgba(252, 87, 110, 0) 100%
+    ),
+    radial-gradient(
+      3.98% 433.82% at 102.8% 66.18%,
+      rgba(150, 255, 154, 0.6) 0,
+      rgba(252, 87, 110, 0) 100%
+    ),
+    #fc576e;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .WhyNewGrad_why-new-grad__subtitle {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+.WhyNewGrad_why-new-grad--reveal .WhyNewGrad_why-new-grad__subtitle {
+  animation: var(--animation-fade-in), var(--animation-slide-up);
+}
+.WhyNewGrad_why-new-grad__title {
+  max-width: 11ch;
+  margin-top: 1rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: -0.01rem;
+  opacity: 0;
+}
+@media (min-width: 48rem) {
+  .WhyNewGrad_why-new-grad__title {
+    font-size: 3rem;
+  }
+}
+.WhyNewGrad_why-new-grad--reveal .WhyNewGrad_why-new-grad__title {
+  animation: var(--animation-fade-in), var(--animation-slide-up);
+}
+@media (min-width: 64rem) {
+  .WhyNewGrad_why-new-grad {
+    padding: var(--spacing-layout-vertical) var(--spacing-layout-horizontal);
+  }
+}
+.StepItem_step-item {
+  --animation-delay: calc(var(--index) * 500ms);
+  isolation: isolate;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1.25rem;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: start;
+  min-height: 6.875rem;
+}
+.StepItem_step-item__text {
+  transform: translateX(1.25rem);
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: left;
+  letter-spacing: 0.02em;
+  opacity: 0;
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.6), #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition-delay: var(--animation-delay);
+  transition-duration: 1s;
+  transition-property: opacity, transform;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .StepItem_step-item__text {
+    transform: translateY(1.25rem);
+    max-width: 13ch;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+}
+.StepItem_step-item--reveal .StepItem_step-item__text {
+  transform: translate(0);
+  opacity: 1;
+}
+@media (min-width: 48rem) {
+  .StepItem_step-item {
+    grid-auto-flow: row;
+    align-items: start;
+    justify-content: normal;
+    justify-items: center;
+    min-height: 0;
+    min-height: auto;
+  }
+}
+.StepItem_shape {
+  --ellipse-size: 1.75rem;
+  --ellipse-border-size: 0.5rem;
+  isolation: isolate;
+  position: relative;
+  top: calc(-50% + var(--ellipse-size) / 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition-delay: var(--animation-delay);
+  transition-duration: 1s;
+  transition-property: opacity, transform;
+}
+.StepItem_shape__ellipse {
+  flex-shrink: 0;
+  width: var(--ellipse-size);
+  height: var(--ellipse-size);
+  background-color: var(--color-black);
+  border: var(--ellipse-border-size) solid var(--color-white);
+  border-radius: 62.5rem;
+}
+.StepItem_shape__trail {
+  --linear-gradient-degree: 0deg;
+  --thickness: 0.3125rem;
+  --size: calc(100% - var(--ellipse-size));
+  position: relative;
+  z-index: -1;
+  bottom: calc(var(--ellipse-border-size) / 2 * -1);
+  transform-origin: bottom;
+  flex-shrink: 0;
+  width: var(--thickness);
+  height: var(--size);
+  background: linear-gradient(
+    var(--linear-gradient-degree),
+    #fff 0,
+    hsla(0, 0%, 100%, 0) 100%
+  );
+}
+@media (min-width: 48rem) {
+  .StepItem_shape__trail {
+    --linear-gradient-degree: -90deg;
+    right: calc(var(--ellipse-border-size) / 2 * -1);
+    bottom: auto;
+    width: var(--size);
+    height: var(--thickness);
+  }
+  .StepItem_shape {
+    --ellipse-size: 2.25rem;
+    top: auto;
+    left: calc(-50% + var(--ellipse-size) / 2);
+    flex-direction: row;
+  }
+}
+.StepItem_step-item:first-child .StepItem_shape__trail {
+  display: none;
+}
+.StepItem_step-item--reveal:first-child .StepItem_shape {
+  opacity: 1;
+}
+.StepItem_step-item:not(:first-child) .StepItem_shape {
+  transform: translateY(-30%);
+}
+@media (min-width: 48rem) {
+  .StepItem_step-item:not(:first-child) .StepItem_shape {
+    transform: translateX(-50%);
+  }
+  .StepItem_step-item:not(:first-child) .StepItem_shape__trail {
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s;
+  }
+}
+.StepItem_step-item--reveal:not(:first-child) .StepItem_shape {
+  transform: translateY(0);
+  opacity: 1;
+}
+@media (min-width: 48rem) {
+  .StepItem_step-item--reveal:not(:first-child) .StepItem_shape {
+    transform: translateX(0);
+  }
+  .StepItem_step-item--reveal:not(:first-child)
+    .StepItem_shape
+    .StepItem_shape__trail {
+    transform: scaleX(1);
+  }
+}
+.StepList_step-list {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  max-width: 15.625rem;
+  margin: 1.875rem 0 0;
+  padding: 0;
+  word-break: break-word;
+  list-style: none;
+}
+@media (min-width: 48rem) {
+  .StepList_step-list {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+    max-width: none;
+    margin-top: 4.75rem;
+  }
+}
+.ResearchItem_research-item {
+  --y: calc((var(--cursor-y) * 0.0625rem));
+  --x: calc((var(--cursor-x) * 0.0625rem));
+  --animation-delay: 300ms;
+  --border-width: 0.0625rem;
+  position: relative;
+  overflow: hidden;
+  padding: var(--border-width);
+  opacity: 0;
+  background-color: hsla(0, 0%, 100%, 0.16);
+  border-radius: 1rem;
+}
+.ResearchItem_research-item:before {
+  opacity: var(--border-hover-opacity);
+  background: radial-gradient(
+    62.5rem circle at var(--x) var(--y),
+    #8c8c8c,
+    transparent 40%
+  );
+}
+.ResearchItem_research-item:after,
+.ResearchItem_research-item:before {
+  pointer-events: none;
+  will-change: background, opacity;
+  content: '';
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+  transition: opacity 0.4s;
+}
+.ResearchItem_research-item:after {
+  opacity: 0;
+  background: radial-gradient(
+    62.5rem circle at var(--x) var(--y),
+    hsla(0, 0%, 100%, 0.08),
+    transparent 40%
+  );
+}
+.ResearchItem_research-item--reveal__whbMt {
+  animation: var(--animation-fade-in), var(--animation-zoom-in);
+}
+.ResearchItem_research-item:nth-child(2) {
+  animation-delay: var(--animation-delay);
+}
+.ResearchItem_research-item:nth-child(3) {
+  animation-delay: calc(3 * var(--animation-delay));
+}
+@media (min-width: 30rem) {
+  .ResearchItem_research-item:nth-child(3) {
+    animation-delay: calc(2 * var(--animation-delay));
+  }
+}
+.ResearchItem_research-item:nth-child(4) {
+  animation-delay: calc(2 * var(--animation-delay));
+}
+@media (min-width: 30rem) {
+  .ResearchItem_research-item:nth-child(4) {
+    animation-delay: calc(3 * var(--animation-delay));
+  }
+}
+.ResearchItem_research-item:hover:after {
+  opacity: 1;
+}
+.ResearchItem_research-item__background {
+  position: absolute;
+  top: var(--border-width);
+  right: var(--border-width);
+  bottom: var(--border-width);
+  left: var(--border-width);
+  background-color: var(--color-ninja);
+  border-radius: inherit;
+}
+.ResearchItem_research-item--variant-computer-vision {
+  grid-area: computer-vision;
+}
+.ResearchItem_research-item--variant-model-optimization {
+  grid-area: model-optimization;
+}
+.ResearchItem_research-item--variant-audio-data-processing {
+  grid-area: audio-data-processing;
+}
+.ResearchItem_research-item--variant-natural-language-processing {
+  grid-area: natural-language-processing;
+}
+.ResearchItem_research-item__wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: inherit;
+}
+@media (min-width: 30rem) {
+  .ResearchItem_research-item__wrapper {
+    padding: 1.5rem 2rem;
+  }
+}
+@media (min-width: 48rem) {
+  .ResearchItem_research-item__wrapper {
+    padding: 2rem 2.5rem;
+  }
+}
+.ResearchItem_research-item__content {
+  isolation: isolate;
+}
+.ResearchItem_research-item__title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (min-width: 48rem) {
+  .ResearchItem_research-item__title {
+    font-size: 1.75rem;
+  }
+}
+.ResearchItem_research-item__description {
+  margin-top: 0.3125rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  background: radial-gradient(
+    120.96% 120.96% at 50% -20.96%,
+    #2e2e2e 0,
+    hsla(0, 0%, 100%, 0.8) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .ResearchItem_research-item__description {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+  }
+}
+.ResearchItem_research-item--variant-create-impact
+  .ResearchItem_research-item__content {
+  margin-bottom: 11.875rem;
+}
+@media (min-width: 48rem) {
+  .ResearchItem_research-item--variant-create-impact
+    .ResearchItem_research-item__content {
+    margin-bottom: 7.75rem;
+  }
+}
+.ResearchItem_research-item--variant-tech-stack
+  .ResearchItem_research-item__content {
+  margin-bottom: 11.875rem;
+}
+@media (min-width: 48rem) {
+  .ResearchItem_research-item--variant-tech-stack
+    .ResearchItem_research-item__content {
+    margin-bottom: 10.25rem;
+  }
+}
+.ResearchList_research-list {
+  --border-hover-opacity: 0;
+  display: grid;
+  grid-template-areas: 'computer-vision' 'model-optimization' 'natural-language-processing' 'audio-data-processing';
+  grid-gap: 0.875rem;
+  gap: 0.875rem;
+  width: 100%;
+  margin: 3rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.ResearchList_research-list:hover {
+  --border-hover-opacity: 1;
+}
+@media (min-width: 48rem) {
+  .ResearchList_research-list {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 64rem) {
+  .ResearchList_research-list {
+    grid-template-areas: 'computer-vision computer-vision computer-vision computer-vision computer-vision computer-vision computer-vision computer-vision model-optimization model-optimization model-optimization model-optimization' 'audio-data-processing audio-data-processing audio-data-processing audio-data-processing audio-data-processing audio-data-processing audio-data-processing natural-language-processing natural-language-processing natural-language-processing natural-language-processing natural-language-processing';
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 5.3125rem;
+  }
+}
+.WhatYouWillBeDoing_what-you-will-be-doing {
+  padding: var(--spacing-layout-vertical) var(--spacing-layout-horizontal);
+  color: var(--color-white);
+  background-color: var(--color-ninja);
+}
+.WhatYouWillBeDoing_what-you-will-be-doing__container {
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+.WhatYouWillBeDoing_what-you-will-be-doing__subtitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.01em;
+  background: radial-gradient(
+      65.68% 353.33% at 15.75% -85%,
+      #ffdf80 0,
+      rgba(252, 87, 110, 0) 100%
+    ),
+    radial-gradient(
+      5.83% 638.82% at 102.8% 66.18%,
+      rgba(150, 255, 154, 0.6) 0,
+      rgba(252, 87, 110, 0) 100%
+    ),
+    radial-gradient(
+      4.52% 263.55% at 6.69% 19.8%,
+      #ffa57a 0,
+      rgba(252, 87, 110, 0) 100%
+    ),
+    #f1c424;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .WhatYouWillBeDoing_what-you-will-be-doing__subtitle {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+.WhatYouWillBeDoing_what-you-will-be-doing__title {
+  max-width: 20ch;
+  margin-top: 1rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: -0.01rem;
+}
+@media (min-width: 48rem) {
+  .WhatYouWillBeDoing_what-you-will-be-doing__title {
+    font-size: 3rem;
+  }
+}
+.WhatYouWillBeDoing_what-you-will-be-doing__description {
+  max-width: 75ch;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  background: radial-gradient(
+    120.96% 120.96% at 50% -20.96%,
+    #2e2e2e 0,
+    hsla(0, 0%, 100%, 0.8) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .WhatYouWillBeDoing_what-you-will-be-doing__description {
+    margin-top: 2rem;
+  }
+}
+.WhatWeDoAtAiLab_what-we-do {
+  padding: var(--spacing-layout-vertical) var(--spacing-layout-horizontal);
+  color: var(--color-white);
+  background-color: var(--color-ninja);
+}
+.WhatWeDoAtAiLab_what-we-do__container {
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+.WhatWeDoAtAiLab_what-we-do__subtitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.01em;
+  background: radial-gradient(
+      65.68% 353.33% at 15.75% -85%,
+      #ffdf80 0,
+      rgba(252, 87, 110, 0) 100%
+    ),
+    radial-gradient(
+      5.83% 638.82% at 102.8% 66.18%,
+      rgba(150, 255, 154, 0.6) 0,
+      rgba(252, 87, 110, 0) 100%
+    ),
+    radial-gradient(
+      4.52% 263.55% at 6.69% 19.8%,
+      #ffa57a 0,
+      rgba(252, 87, 110, 0) 100%
+    ),
+    #f1c424;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .WhatWeDoAtAiLab_what-we-do__subtitle {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+.WhatWeDoAtAiLab_what-we-do__title {
+  max-width: 20ch;
+  margin-top: 1rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: -0.01rem;
+}
+@media (min-width: 48rem) {
+  .WhatWeDoAtAiLab_what-we-do__title {
+    font-size: 3rem;
+  }
+}
+.WhatWeDoAtAiLab_what-we-do__description {
+  max-width: 90ch;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  background: radial-gradient(
+    120.96% 120.96% at 50% -60.96%,
+    #2e2e2e 0,
+    hsla(0, 0%, 100%, 0.8) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .WhatWeDoAtAiLab_what-we-do__description {
+    margin-top: 2rem;
+  }
+}

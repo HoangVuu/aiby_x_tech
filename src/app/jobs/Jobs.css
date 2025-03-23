@@ -1,0 +1,1088 @@
+.GreatPlaceToWork_great-place-to-work {
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+  background: var(--color-black);
+}
+.GreatPlaceToWork_great-place-to-work--variant-office,
+.GreatPlaceToWork_great-place-to-work--variant-xsocialand__gsRgS {
+  padding: calc(var(--spacing-layout-vertical) * 3)
+    var(--spacing-layout-horizontal) calc(var(--spacing-layout-vertical))
+    var(--spacing-layout-horizontal);
+}
+@media (min-width: 48rem) {
+  .GreatPlaceToWork_great-place-to-work--variant-office,
+  .GreatPlaceToWork_great-place-to-work--variant-xsocialand__gsRgS {
+    padding: calc(var(--spacing-layout-vertical) * 2.5)
+      var(--spacing-layout-horizontal)
+      calc(var(--spacing-layout-vertical) * 2.5)
+      var(--spacing-layout-horizontal);
+  }
+}
+.GreatPlaceToWork_great-place-to-work--variant-new-grad__T0CEW {
+  padding: calc(var(--spacing-layout-vertical) * 3)
+    var(--spacing-layout-horizontal) calc(var(--spacing-layout-vertical))
+    var(--spacing-layout-horizontal);
+}
+@media (min-width: 48rem) {
+  .GreatPlaceToWork_great-place-to-work--variant-new-grad__T0CEW {
+    padding: calc(var(--spacing-layout-vertical) * 1.9)
+      var(--spacing-layout-horizontal)
+      calc(var(--spacing-layout-vertical) * 1.9)
+      var(--spacing-layout-horizontal);
+  }
+}
+.GreatPlaceToWork_great-place-to-work__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  text-align: center;
+}
+.GreatPlaceToWork_great-place-to-work__description {
+  max-width: 52ch;
+}
+.GreatPlaceToWork_great-place-to-work__title {
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 48rem) {
+  .GreatPlaceToWork_great-place-to-work__title {
+    margin-bottom: 1.75rem;
+  }
+}
+@media (min-width: 64rem) {
+  .GreatPlaceToWork_great-place-to-work__title {
+    margin-bottom: 2rem;
+  }
+}
+.GreatPlaceToWork_background {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 17.1875rem;
+}
+.GreatPlaceToWork_background:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, var(--color-black) 0, transparent 40%);
+}
+@media (min-width: 48rem) {
+  .GreatPlaceToWork_background:before {
+    display: none;
+  }
+}
+.GreatPlaceToWork_background__image {
+  opacity: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media (min-width: 48rem) {
+  .GreatPlaceToWork_background {
+    height: 100%;
+  }
+}
+.GreatPlaceToWork_badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  padding: 0 var(--spacing-layout-horizontal);
+  background: red;
+}
+.GreatPlaceToWork_badge__container {
+  position: relative;
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+.GreatPlaceToWork_badge__badge {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4.25rem;
+  height: auto;
+}
+@media (min-width: 48rem) {
+  .GreatPlaceToWork_badge__badge {
+    width: 4.625rem;
+  }
+}
+
+.HashAnchor_hash-anchor-container {
+  position: relative;
+}
+.HashAnchor_hash-anchor {
+  position: absolute;
+  top: calc(var(--header-height) * -1 + 0.0625rem);
+}
+
+.PositionList_positions {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(min(100%, var(--min-item-width)), 1fr)
+  );
+}
+.PositionList_positions--variant-default {
+  --min-item-width: 22rem;
+  gap: 1.875rem;
+}
+.PositionList_positions--variant-new-grad__zmvvt {
+  --min-item-width: 21.375rem;
+  gap: 1.25rem;
+}
+@media (min-width: 48rem) {
+  .PositionList_positions--variant-new-grad__zmvvt {
+    gap: 2.75rem;
+  }
+}
+
+.PositionList_position--variant-default {
+  --gap: 1.75rem;
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1);
+}
+.PositionList_position--variant-new-grad__YZqX0 {
+  --gap: 1.75rem;
+  box-shadow: 0 0.125rem 0.17917rem rgba(0, 0, 0, 0.08);
+}
+@media (min-width: 48rem) {
+  .PositionList_position--variant-new-grad__YZqX0 {
+    --gap: 2.5rem;
+  }
+}
+
+.PositionList_position__title {
+  margin-bottom: var(--gap);
+  color: #333;
+  word-break: break-word;
+}
+.PositionList_position__title span {
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-word;
+  -webkit-box-orient: vertical;
+  line-clamp: 2s;
+  -webkit-line-clamp: 2;
+}
+
+.PositionList_position__info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: calc(100% - var(--gap));
+  margin-top: auto;
+  margin-bottom: var(--gap);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  color: #333;
+}
+.PositionList_position__info > :first-child {
+  margin-right: var(--gap);
+}
+@media (min-width: 48rem) {
+  .PositionList_position {
+    padding: 2.25rem 1.75rem;
+  }
+}
+
+.PositionList_info-item {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  max-width: 50%;
+}
+.PositionList_info-item--variant-new-grad__NxBLq:first-child:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: calc(var(--gap) / 2 * -1);
+  transform: translateY(-50%);
+  width: 0.0625rem;
+  height: 1.1875rem;
+  opacity: 0.3;
+  background-color: var(--color-black);
+}
+.PositionList_info-item svg {
+  flex-shrink: 0;
+}
+.PositionList_info-item span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.PositionList_info-item > :first-child {
+  margin-right: 0.75rem;
+}
+
+.Hero_section__jobs {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: calc(var(--spacing-layout-vertical) + var(--header-height))
+    var(--spacing-layout-horizontal) calc(var(--spacing-layout-vertical) * 4)
+    var(--spacing-layout-horizontal);
+  color: var(--color-white);
+  background: var(--color-black);
+}
+@media (min-width: 36rem) {
+  .Hero_section__jobs {
+    padding-bottom: calc(var(--spacing-layout-vertical) * 3.5);
+  }
+}
+@media (min-width: 48rem) {
+  .Hero_section__jobs {
+    padding-bottom: calc(var(--spacing-layout-vertical) * 3);
+  }
+}
+@media (min-width: 64rem) {
+  .Hero_section__jobs {
+    min-height: 100vh;
+  }
+}
+.Hero_container__jobs {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: var(--site-width);
+  min-height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Hero_description__jobs {
+  max-width: 52ch;
+  margin: 1rem 0 2.25rem;
+}
+@media (min-width: 48rem) {
+  .Hero_description__jobs {
+    margin: 1.5rem 0 2.5rem;
+  }
+}
+@media (min-width: 75rem) {
+  .Hero_description__jobs {
+    margin: 2rem 0 2.75rem;
+  }
+}
+.Hero_background__jobs {
+  --jobs-hero-background-size: 39.375rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: 15;
+  bottom: 0;
+  left: 0;
+  width: var(--jobs-hero-background-size);
+  height: calc(var(--jobs-hero-background-size) * 0.5715);
+}
+.Hero_background__jobs img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: bottom;
+  object-position: bottom;
+}
+@media (min-width: 36rem) {
+  .Hero_background__jobs {
+    --jobs-hero-background-size: 49.21875rem;
+  }
+}
+@media (min-width: 48rem) {
+  .Hero_background__jobs {
+    --jobs-hero-background-size: 62rem;
+  }
+}
+@media (min-width: 62rem) {
+  .Hero_background__jobs {
+    --jobs-hero-background-size: 75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .Hero_background__jobs {
+    width: 100%;
+    height: 100%;
+  }
+}
+.TeamOfPlayers_section {
+  overflow-x: hidden;
+  padding: var(--spacing-layout-vertical) var(--spacing-layout-horizontal);
+  background: var(--color-white);
+}
+.TeamOfPlayers_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  text-align: center;
+}
+.TeamOfPlayers_visual {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  width: 34.375rem;
+  max-width: none;
+  height: auto;
+  margin-bottom: -10rem;
+}
+.TeamOfPlayers_visual img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (min-width: 48rem) {
+  .TeamOfPlayers_visual {
+    margin-bottom: -9.375rem;
+  }
+}
+@media (min-width: 62rem) {
+  .TeamOfPlayers_visual {
+    margin-bottom: -8.75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .TeamOfPlayers_visual {
+    margin-bottom: -8.125rem;
+  }
+}
+.TeamOfPlayers_title {
+  margin-bottom: 0.5rem;
+  background: var(--gradient-purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 48rem) {
+  .TeamOfPlayers_title {
+    margin-bottom: 0.75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .TeamOfPlayers_title {
+    margin-bottom: 1rem;
+  }
+}
+.TeamOfPlayers_subtitle {
+  max-width: 16ch;
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 48rem) {
+  .TeamOfPlayers_subtitle {
+    margin-bottom: 1.75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .TeamOfPlayers_subtitle {
+    margin-bottom: 2rem;
+  }
+}
+.TeamOfPlayers_description {
+  max-width: 47ch;
+}
+.Compensation_section {
+  color: var(--color-white);
+  background: var(--color-black);
+}
+.Compensation_container {
+  padding: 0 var(--spacing-layout-horizontal) var(--spacing-layout-vertical)
+    var(--spacing-layout-horizontal);
+}
+.Compensation_texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  text-align: center;
+}
+.Compensation_title {
+  max-width: 16ch;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 36rem) {
+  .Compensation_title {
+    max-width: none;
+  }
+}
+@media (min-width: 48rem) {
+  .Compensation_title {
+    margin-bottom: 0.75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .Compensation_title {
+    margin-bottom: 1rem;
+  }
+}
+.Compensation_subtitle {
+  max-width: 12ch;
+  background: var(--gradient-purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 36rem) {
+  .Compensation_subtitle {
+    max-width: 22ch;
+  }
+}
+.Compensation_description {
+  max-width: 60ch;
+  margin: 1.5rem 0;
+  opacity: 0.45;
+}
+@media (min-width: 48rem) {
+  .Compensation_description {
+    margin: 1.75rem 0;
+    opacity: 0.6;
+  }
+}
+@media (min-width: 75rem) {
+  .Compensation_description {
+    margin: 2rem 0;
+  }
+}
+.Compensation_link {
+  color: var(--color-white);
+  text-decoration: underline;
+}
+.Compensation_background {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  height: 37.5rem;
+}
+.Compensation_background__gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent 30%, var(--color-black) 90%);
+}
+.PerksAndBenefits_section {
+  padding: var(--spacing-layout-vertical) var(--spacing-layout-horizontal);
+  color: var(--color-white);
+  background: var(--color-woodsmoke);
+}
+.PerksAndBenefits_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+@media (min-width: 52.5rem) {
+  .PerksAndBenefits_container {
+    max-width: 45rem;
+  }
+}
+@media (min-width: 75rem) {
+  .PerksAndBenefits_container {
+    max-width: 55rem;
+  }
+}
+.PerksAndBenefits_title {
+  margin-bottom: 2.25rem;
+}
+@media (min-width: 48rem) {
+  .PerksAndBenefits_title {
+    margin-bottom: 3.75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .PerksAndBenefits_title {
+    margin-bottom: 4.5rem;
+  }
+}
+.PerksAndBenefits_cards {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: var(--spacing-layout-vertical);
+  row-gap: var(--spacing-layout-vertical);
+  width: 100%;
+}
+@media (min-width: 36rem) {
+  .PerksAndBenefits_cards {
+    justify-content: center;
+  }
+}
+@media (min-width: 48rem) {
+  .PerksAndBenefits_cards {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 17.5rem);
+    justify-content: space-between;
+  }
+}
+@media (min-width: 75rem) {
+  .PerksAndBenefits_cards {
+    grid-template-columns: repeat(2, 20rem);
+  }
+}
+.PerksAndBenefits_card {
+  display: flex;
+  flex-direction: column;
+}
+.PerksAndBenefits_card__icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 48rem) {
+  .PerksAndBenefits_card__icon {
+    margin-bottom: 1.75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .PerksAndBenefits_card__icon {
+    margin-bottom: 2rem;
+  }
+}
+.PerksAndBenefits_card__title {
+  max-width: 14ch;
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 48rem) {
+  .PerksAndBenefits_card__title {
+    margin-bottom: 1.125rem;
+  }
+}
+@media (min-width: 75rem) {
+  .PerksAndBenefits_card__title {
+    margin-bottom: 1.5rem;
+  }
+}
+.PerksAndBenefits_card__description {
+  max-width: 42ch;
+  opacity: 0.6;
+}
+@media (min-width: 36rem) {
+  .PerksAndBenefits_card {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 48rem) {
+  .PerksAndBenefits_card {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+.TeamCard_section {
+  overflow: hidden;
+  padding: var(--spacing-layout-vertical) var(--spacing-layout-horizontal) 0
+    var(--spacing-layout-horizontal);
+  color: var(--color-black);
+  background: var(--color-athens-gray);
+}
+.TeamCard_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.TeamCard_title {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 36rem) {
+  .TeamCard_title {
+    max-width: none;
+  }
+}
+@media (min-width: 48rem) {
+  .TeamCard_title {
+    margin-bottom: 0.75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .TeamCard_title {
+    margin-bottom: 1rem;
+  }
+}
+.TeamCard_description {
+  max-width: 16ch;
+  padding-bottom: 1rem;
+  background: var(--gradient-purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-text-fill-color: transparent;
+}
+.TeamCard_visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 15rem;
+  height: 21.875rem;
+  margin: calc(var(--spacing-layout-vertical) * 1.5) auto 0 auto;
+}
+.TeamCard_visual__card {
+  position: relative;
+  z-index: 20;
+  top: 7.5rem;
+  left: -2.5rem;
+  transform: rotate3d(1, 1, -2, 45deg);
+  transform-style: preserve-3d;
+  width: 100%;
+  height: 0;
+}
+@media (min-width: 36rem) {
+  .TeamCard_visual__card {
+    left: -3.125rem;
+  }
+}
+@media (min-width: 48rem) {
+  .TeamCard_visual__card {
+    left: -3.75rem;
+  }
+}
+@media (min-width: 62rem) {
+  .TeamCard_visual__card {
+    top: 9.375rem;
+    left: -6.25rem;
+  }
+}
+@media (min-width: 75rem) {
+  .TeamCard_visual__card {
+    top: 15.625rem;
+    left: -6.875rem;
+  }
+}
+.TeamCard_visual__top {
+  position: relative;
+  transform: rotateX(1deg);
+  transform-style: preserve-3d;
+  transform-origin: top;
+  animation-fill-mode: both;
+}
+.TeamCard_visual__front__Ne0mt {
+  transform: rotateX(180deg);
+}
+.TeamCard_visual__back__FUHFV,
+.TeamCard_visual__front__Ne0mt {
+  position: absolute;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.TeamCard_visual__back__FUHFV {
+  transform-origin: left top;
+}
+.TeamCard_visual__bottom {
+  position: relative;
+  z-index: 20;
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  box-shadow: -1.5625rem 1.875rem 4.375rem -0.625rem rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 36rem) {
+  .TeamCard_visual__bottom {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+}
+@media (min-width: 48rem) {
+  .TeamCard_visual__bottom {
+    border-bottom-right-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+  }
+}
+@media (min-width: 62rem) {
+  .TeamCard_visual__bottom {
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+  }
+}
+@media (min-width: 75rem) {
+  .TeamCard_visual__bottom {
+    border-bottom-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+    box-shadow: -3.125rem 3.125rem 5rem -1.875rem rgba(0, 0, 0, 0.5);
+  }
+}
+.TeamCard_visual__background {
+  position: absolute;
+  z-index: 15;
+  top: 0;
+  width: 40.625rem;
+}
+.TeamCard_visual__background img {
+  position: relative;
+  left: -3.125rem;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: bottom;
+  object-position: bottom;
+}
+@media (min-width: 36rem) {
+  .TeamCard_visual__background img {
+    left: -7.5rem;
+  }
+}
+@media (min-width: 62rem) {
+  .TeamCard_visual__background img {
+    left: -10.625rem;
+  }
+}
+@media (min-width: 75rem) {
+  .TeamCard_visual__background img {
+    left: -25rem;
+  }
+}
+@media (min-width: 36rem) {
+  .TeamCard_visual__background {
+    width: 59.375rem;
+  }
+}
+@media (min-width: 48rem) {
+  .TeamCard_visual__background {
+    width: 71.875rem;
+  }
+}
+@media (min-width: 62rem) {
+  .TeamCard_visual__background {
+    width: 84.375rem;
+  }
+}
+@media (min-width: 75rem) {
+  .TeamCard_visual__background {
+    width: 96.875rem;
+  }
+}
+@media (min-width: 36rem) {
+  .TeamCard_visual {
+    width: 17.5rem;
+    height: 31.25rem;
+  }
+}
+@media (min-width: 48rem) {
+  .TeamCard_visual {
+    width: 20rem;
+    height: 37.5rem;
+  }
+}
+@media (min-width: 62rem) {
+  .TeamCard_visual {
+    width: 26.25rem;
+    height: 43.75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .TeamCard_visual {
+    width: 32.5rem;
+    height: 50rem;
+    margin-top: calc(var(--spacing-layout-vertical) * 1.3);
+  }
+}
+@keyframes TeamCard_open-card__llyXw {
+  to {
+    bottom: -0.125rem;
+    transform: rotateX(110deg);
+  }
+}
+@keyframes TeamCard_shadow-slide-up__Z1Xbs {
+  0% {
+    transform: translate(-18.75rem);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+.WonderfulIzmirImage_image {
+  isolation: isolate;
+  position: relative;
+  aspect-ratio: 1;
+  background: var(--color-black);
+}
+.WonderfulIzmirImage_image__texts {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--color-white);
+  text-align: center;
+}
+.WonderfulIzmirImage_image__title {
+  margin-bottom: 1.125rem;
+}
+@media (min-width: 75rem) {
+  .WonderfulIzmirImage_image__title {
+    margin-bottom: 1.5rem;
+  }
+}
+.WonderfulIzmirImage_image__description {
+  position: relative;
+  overflow: hidden;
+  display: none;
+  max-width: 28ch;
+  transition: all 0.3s ease;
+}
+@media (min-width: 48rem) {
+  .WonderfulIzmirImage_image__description {
+    display: inline;
+    display: initial;
+  }
+}
+.WonderfulIzmirImage_image__item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--color-black);
+  transition: all 0.6s ease;
+}
+.WonderfulIzmirImage_image:hover .WonderfulIzmirImage_image__item {
+  opacity: 0.5;
+}
+.WonderfulIzmir_section {
+  overflow: hidden;
+  color: var(--color-black);
+  background: var(--color-white);
+}
+.WonderfulIzmir_container {
+  padding: var(--spacing-layout-vertical) var(--spacing-layout-horizontal);
+}
+.WonderfulIzmir_texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  text-align: center;
+}
+.WonderfulIzmir_title {
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 48rem) {
+  .WonderfulIzmir_title {
+    margin-bottom: 1.125rem;
+  }
+}
+@media (min-width: 75rem) {
+  .WonderfulIzmir_title {
+    margin-bottom: 1.5rem;
+  }
+}
+.WonderfulIzmir_description {
+  max-width: 52ch;
+}
+.WonderfulIzmir_images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 90rem;
+  margin: 0 auto;
+}
+@media (min-width: 36rem) {
+  .WonderfulIzmir_images {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 48rem) {
+  .WonderfulIzmir_images {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2.25rem 2.25rem;
+  }
+}
+@media (min-width: 62rem) {
+  .WonderfulIzmir_images {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 75rem) {
+  .WonderfulIzmir_images {
+    padding: 0 3rem 3rem;
+  }
+}
+.Lifestyle_section {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(var(--spacing-layout-vertical) * 1.2) 0;
+  color: var(--color-white);
+  background: var(--color-black);
+}
+.Lifestyle_container {
+  margin-bottom: calc(var(--spacing-layout-vertical) * 1.2);
+  padding: 0 var(--spacing-layout-horizontal);
+}
+.Lifestyle_texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  text-align: center;
+}
+.Lifestyle_title {
+  max-width: 16ch;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 36rem) {
+  .Lifestyle_title {
+    max-width: none;
+  }
+}
+@media (min-width: 48rem) {
+  .Lifestyle_title {
+    margin-bottom: 0.75rem;
+  }
+}
+@media (min-width: 75rem) {
+  .Lifestyle_title {
+    margin-bottom: 1rem;
+  }
+}
+.Lifestyle_subtitle {
+  max-width: 20ch;
+}
+.Lifestyle_subtitle b {
+  background: var(--gradient-purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-text-fill-color: transparent;
+}
+.Lifestyle_description {
+  max-width: 62ch;
+  margin: 1.5rem 0 1.75rem;
+  opacity: 0.45;
+}
+@media (min-width: 48rem) {
+  .Lifestyle_description {
+    margin: 1.75rem 0 2rem;
+    opacity: 0.6;
+  }
+}
+@media (min-width: 75rem) {
+  .Lifestyle_description {
+    margin: 2rem 0 2.5rem;
+  }
+}
+.Lifestyle_button {
+  color: var(--color-white);
+  background: linear-gradient(var(--color-black), var(--color-black))
+      padding-box,
+    var(--gradient-purple) border-box;
+  border: 0.0625rem solid transparent;
+}
+.Lifestyle_button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--color-white);
+}
+.Lifestyle_images {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+.Lifestyle_images > :not(:first-child) {
+  margin-left: 1.5rem;
+}
+.Lifestyle_image {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+}
+.Lifestyle_image--1 {
+  width: 27rem;
+  height: 34.0625rem;
+  margin-top: 8.4375rem;
+}
+.Lifestyle_image--2 {
+  width: 19.875rem;
+  height: 25.5rem;
+  margin-top: 12.5rem;
+}
+.Lifestyle_image--3 {
+  width: 19.875rem;
+  height: 31.5625rem;
+}
+.Lifestyle_image--4 {
+  width: 27rem;
+  height: 34.0625rem;
+  margin-top: 8.4375rem;
+}
+.PositionsInfo_container {
+  margin-bottom: var(--spacing-layout-vertical);
+  text-align: center;
+}
+.PositionsInfo_texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+.PositionsInfo_description {
+  max-width: 54ch;
+  margin-top: 1.5rem;
+}
+@media (min-width: 48rem) {
+  .PositionsInfo_description {
+    margin-top: 1.125rem;
+  }
+}
+@media (min-width: 75rem) {
+  .PositionsInfo_description {
+    margin-top: 1.5rem;
+  }
+}
+.OpenPositions_open-positions {
+  padding: var(--spacing-layout-vertical) var(--spacing-layout-horizontal);
+  color: var(--color-black);
+  background: var(--color-athens-gray);
+}
+.OpenPositions_open-positions__container {
+  max-width: var(--site-width);
+  margin: 0 auto;
+}

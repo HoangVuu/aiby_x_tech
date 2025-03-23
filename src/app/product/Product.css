@@ -1,0 +1,1514 @@
+.Hero_hero__product {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--spacing-layout-vertical) + var(--header-height))
+    var(--spacing-layout-horizontal) 0 var(--spacing-layout-horizontal);
+  background: radial-gradient(
+      53.46% 56.45% at 50.94% 76.66%,
+      rgba(82, 39, 69, 0.15) 0,
+      hsla(0, 0%, 9%, 0) 100%
+    ),
+    #000;
+}
+@media (min-width: 64rem) {
+  .Hero_hero__product {
+    min-height: 100vh;
+  }
+}
+.Hero_container__product {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  color: var(--color-white);
+  text-align: center;
+}
+.Hero_description__product {
+  max-width: 42ch;
+  margin-top: 1rem;
+}
+@media (min-width: 48rem) {
+  .Hero_description__product {
+    margin-top: 1.5rem;
+  }
+}
+@media (min-width: 75rem) {
+  .Hero_description__product {
+    margin-top: 2rem;
+  }
+}
+.Hero_image__product {
+  isolation: isolate;
+  width: 100%;
+  max-width: 25rem;
+  margin-top: 7.5rem;
+  margin-bottom: 5rem;
+}
+.Hero_image__container__product {
+  position: relative;
+  width: 100%;
+  padding-top: 56%;
+}
+.Hero_image__wrapper__product {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  top: -205%;
+  right: -130%;
+  bottom: 0;
+  left: -126%;
+}
+@media (min-width: 48rem) {
+  .Hero_image__product {
+    max-width: 31.25rem;
+    margin-bottom: 7.5rem;
+  }
+}
+@media (min-width: 64rem) {
+  .Hero_image__product {
+    max-width: 31.25rem;
+    margin-top: 5rem;
+    margin-bottom: 8.75rem;
+  }
+}
+@media (min-width: 64rem) and (min-height: 50rem) {
+  .Hero_image__product {
+    max-width: 31.25rem;
+  }
+}
+@media (min-width: 64rem) and (min-height: 56.25rem) {
+  .Hero_image__product {
+    max-width: 37.5rem;
+  }
+}
+@media (min-width: 64rem) and (min-height: 62.5rem) {
+  .Hero_image__product {
+    margin-top: 7.5rem;
+  }
+}
+@media (min-width: 90rem) and (min-height: 75rem) {
+  .Hero_image__product {
+    max-width: 50rem;
+    margin-top: 8.75rem;
+  }
+}
+@media (min-width: 90rem) and (min-height: 87.5rem) {
+  .Hero_image__product {
+    max-width: 56.25rem;
+    margin-top: 10rem;
+  }
+}
+@media (min-width: 90rem) and (min-height: 100rem) {
+  .Hero_image__product {
+    max-width: 62.5rem;
+    margin-top: 10.625rem;
+  }
+}
+.Momo_momo {
+  background-color: #0e0e0e;
+}
+.Momo_momo__subtitle {
+  background: var(--gradient-purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-text-fill-color: transparent;
+}
+.Momo_momo__title-image {
+  width: 100%;
+  height: 1.875rem;
+  margin-bottom: 0;
+}
+.Momo_momo__title-image span {
+  height: 1.875rem !important;
+}
+.Momo_momo__bold-text b {
+  color: var(--color-crimson);
+}
+.Momo_momo__second-text {
+  line-height: 1.28;
+}
+.Momo_background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  max-width: calc(var(--site-width) + 12.5rem);
+  height: 60%;
+  margin: 0 auto;
+  opacity: 0.6;
+  background: radial-gradient(
+    22.27% 35.99% at 30.59% 50%,
+    rgba(252, 87, 110, 0.4) 0,
+    transparent 100%
+  );
+}
+@media (min-width: 64rem) {
+  .Momo_background {
+    display: block;
+  }
+}
+.FastVpn_fastvpn {
+  background: var(--color-grams-hair);
+}
+.Mimic_mimic {
+  background-color: var(--color-shark);
+}
+.Mimic_mimic__subtitle {
+  color: var(--color-hollandaise);
+}
+.Mimic_mimic__bold-text b {
+  color: var(--color-crimson);
+}
+.Mimic_mimic__second-text {
+  line-height: 1.28;
+}
+.Mimic_background {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: -1;
+  top: -1.875rem;
+  right: 0;
+  left: 0;
+  max-width: calc(var(--site-width) + 12.5rem);
+  margin: 0 auto;
+  filter: blur(0.75rem);
+}
+.FastScan_fast-scan,
+.PhotoApp_photo-app {
+  background: var(--color-black);
+}
+.FastScan_fast-scan__subtitle {
+  background: var(--gradient-blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.FastScan_fast-scan__bold-text b {
+  color: var(--color-azure-radiance);
+}
+.FastScan_background {
+  position: absolute;
+  z-index: -1;
+  top: -3%;
+  right: 0;
+  bottom: 0;
+  left: -2%;
+  display: none;
+  width: 100%;
+  max-width: calc(var(--site-width) + 12.5rem);
+  height: 50%;
+  margin: 0 auto;
+  background: radial-gradient(
+    24.17% 43.18% at 30.59% 50%,
+    rgb(var(--color-azure-radiance-rgb) / 40%) 0,
+    rgb(var(--color-black-rgb) / 0) 100%
+  );
+}
+@media (min-width: 64rem) {
+  .FastScan_background {
+    display: block;
+  }
+}
+.PlantApp_plant-app {
+  background: radial-gradient(
+      52.79% 94.11% at 36.32% -5.52%,
+      rgba(234, 182, 31, 0.1) 0,
+      rgba(245, 245, 247, 0) 100%
+    ),
+    radial-gradient(
+      46.14% 78.91% at 90.56% 5.46%,
+      rgba(0, 223, 255, 0.085) 0,
+      rgba(245, 245, 247, 0) 100%
+    ),
+    radial-gradient(
+      65.07% 91.91% at -22.57% -15.76%,
+      rgba(255, 223, 128, 0.1) 0,
+      rgba(245, 245, 247, 0.1) 100%
+    ),
+    linear-gradient(0deg, var(--color-athens-gray), var(--color-athens-gray));
+}
+.PlantApp_plant-app__title {
+  color: transparent;
+  background: radial-gradient(
+    106.82% 106.82% at 78.24% 165.91%,
+    #13231b 0,
+    #365746 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.IyiYasa_iyi-yasa {
+  background: #fff;
+}
+.SpaceColony_space-colony {
+  background: radial-gradient(
+      26.4% 39.27% at 77.4% 36.61%,
+      #fff 0,
+      hsla(23, 72%, 92%, 0) 100%
+    ),
+    radial-gradient(
+      93.4% 138.94% at 108.44% -10.24%,
+      rgba(154, 5, 79, 0.4) 0,
+      hsla(27, 84%, 82%, 0.4) 60.42%,
+      hsla(0, 0%, 100%, 0) 100%
+    ),
+    linear-gradient(0deg, hsla(25, 85%, 95%, 0.5), hsla(25, 85%, 95%, 0.5)),
+    var(--color-white);
+}
+.SpaceColony_space-colony__logo {
+  border-radius: 1.875rem;
+  box-shadow: 0 0.4375rem 1.5rem rgba(142, 14, 68, 0.35),
+    inset 0 0.1875rem 0.25rem hsla(0, 0%, 100%, 0.4),
+    inset 0 -0.3125rem 0.25rem hsla(0, 0%, 100%, 0.6),
+    inset 0 0.25rem 0.875rem rgba(253, 255, 255, 0.5);
+}
+.SpaceColony_background {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+.SpaceColony_background__gradient {
+  position: absolute;
+  z-index: 16;
+  bottom: 0;
+  left: calc((100% - 100vw) / 2);
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgb(var(--color-baby-blossom-rgb) / 0) 0,
+    var(--color-backlight) 100%
+  );
+}
+.TickerItem_ticker-item {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 11.25rem;
+  margin: 1.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.06;
+  color: var(--color-white);
+  letter-spacing: 0.005em;
+  background-color: transparent;
+  border-radius: 0.625rem;
+  animation: TickerItem_scale5s infinite;
+}
+.TickerItem_ticker-item:nth-child(2n) {
+  animation-delay: 2.5s;
+}
+@media (min-width: 48rem) {
+  .TickerItem_ticker-item {
+    width: 11.875rem;
+    height: 14.375rem;
+    margin: 1.875rem;
+    border-radius: 1.875rem;
+  }
+}
+@keyframes TickerItem_scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.TickerItems_ticker-item--small-logo {
+  width: 5.625rem;
+  height: 5.625rem;
+}
+@media (min-width: 48rem) {
+  .TickerItems_ticker-item--small-logo {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+}
+.ManyMore_many-more {
+  position: relative;
+  overflow: hidden;
+  padding: var(--spacing-layout-vertical) 0;
+  background-color: var(--color-white);
+}
+.ManyMore_many-more__container {
+  padding: 0 var(--spacing-layout-horizontal);
+}
+.ManyMore_title {
+  max-width: var(--site-width);
+  margin: 0 auto calc(var(--spacing-layout-vertical) * 0.5) auto;
+  padding: 0 calc(var(--spacing-layout-vertical) * 0.4);
+  text-align: center;
+}
+.ManyMore_images {
+  position: relative;
+  min-height: 31.25rem;
+}
+.ManyMore_images__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ManyMore_images__container:after,
+.ManyMore_images__container:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+}
+.ManyMore_images__container:before {
+  left: -0.625rem;
+  background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0));
+}
+.ManyMore_images__container:after {
+  right: -0.625rem;
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff);
+}
+.ManyMore_images__container > :last-child {
+  margin-top: 2.5rem;
+}
+@media (min-width: 48rem) {
+  .ManyMore_images__container > :last-child {
+    margin-top: 0;
+  }
+  .ManyMore_images {
+    min-height: 43.75rem;
+  }
+}
+.DaVinci_davinci-app {
+  background: var(--color-black);
+}
+.DaVinci_davinci-app__title {
+  color: var(--color-white);
+}
+.DaVinci_davinci-app__subtitle {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    var(--color-skinny-jeans) 0,
+    var(--color-blue-genie) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.DaVinci_davinci-app__images p {
+  color: transparent;
+  background: var(
+    --blue-header,
+    radial-gradient(
+      268.82% 160.94% at 5.54% 13.64%,
+      var(--color-lightish-blue) 0,
+      var(--color-white) 100%
+    )
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.DaVinci_davinci-app .DaVinci_background {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: -1;
+  top: -22%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+}
+@media (min-width: 64rem) {
+  .DaVinci_davinci-app .DaVinci_background {
+    display: block;
+  }
+}
+.Wiser_wiser {
+  background: var(--color-grams-hair);
+}
+.Wiser_wiser__images {
+  color: var(--color-black);
+}
+.Wiser_wiser__list {
+  padding-left: 0;
+  list-style: none;
+}
+@media (min-width: 64rem) {
+  .Wiser_wiser__list {
+    padding-left: 0.9375rem;
+    list-style: disc;
+  }
+}
+.Retouch_retouch {
+  background: var(--color-grams-hair);
+}
+.Nova_nova {
+  position: relative;
+  background: var(--color-black);
+}
+.Nova_nova__mockup-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5rem;
+}
+@media (min-width: 64rem) {
+  .Nova_nova__mockup-container {
+    margin-top: 0;
+  }
+}
+.Nova_nova__mockup {
+  z-index: 1;
+}
+.Nova_nova__chat {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: -1;
+  top: -4.6875rem;
+  max-width: 28.8125rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 64rem) {
+  .Nova_nova__chat {
+    top: -4.6875rem;
+    left: 3.75rem;
+    margin: initial;
+  }
+}
+.Nova_background {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: -1;
+  top: -22%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+}
+@media (min-width: 64rem) {
+  .Nova_background {
+    top: -15%;
+    display: block;
+  }
+}
+@media (min-width: 120rem) {
+  .Nova_background {
+    top: -35%;
+  }
+}
+
+.ProductLogo_product-logo {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 1.5rem;
+  opacity: 0;
+}
+.ProductLogo_product-logo--show__Br8A3 {
+  animation: var(--animation-fade-in);
+}
+@media (min-width: 48rem) {
+  .ProductLogo_product-logo {
+    width: 6.75rem;
+    height: 6.75rem;
+    margin-bottom: 2.25rem;
+  }
+}
+@media (min-width: 75rem) {
+  .ProductLogo_product-logo {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.ProductHeroInfo_product-hero-info {
+  display: flex;
+  grid-area: info;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media (min-width: 30rem) {
+  .ProductHeroInfo_product-hero-info {
+    align-items: center;
+  }
+}
+@media (min-width: 64rem) {
+  .ProductHeroInfo_product-hero-info {
+    align-items: flex-start;
+    justify-self: start;
+  }
+}
+.ProductHeroInfo_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+.ProductHeroInfo_heading__subtitle {
+  margin-top: 0.5rem;
+}
+@media (min-width: 30rem) {
+  .ProductHeroInfo_heading {
+    align-items: center;
+  }
+}
+@media (min-width: 48rem) {
+  .ProductHeroInfo_heading {
+    margin-bottom: 1.875rem;
+  }
+}
+@media (min-width: 64rem) {
+  .ProductHeroInfo_heading {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 75rem) {
+  .ProductHeroInfo_heading {
+    margin-bottom: 2.25rem;
+  }
+}
+.ProductHeroInfo_description {
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 0.75rem;
+  gap: 0.75rem;
+  max-width: 35rem;
+  margin-bottom: 1.5rem;
+}
+.ProductHeroInfo_description__paragraph {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.24;
+  letter-spacing: 0.0024em;
+}
+@media (min-width: 30rem) {
+  .ProductHeroInfo_description__paragraph {
+    line-height: 1.47;
+    letter-spacing: -0.02338rem;
+  }
+}
+@media (min-width: 48rem) {
+  .ProductHeroInfo_description {
+    gap: 1.125rem;
+    margin-bottom: 1.875rem;
+  }
+}
+@media (min-width: 75rem) {
+  .ProductHeroInfo_description {
+    gap: 1.5rem;
+    margin-bottom: 2.25rem;
+  }
+}
+.ProductHeroImage_product-hero-image {
+  --scale: 1.3;
+  --max-width: 37.5rem;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  grid-area: image;
+  justify-self: center;
+  width: 100%;
+  max-width: calc(var(--max-width) / var(--scale));
+  opacity: 0;
+}
+.ProductHeroImage_product-hero-image--show-variant-fade-in {
+  animation: var(--animation-fade-in);
+}
+.ProductHeroImage_product-hero-image--show-variant-fade-in-and-slide-up {
+  animation: var(--animation-fade-in), var(--animation-slide-up);
+}
+.ProductHeroImage_product-hero-image--show-variant-fade-in-and-zoom-in {
+  animation: var(--animation-fade-in), var(--animation-zoom-in);
+}
+.ProductHeroImage_product-hero-image__outer {
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding-top: 100%;
+}
+@media (min-width: 64rem) {
+  .ProductHeroImage_product-hero-image__outer {
+    margin-top: 20%;
+    margin-bottom: 0;
+  }
+}
+.ProductHeroImage_product-hero-image__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale(var(--scale));
+}
+@media (min-width: 25rem) {
+  .ProductHeroImage_product-hero-image {
+    --scale: 1.2;
+  }
+}
+@media (min-width: 64rem) {
+  .ProductHeroImage_product-hero-image {
+    --scale: 1.5;
+    order: 0;
+  }
+}
+@media (min-width: 71.875rem) {
+  .ProductHeroImage_product-hero-image {
+    --max-width: 43.75rem;
+  }
+}
+.ProductHeroButton_product-hero-button {
+  grid-area: button;
+}
+.ProductHeroMeta_product-hero-meta {
+  display: flex;
+  grid-area: meta;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+@media (min-width: 30rem) {
+  .ProductHeroMeta_product-hero-meta {
+    align-items: center;
+  }
+}
+@media (min-width: 64rem) {
+  .ProductHeroMeta_product-hero-meta {
+    align-items: flex-start;
+  }
+}
+.ProductHeroMeta_ratings {
+  display: flex;
+  width: 100%;
+  margin-top: 2.25rem;
+}
+.ProductHeroMeta_ratings__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  text-align: center;
+}
+.ProductHeroMeta_ratings__item:after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 1.09375rem);
+  right: 0;
+  height: 2.1875rem;
+  border-right: thin solid var(--color-silver);
+}
+.ProductHeroMeta_ratings--dark .ProductHeroMeta_ratings__item:after {
+  opacity: 0.4;
+}
+.ProductHeroMeta_ratings--light .ProductHeroMeta_ratings__item:after {
+  opacity: 0.15;
+}
+.ProductHeroMeta_ratings__item:first-child {
+  padding-left: 0;
+}
+.ProductHeroMeta_ratings__item:last-child {
+  padding-right: 0;
+}
+.ProductHeroMeta_ratings__item:last-child:after {
+  content: none;
+}
+@media (min-width: 26.25rem) {
+  .ProductHeroMeta_ratings__item {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+@media (min-width: 30rem) {
+  .ProductHeroMeta_ratings__item {
+    flex-grow: 0;
+  }
+}
+@media (min-width: 75rem) {
+  .ProductHeroMeta_ratings__item {
+    padding-right: 1.625rem;
+    padding-left: 1.625rem;
+  }
+}
+@media (min-width: 90rem) {
+  .ProductHeroMeta_ratings__item {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+.ProductHeroMeta_ratings__rating {
+  height: 1.125rem;
+}
+.ProductHeroMeta_ratings__body {
+  display: flex;
+  align-items: center;
+}
+.ProductHeroMeta_ratings__body svg {
+  margin-right: 0.75rem;
+}
+@media (min-width: 30rem) {
+  .ProductHeroMeta_ratings {
+    justify-content: center;
+  }
+}
+@media (min-width: 64rem) {
+  .ProductHeroMeta_ratings {
+    justify-content: normal;
+  }
+}
+.ProductHero_product-hero {
+  display: grid;
+  grid-template-areas: 'info' 'image' 'button' 'meta';
+  justify-items: start;
+}
+.ProductHero_product-hero--image-on-left-plain,
+.ProductHero_product-hero--image-on-right-plain {
+  grid-template-areas: 'image' 'info';
+}
+@media (min-width: 30rem) {
+  .ProductHero_product-hero {
+    justify-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 64rem) {
+  .ProductHero_product-hero {
+    justify-items: start;
+    text-align: left;
+  }
+  .ProductHero_product-hero--image-on-left {
+    grid-template-areas: 'image info' 'image button' 'image meta';
+    grid-template-columns: 5fr 4fr;
+  }
+  .ProductHero_product-hero--image-on-left-plain {
+    grid-template-areas: 'image info';
+    grid-template-columns: 5fr 4fr;
+    align-items: center;
+  }
+  .ProductHero_product-hero--image-on-right__t__9h {
+    grid-template-areas: 'info image' 'button image' 'meta image';
+    grid-template-columns: 4fr 5fr;
+  }
+  .ProductHero_product-hero--image-on-right-plain {
+    grid-template-areas: 'info image';
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+  }
+  .ProductHero_product-hero {
+    -moz-column-gap: 3.125rem;
+    column-gap: 3.125rem;
+  }
+}
+.ProductImage_product-image {
+  --text-show-delay: 500ms;
+  position: relative;
+  opacity: 0;
+}
+
+.ProductImage_product-image__title {
+  position: absolute;
+  z-index: 1;
+  top: 6%;
+  left: 10%;
+  max-width: 80%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0;
+}
+
+@media (min-width: 64rem) {
+  .ProductImage_product-image__title {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 75rem) {
+  .ProductImage_product-image__title {
+    font-size: 2.25rem;
+  }
+}
+.ProductImage_product-image__image {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border-radius: 0.5rem;
+}
+.ProductImages_product-images {
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.625rem;
+  color: var(--color-white);
+}
+@media (min-width: 48rem) {
+  .ProductImages_product-images {
+    display: grid;
+  }
+}
+.ProductReviews_product-reviews {
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  transform: translateX(-50%);
+  overflow-x: auto;
+  display: flex;
+  width: 100vw;
+  margin-top: 2.625rem;
+  margin-left: 50%;
+  padding: 0 var(--spacing-layout-horizontal);
+  padding-right: 0;
+}
+.ProductReviews_product-reviews:after {
+  content: '';
+  padding-right: 0.00125rem;
+}
+.ProductReviews_product-reviews::-webkit-scrollbar {
+  display: none;
+}
+.ProductReviews_product-reviews--light {
+  color: var(--color-black);
+}
+.ProductReviews_product-reviews--dark {
+  color: var(--color-white);
+}
+@media (min-width: 48rem) {
+  .ProductReviews_product-reviews {
+    transform: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    width: auto;
+    margin-left: 0;
+    padding: 0;
+  }
+}
+.ProductReviews_review {
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  width: 90%;
+  padding: 1rem 1.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.ProductReviews_review:not(:last-child) {
+  margin-right: 1rem;
+}
+.ProductReviews_review:last-child {
+  margin-right: var(--spacing-layout-horizontal);
+}
+.ProductReviews_product-reviews--light .ProductReviews_review {
+  background: var(--color-white);
+}
+.ProductReviews_product-reviews--dark .ProductReviews_review {
+  background: var(--color-cod-gray);
+}
+.ProductReviews_review__header {
+  margin-bottom: 1.125rem;
+}
+@media (min-width: 62rem) {
+  .ProductReviews_review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  .ProductReviews_review__rating {
+    margin-right: 0.75rem;
+  }
+}
+.ProductReviews_review__title {
+  margin-right: 0.3125rem;
+}
+.ProductReviews_review__username {
+  text-decoration: underline;
+}
+.ProductReviews_review__body {
+  opacity: 0.7;
+}
+@media (min-width: 30rem) {
+  .ProductReviews_review {
+    width: 60%;
+  }
+}
+@media (min-width: 48rem) {
+  .ProductReviews_review {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.Rating_rating {
+  position: relative;
+  display: inline-flex;
+}
+.Rating_rating--light {
+  color: var(--color-light);
+}
+.Rating_rating--dark {
+  color: var(--color-dark);
+}
+.Rating_rating svg {
+  color: currentcolor;
+}
+.Rating_rating__inner {
+  position: relative;
+}
+.Rating_rating__foreground {
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+.Rating_rating__foreground svg {
+  max-width: none;
+}
+.Rating_rating__background {
+  position: absolute;
+  z-index: 15;
+  top: 0;
+  left: 0;
+  opacity: 0.45;
+}
+
+.Ticker_ticker-container {
+  --speed: 70s;
+  position: relative;
+  overflow: hidden;
+  max-width: 112.5rem;
+  margin: 0 auto;
+}
+.Ticker_ticker,
+.Ticker_ticker__children {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.Ticker_ticker--right .Ticker_ticker__children {
+  transform: translateX(-100%);
+  animation: Ticker_slide-to-right var(--speed) linear infinite forwards;
+}
+.Ticker_ticker--left .Ticker_ticker__children {
+  animation: Ticker_slide-to-left var(--speed) linear infinite forwards;
+}
+@keyframes Ticker_slide-to-left {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes Ticker_slide-to-right {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    transform: translateZ(0);
+  }
+}
+
+.StarParticles_particles {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: var(--animation-fade-in);
+  animation-duration: 2s;
+}
+.StarParticles_particles__particle:after {
+  content: '';
+  position: absolute;
+  top: 160rem;
+  background: transparent;
+}
+.StarParticles_particles__particle--1 {
+  box-shadow: 0 0 #ab66ff, 25.6875rem 40.875rem #ab66ff,
+    117.0625rem 59.125rem #ab66ff, 30.125rem 32.6875rem #ab66ff,
+    94.875rem 153.5rem #ab66ff, 41.75rem 90.5rem #ab66ff,
+    2.75rem 0.75rem #ab66ff, 104.0625rem 78.375rem #ab66ff,
+    39.625rem 149.5625rem #ab66ff, 71.25rem 16.75rem #ab66ff,
+    54.125rem 47.25rem #ab66ff, 84rem 97.3125rem #ab66ff,
+    105.25rem 96.3125rem #ab66ff, 12.1875rem 60.5rem #ab66ff,
+    26rem 95.875rem #ab66ff, 2.75rem 139.6875rem #ab66ff,
+    125.25rem 10.1875rem #ab66ff, 66.25rem 27.875rem #ab66ff,
+    32.625rem 93.875rem #ab66ff, 107.5625rem 27.375rem #ab66ff,
+    38.4375rem 37.5625rem #ab66ff, 106.25rem 112.625rem #ab66ff,
+    93.375rem 28.5625rem #ab66ff, 27.4375rem 105.375rem #ab66ff,
+    89.25rem 51.75rem #ab66ff, 41.75rem 139.125rem #ab66ff,
+    11.6875rem 6.375rem #ab66ff, 26.6875rem 145rem #ab66ff,
+    88.25rem 79.125rem #ab66ff, 105.8125rem 105.25rem #ab66ff,
+    45.9375rem 136.375rem #ab66ff, 18.4375rem 96.125rem #ab66ff,
+    68.875rem 19.25rem #ab66ff, 154.25rem 91.8125rem #ab66ff,
+    6.1875rem 66.5625rem #ab66ff, 90.375rem 106.625rem #ab66ff,
+    138.125rem 25rem #ab66ff, 51rem 78.9375rem #ab66ff,
+    47.875rem 15.25rem #ab66ff, 1.5rem 110.875rem #ab66ff,
+    108.5625rem 156.625rem #ab66ff, 126.125rem 30.75rem #ab66ff,
+    111.5625rem 107rem #ab66ff, 80.875rem 143.25rem #ab66ff,
+    49.1875rem 14.6875rem #ab66ff, 71.5rem 79.0625rem #ab66ff,
+    44.9375rem 94.3125rem #ab66ff, 145.8125rem 7.375rem #ab66ff,
+    148.375rem 4.875rem #ab66ff, 122.875rem 123.3125rem #ab66ff,
+    43.375rem 44.8125rem #ab66ff, 136.3125rem 24.6875rem #ab66ff,
+    79.6875rem 128.0625rem #ab66ff, 81.3125rem 149.6875rem #ab66ff,
+    93.625rem 141.25rem #ab66ff, 123.6875rem 139.4375rem #ab66ff,
+    45.875rem 156.375rem #ab66ff, 22.4375rem 75.625rem #ab66ff,
+    132.9375rem 91.0625rem #ab66ff, 114.4375rem 9.375rem #ab66ff,
+    147.0625rem 86rem #ab66ff, 118.125rem 125.6875rem #ab66ff,
+    129.8125rem 11.1875rem #ab66ff, 142.1875rem 7rem #ab66ff,
+    129.625rem 47.5625rem #ab66ff, 76.375rem 39.3125rem #ab66ff,
+    105.125rem 55.8125rem #ab66ff, 90.6875rem 36.625rem #ab66ff,
+    96.25rem 150rem #ab66ff, 101.1875rem 23.75rem #ab66ff,
+    97.25rem 27.8125rem #ab66ff, 32.8125rem 71.125rem #ab66ff,
+    129.5rem 51.75rem #ab66ff, 78.875rem 5.875rem #ab66ff,
+    157.8125rem 2.875rem #ab66ff, 90.8125rem 18.625rem #ab66ff,
+    133.0625rem 139.125rem #ab66ff, 124.6875rem 126.625rem #ab66ff,
+    43.1875rem 9.6875rem #ab66ff, 1.5rem 159.5625rem #ab66ff,
+    128.625rem 82.3125rem #ab66ff, 84.8125rem 57rem #ab66ff,
+    93.625rem 138.6875rem #ab66ff, 37.3125rem 117.8125rem #ab66ff,
+    84.3125rem 61.4375rem #ab66ff, 143.875rem 16.25rem #ab66ff,
+    10.6875rem 69.5rem #ab66ff, 150rem 110.1875rem #ab66ff,
+    140.875rem 51.6875rem #ab66ff, 36.25rem 67.375rem #ab66ff,
+    71.5625rem 145.375rem #ab66ff, 75.5625rem 111.375rem #ab66ff,
+    64.5rem 49.5625rem #ab66ff, 69.0625rem 151.625rem #ab66ff,
+    54.3125rem 95.8125rem #ab66ff, 5.25rem 143.4375rem #ab66ff,
+    44.25rem 38.5rem #ab66ff, 151.9375rem 118.5rem #ab66ff,
+    126.125rem 121.1875rem #ab66ff, 144.75rem 18.5rem #ab66ff,
+    55.6875rem 18.9375rem #ab66ff, 115.1875rem 156.3125rem #ab66ff,
+    0.8125rem 55.9375rem #ab66ff, 2.5rem 83.5rem #ab66ff,
+    57.125rem 76.0625rem #ab66ff, 98.8125rem 33.0625rem #ab66ff,
+    71.8125rem 86.0625rem #ab66ff, 98.375rem 5rem #ab66ff,
+    26.875rem 151.4375rem #ab66ff, 11.3125rem 92.8125rem #ab66ff,
+    159.0625rem 82.5rem #ab66ff, 100.5625rem 140.8125rem #ab66ff,
+    40.125rem 3.0625rem #ab66ff, 82.4375rem 27.9375rem #ab66ff,
+    97.5rem 50.9375rem #ab66ff, 82.25rem 35.25rem #ab66ff,
+    62.125rem 94.1875rem #ab66ff, 28.6875rem 80.375rem #ab66ff,
+    16.6875rem 122.875rem #ab66ff, 72.4375rem 21.6875rem #ab66ff,
+    48.6875rem 40.8125rem #ab66ff, 132.375rem 39.5625rem #ab66ff,
+    86.3125rem 82.875rem #ab66ff, 153.125rem 147.5625rem #ab66ff,
+    89.25rem 113.9375rem #ab66ff, 154.375rem 50.625rem #ab66ff,
+    2.8125rem 116.9375rem #ab66ff, 106.875rem 131.0625rem #ab66ff,
+    30.4375rem 58.8125rem #ab66ff, 143.625rem 70rem #ab66ff,
+    31.875rem 73.625rem #ab66ff, 120.6875rem 109.9375rem #ab66ff,
+    60.8125rem 83.125rem #ab66ff, 122.375rem 66.4375rem #ab66ff,
+    134.3125rem 120.3125rem #ab66ff, 84.25rem 131.3125rem #ab66ff,
+    34.625rem 86.8125rem #ab66ff, 153.5rem 17.5625rem #ab66ff,
+    40.5rem 137.8125rem #ab66ff, 137.8125rem 99.75rem #ab66ff,
+    33.625rem 74.3125rem #ab66ff, 50.4375rem 119.3125rem #ab66ff,
+    131.875rem 69.375rem #ab66ff, 154.9375rem 154.375rem #ab66ff,
+    18.6875rem 51rem #ab66ff, 100.25rem 128rem #ab66ff,
+    16.25rem 34.1875rem #ab66ff, 26.3125rem 57.0625rem #ab66ff,
+    95.875rem 18rem #ab66ff, 32.3125rem 22.625rem #ab66ff,
+    22.6875rem 8.9375rem #ab66ff, 63.5625rem 138.375rem #ab66ff,
+    14.9375rem 149.875rem #ab66ff, 101.875rem 1.3125rem #ab66ff,
+    34.25rem 73.25rem #ab66ff, 60.875rem 100rem #ab66ff,
+    59.6875rem 97.9375rem #ab66ff, 66rem 141.1875rem #ab66ff,
+    18.4375rem 120.4375rem #ab66ff, 95.25rem 15.625rem #ab66ff,
+    135.8125rem 112.5625rem #ab66ff, 67.5rem 76.6875rem #ab66ff,
+    5.6875rem 54.75rem #ab66ff, 24.25rem 133.625rem #ab66ff,
+    49.6875rem 2.1875rem #ab66ff, 102.6875rem 114.75rem #ab66ff,
+    124.6875rem 129.5625rem #ab66ff, 114.5625rem 157rem #ab66ff,
+    3.125rem 95.25rem #ab66ff, 14.25rem 130.4375rem #ab66ff,
+    5.1875rem 51.25rem #ab66ff, 66.625rem 126.9375rem #ab66ff,
+    107.4375rem 115.9375rem #ab66ff, 16.1875rem 79.375rem #ab66ff,
+    131.75rem 5.8125rem #ab66ff, 132.75rem 82.625rem #ab66ff,
+    73.6875rem 37.8125rem #ab66ff, 114.6875rem 105.6875rem #ab66ff,
+    92.75rem 0.25rem #ab66ff, 141.4375rem 59rem #ab66ff,
+    155.375rem 115.3125rem #ab66ff, 116.875rem 68.8125rem #ab66ff,
+    21.25rem 155.3125rem #ab66ff, 80.5625rem 73.5625rem #ab66ff,
+    98.5rem 40.4375rem #ab66ff, 74.875rem 93.25rem #ab66ff,
+    131.625rem 11rem #ab66ff, 153.4375rem 20.125rem #ab66ff,
+    5rem 25.0625rem #ab66ff, 86.9375rem 100.5rem #ab66ff,
+    104.4375rem 40.6875rem #ab66ff, 19.5rem 21.375rem #ab66ff,
+    149.25rem 54.6875rem #ab66ff, 149.0625rem 40.4375rem #ab66ff,
+    32.0625rem 156.0625rem #ab66ff, 78.25rem 70.5rem #ab66ff,
+    82.125rem 76.6875rem #ab66ff, 44.4375rem 104.875rem #ab66ff,
+    110.6875rem 55.0625rem #ab66ff, 14.3125rem 100.1875rem #ab66ff,
+    130.75rem 63.5rem #ab66ff, 137.3125rem 93.125rem #ab66ff,
+    26.1875rem 30.75rem #ab66ff, 52rem 136.0625rem #ab66ff,
+    58.875rem 75.3125rem #ab66ff, 70.0625rem 50.25rem #ab66ff,
+    101.25rem 144.9375rem #ab66ff, 107.4375rem 65.25rem #ab66ff,
+    21.5625rem 62.625rem #ab66ff, 23.5625rem 136.4375rem #ab66ff,
+    41.25rem 69.8125rem #ab66ff, 112.3125rem 30.125rem #ab66ff,
+    120rem 103.8125rem #ab66ff, 119.6875rem 112.25rem #ab66ff,
+    85.125rem 78.625rem #ab66ff, 50.8125rem 32.75rem #ab66ff,
+    45.5625rem 108.0625rem #ab66ff, 28.375rem 53.25rem #ab66ff,
+    147.5rem 48.25rem #ab66ff, 81.125rem 44.125rem #ab66ff,
+    42.75rem 149.375rem #ab66ff, 139.5625rem 17.375rem #ab66ff,
+    99.5rem 53.3125rem #ab66ff, 69.6875rem 103.5rem #ab66ff,
+    44.3125rem 122.6875rem #ab66ff, 31.4375rem 103.6875rem #ab66ff,
+    102.875rem 59.625rem #ab66ff, 52.375rem 85.3125rem #ab66ff,
+    76.4375rem 106.3125rem #ab66ff, 56.9375rem 60rem #ab66ff,
+    3.625rem 114.6875rem #ab66ff, 138.25rem 9.625rem #ab66ff,
+    144.5rem 48.5625rem #ab66ff, 41.375rem 89.125rem #ab66ff,
+    131.5rem 121.5625rem #ab66ff, 15rem 81.0625rem #ab66ff,
+    58.375rem 37.1875rem #ab66ff, 107.3125rem 44.0625rem #ab66ff,
+    131.6875rem 64.5625rem #ab66ff, 140.5625rem 151.3125rem #ab66ff,
+    94.6875rem 132.4375rem #ab66ff, 8.5rem 91.875rem #ab66ff,
+    10rem 28.9375rem #ab66ff, 52.5rem 17.3125rem #ab66ff,
+    122.4375rem 71.75rem #ab66ff, 132.25rem 125.1875rem #ab66ff,
+    95.5rem 89.1875rem #ab66ff, 159.5625rem 80.3125rem #ab66ff,
+    104.875rem 68.375rem #ab66ff, 94.9375rem 154.6875rem #ab66ff,
+    134.625rem 104.9375rem #ab66ff, 76.4375rem 135.9375rem #ab66ff,
+    91.4375rem 59.4375rem #ab66ff, 93.375rem 53.5rem #ab66ff,
+    97.5rem 131.625rem #ab66ff, 85.375rem 119.625rem #ab66ff,
+    35.9375rem 54.125rem #ab66ff, 101.6875rem 11.5rem #ab66ff,
+    65.5625rem 114.9375rem #ab66ff, 70.3125rem 145.0625rem #ab66ff,
+    85.0625rem 120.5625rem #ab66ff, 3.875rem 141.0625rem #ab66ff,
+    14.8125rem 124.75rem #ab66ff, 141.75rem 41.625rem #ab66ff,
+    11.5625rem 130.0625rem #ab66ff, 61.375rem 91.6875rem #ab66ff,
+    28.3125rem 145.6875rem #ab66ff, 5.875rem 119.9375rem #ab66ff,
+    141.6875rem 101.375rem #ab66ff, 73.125rem 72.5rem #ab66ff,
+    18.75rem 126.625rem #ab66ff, 60.0625rem 119.75rem #ab66ff,
+    82.375rem 34.1875rem #ab66ff, 150.6875rem 138.875rem #ab66ff,
+    94.375rem 150.875rem #ab66ff, 20.4375rem 33rem #ab66ff,
+    100.1875rem 90.0625rem #ab66ff, 105.3125rem 31.5rem #ab66ff,
+    13.0625rem 64.0625rem #ab66ff, 24.1875rem 7rem #ab66ff,
+    59.4375rem 154rem #ab66ff, 67.4375rem 132.1875rem #ab66ff,
+    159.8125rem 123.6875rem #ab66ff, 8.75rem 20.625rem #ab66ff,
+    106.9375rem 53.4375rem #ab66ff, 148.5rem 87.25rem #ab66ff,
+    2.5625rem 11.4375rem #ab66ff, 124.375rem 3.9375rem #ab66ff,
+    121.25rem 152.6875rem #ab66ff, 111.8125rem 64.0625rem #ab66ff,
+    71.875rem 29.375rem #ab66ff, 15rem 35.125rem #ab66ff,
+    88.8125rem 159.875rem #ab66ff, 125.9375rem 138.0625rem #ab66ff,
+    96.0625rem 11.8125rem #ab66ff, 10.3125rem 132.5625rem #ab66ff,
+    73.375rem 30.75rem #ab66ff, 2.625rem 43.875rem #ab66ff,
+    110.1875rem 85.6875rem #ab66ff, 63.4375rem 105.4375rem #ab66ff,
+    121.125rem 21.5rem #ab66ff;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  animation: StarParticles_animate-particles__IJq6Z 90s linear infinite;
+}
+.StarParticles_particles__particle--1:after {
+  box-shadow: 0 0 #ab66ff, 78.5625rem 111.625rem #ab66ff,
+    71.1875rem 64.9375rem #ab66ff, 22.3125rem 56.5rem #ab66ff,
+    95.9375rem 119rem #ab66ff, 92.5rem 22.875rem #ab66ff,
+    15.125rem 12.9375rem #ab66ff, 49.5rem 104.4375rem #ab66ff,
+    41.625rem 20.6875rem #ab66ff, 129.0625rem 146.8125rem #ab66ff,
+    59.375rem 139.6875rem #ab66ff, 141.5rem 111.8125rem #ab66ff,
+    69.8125rem 90.5625rem #ab66ff, 96.3125rem 113.8125rem #ab66ff,
+    17.25rem 4.5625rem #ab66ff, 100.125rem 11.125rem #ab66ff,
+    5.375rem 29.9375rem #ab66ff, 81.0625rem 106.4375rem #ab66ff,
+    147.625rem 102.375rem #ab66ff, 116.5625rem 28.9375rem #ab66ff,
+    15.3125rem 94.9375rem #ab66ff, 85.4375rem 60rem #ab66ff,
+    142rem 157.1875rem #ab66ff, 87.4375rem 110.8125rem #ab66ff,
+    25.875rem 151.5625rem #ab66ff, 137.3125rem 141.4375rem #ab66ff,
+    145.8125rem 74rem #ab66ff, 152rem 37.4375rem #ab66ff,
+    5.4375rem 139.4375rem #ab66ff, 63.3125rem 27.375rem #ab66ff,
+    98.5rem 2.875rem #ab66ff, 89.6875rem 26.4375rem #ab66ff,
+    134.4375rem 82.5rem #ab66ff, 52.3125rem 37.3125rem #ab66ff,
+    62.3125rem 22.4375rem #ab66ff, 18.3125rem 1.1875rem #ab66ff,
+    85.5rem 70.1875rem #ab66ff, 82.5rem 92.75rem #ab66ff,
+    97.5rem 27.9375rem #ab66ff, 87.75rem 12.5625rem #ab66ff,
+    131.75rem 126.125rem #ab66ff, 119rem 127.8125rem #ab66ff,
+    9.25rem 62.375rem #ab66ff, 154.375rem 111.8125rem #ab66ff,
+    96.5rem 52.4375rem #ab66ff, 29.3125rem 23rem #ab66ff,
+    143.75rem 83.6875rem #ab66ff, 140.8125rem 69rem #ab66ff,
+    156.5625rem 86.875rem #ab66ff, 113.6875rem 64.25rem #ab66ff,
+    150rem 14.4375rem #ab66ff, 70.5rem 99.125rem #ab66ff,
+    90rem 82.4375rem #ab66ff, 130.25rem 29.25rem #ab66ff,
+    108.6875rem 23.8125rem #ab66ff, 77.9375rem 146.4375rem #ab66ff,
+    90.0625rem 145.5625rem #ab66ff, 106.3125rem 12.625rem #ab66ff,
+    51.5625rem 102rem #ab66ff, 130.5625rem 135.6875rem #ab66ff,
+    18.875rem 55.1875rem #ab66ff, 156.4375rem 41.375rem #ab66ff,
+    94.6875rem 99.3125rem #ab66ff, 116.25rem 78.375rem #ab66ff,
+    70.3125rem 58.9375rem #ab66ff, 125.5rem 83rem #ab66ff,
+    145.75rem 83.8125rem #ab66ff, 13.6875rem 4.3125rem #ab66ff,
+    15.8125rem 127.3125rem #ab66ff, 96.1875rem 6.125rem #ab66ff,
+    22.4375rem 143.75rem #ab66ff, 52.9375rem 110.875rem #ab66ff,
+    104.5625rem 110.625rem #ab66ff, 23.75rem 140.1875rem #ab66ff,
+    35.6875rem 39.5rem #ab66ff, 54.625rem 151.5rem #ab66ff,
+    109.1875rem 13.6875rem #ab66ff, 44.9375rem 72.6875rem #ab66ff,
+    69.875rem 90.3125rem #ab66ff, 71.8125rem 115rem #ab66ff,
+    91.125rem 23.25rem #ab66ff, 72rem 140.875rem #ab66ff,
+    32.75rem 29.3125rem #ab66ff, 1.1875rem 15.875rem #ab66ff,
+    46.125rem 114.5625rem #ab66ff, 29.4375rem 26.125rem #ab66ff,
+    116.6875rem 72.3125rem #ab66ff, 47.6875rem 140.75rem #ab66ff,
+    93.4375rem 147.75rem #ab66ff, 120.25rem 65.0625rem #ab66ff,
+    59.0625rem 47.8125rem #ab66ff, 49.9375rem 128.5625rem #ab66ff,
+    140.0625rem 6rem #ab66ff, 22.6875rem 159.875rem #ab66ff,
+    55.125rem 1.4375rem #ab66ff, 62.9375rem 152.375rem #ab66ff,
+    116.4375rem 35.5625rem #ab66ff, 114.25rem 157.125rem #ab66ff,
+    66.3125rem 100.4375rem #ab66ff, 52.625rem 46.4375rem #ab66ff,
+    148.375rem 146.0625rem #ab66ff, 9.5rem 13.6875rem #ab66ff,
+    6.625rem 62.8125rem #ab66ff, 135.4375rem 85.625rem #ab66ff,
+    142.0625rem 45.6875rem #ab66ff, 14rem 70.25rem #ab66ff,
+    94.625rem 54.3125rem #ab66ff, 100.9375rem 8.875rem #ab66ff,
+    106.1875rem 22.0625rem #ab66ff, 71.125rem 133.8125rem #ab66ff,
+    133.5625rem 141.375rem #ab66ff, 102.125rem 144.3125rem #ab66ff,
+    0.9375rem 42.5625rem #ab66ff, 47.9375rem 68.6875rem #ab66ff,
+    83.4375rem 142.6875rem #ab66ff, 46.3125rem 57.375rem #ab66ff,
+    51.8125rem 111.8125rem #ab66ff, 131.9375rem 99.3125rem #ab66ff,
+    39.4375rem 20.1875rem #ab66ff, 34.9375rem 101rem #ab66ff,
+    156.375rem 48.125rem #ab66ff, 85.1875rem 90.4375rem #ab66ff,
+    141.375rem 138.5625rem #ab66ff, 112.5625rem 18.0625rem #ab66ff,
+    1.25rem 26.875rem #ab66ff, 40.6875rem 101.5rem #ab66ff,
+    92.6875rem 87.75rem #ab66ff, 79.25rem 2.375rem #ab66ff,
+    66.0625rem 30.6875rem #ab66ff, 112rem 20.6875rem #ab66ff,
+    34.1875rem 16.5625rem #ab66ff, 1.5625rem 145.5625rem #ab66ff,
+    108.4375rem 116.25rem #ab66ff, 56.6875rem 64.8125rem #ab66ff,
+    113.75rem 81.625rem #ab66ff, 111.6875rem 2.5rem #ab66ff,
+    148.125rem 16rem #ab66ff, 125.0625rem 23.6875rem #ab66ff,
+    118.9375rem 41.4375rem #ab66ff, 117.5625rem 49.0625rem #ab66ff,
+    113.1875rem 58.9375rem #ab66ff, 104.75rem 21.25rem #ab66ff,
+    144.8125rem 19.5625rem #ab66ff, 34.5625rem 139.5625rem #ab66ff,
+    6.75rem 98.9375rem #ab66ff, 2.9375rem 31.8125rem #ab66ff,
+    97.5625rem 131.9375rem #ab66ff, 52.625rem 68.9375rem #ab66ff,
+    120.0625rem 38.0625rem #ab66ff, 27rem 5.8125rem #ab66ff,
+    46.5625rem 121.9375rem #ab66ff, 19.25rem 130.125rem #ab66ff,
+    123.25rem 144.8125rem #ab66ff, 25.25rem 64.5625rem #ab66ff,
+    5.4375rem 158.125rem #ab66ff, 104.125rem 144.5625rem #ab66ff,
+    50.625rem 115.5rem #ab66ff, 1rem 120rem #ab66ff,
+    44.0625rem 122.375rem #ab66ff, 15.3125rem 26.875rem #ab66ff,
+    77.75rem 49.5rem #ab66ff, 62.5625rem 137.8125rem #ab66ff,
+    45.1875rem 67.875rem #ab66ff, 139rem 33.5625rem #ab66ff,
+    159.6875rem 73.125rem #ab66ff, 49.4375rem 75rem #ab66ff,
+    91.5625rem 83.3125rem #ab66ff, 145.25rem 70.1875rem #ab66ff,
+    26rem 139.125rem #ab66ff, 26.0625rem 68.875rem #ab66ff,
+    30.875rem 5.625rem #ab66ff, 9.25rem 157.625rem #ab66ff,
+    37.9375rem 90.6875rem #ab66ff, 81.375rem 106rem #ab66ff,
+    72.6875rem 29rem #ab66ff, 131.25rem 153.125rem #ab66ff,
+    90.375rem 100.5rem #ab66ff, 35.25rem 157rem #ab66ff,
+    49.75rem 17.5625rem #ab66ff, 101.75rem 74.8125rem #ab66ff,
+    158.25rem 120.0625rem #ab66ff, 14.4375rem 32.875rem #ab66ff,
+    139.625rem 22.75rem #ab66ff, 4.25rem 20.875rem #ab66ff,
+    87.875rem 75.375rem #ab66ff, 111.125rem 59.0625rem #ab66ff,
+    49.5625rem 86.125rem #ab66ff, 27.125rem 91.375rem #ab66ff,
+    3.5625rem 9.0625rem #ab66ff, 83.375rem 140.875rem #ab66ff,
+    141.3125rem 88.3125rem #ab66ff, 147.8125rem 96.0625rem #ab66ff,
+    116.8125rem 31.625rem #ab66ff, 40.6875rem 71.25rem #ab66ff,
+    56.875rem 45.125rem #ab66ff, 138.125rem 81.5rem #ab66ff,
+    26.3125rem 71.625rem #ab66ff, 89.25rem 123.25rem #ab66ff,
+    150.9375rem 91.3125rem #ab66ff, 142.4375rem 150.8125rem #ab66ff,
+    97.375rem 6.25rem #ab66ff, 101.1875rem 56.0625rem #ab66ff,
+    99.875rem 33.0625rem #ab66ff, 133.75rem 34.6875rem #ab66ff,
+    51.625rem 26.25rem #ab66ff, 152.75rem 90.6875rem #ab66ff,
+    98.875rem 137rem #ab66ff, 10.8125rem 113.875rem #ab66ff,
+    32.9375rem 115.125rem #ab66ff, 48.5rem 72.25rem #ab66ff,
+    8.5625rem 140.625rem #ab66ff, 88.375rem 48.875rem #ab66ff,
+    58.8125rem 110.375rem #ab66ff, 52.6875rem 145.5rem #ab66ff,
+    0.4375rem 76.3125rem #ab66ff, 101.1875rem 49.4375rem #ab66ff,
+    11.5rem 24.4375rem #ab66ff, 74.875rem 105.25rem #ab66ff,
+    76.875rem 145.6875rem #ab66ff, 38.375rem 2.6875rem #ab66ff,
+    116.625rem 7.75rem #ab66ff, 120.25rem 21.4375rem #ab66ff,
+    154.1875rem 73.0625rem #ab66ff, 105.3125rem 136.125rem #ab66ff,
+    28.5rem 83.5625rem #ab66ff, 5.75rem 9.9375rem #ab66ff,
+    90.25rem 82.875rem #ab66ff, 76.8125rem 14.5625rem #ab66ff,
+    56.625rem 89.625rem #ab66ff, 115.125rem 131.8125rem #ab66ff,
+    13.125rem 87.5625rem #ab66ff, 86.6875rem 2.0625rem #ab66ff,
+    102.1875rem 111.5rem #ab66ff, 16.3125rem 3.6875rem #ab66ff,
+    136rem 31.9375rem #ab66ff, 88.0625rem 38.4375rem #ab66ff,
+    105.3125rem 91.25rem #ab66ff, 137.0625rem 112.1875rem #ab66ff,
+    110.75rem 111.1875rem #ab66ff, 43.25rem 132rem #ab66ff,
+    89.25rem 132.125rem #ab66ff, 87.8125rem 141.9375rem #ab66ff,
+    128.875rem 9.5rem #ab66ff, 141.75rem 75rem #ab66ff,
+    93.6875rem 75.625rem #ab66ff, 133.625rem 38rem #ab66ff,
+    3.5625rem 65.25rem #ab66ff, 82.875rem 48.375rem #ab66ff,
+    4.4375rem 111.5625rem #ab66ff, 38.8125rem 35.625rem #ab66ff,
+    80.0625rem 144.5rem #ab66ff, 75.375rem 23.5rem #ab66ff,
+    28.75rem 108.0625rem #ab66ff, 31.125rem 97rem #ab66ff,
+    47rem 30.0625rem #ab66ff, 121.875rem 103.25rem #ab66ff,
+    80.125rem 144.375rem #ab66ff, 91.1875rem 66.3125rem #ab66ff,
+    77.5rem 145.125rem #ab66ff, 152.75rem 18.25rem #ab66ff,
+    66.0625rem 134.875rem #ab66ff, 82.5625rem 25.75rem #ab66ff,
+    39.75rem 111rem #ab66ff, 130.25rem 74.375rem #ab66ff,
+    152.625rem 145.1875rem #ab66ff, 42.125rem 19.875rem #ab66ff,
+    46.9375rem 11.625rem #ab66ff, 107.4375rem 47.0625rem #ab66ff,
+    30.1875rem 133.375rem #ab66ff, 153.0625rem 146.1875rem #ab66ff,
+    38.625rem 26.5rem #ab66ff, 145.5625rem 47.5rem #ab66ff,
+    61.6875rem 93.25rem #ab66ff, 65.4375rem 94rem #ab66ff, 60rem 157rem #ab66ff,
+    99.75rem 42.5625rem #ab66ff, 124.4375rem 24.125rem #ab66ff,
+    112.75rem 93.6875rem #ab66ff, 120.1875rem 9.1875rem #ab66ff,
+    28.0625rem 156.75rem #ab66ff, 53.9375rem 118rem #ab66ff,
+    28.3125rem 77.375rem #ab66ff, 16.0625rem 3.75rem #ab66ff,
+    43.0625rem 72rem #ab66ff, 138.0625rem 100.1875rem #ab66ff,
+    59.5625rem 0.8125rem #ab66ff, 6.3125rem 1.125rem #ab66ff,
+    62.75rem 3.875rem #ab66ff, 132.375rem 91.875rem #ab66ff,
+    128.3125rem 114.25rem #ab66ff, 3.8125rem 46.75rem #ab66ff,
+    68.5rem 46.875rem #ab66ff, 140.9375rem 68.5rem #ab66ff,
+    41.5625rem 50.25rem #ab66ff, 59.875rem 9.1875rem #ab66ff,
+    102.625rem 83.6875rem #ab66ff, 113.1875rem 156.625rem #ab66ff,
+    70.75rem 45.1875rem #ab66ff, 152.5625rem 14.75rem #ab66ff,
+    142.0625rem 2.5rem #ab66ff, 147.8125rem 78.6875rem #ab66ff;
+  width: 0.0625rem;
+  height: 0.0625rem;
+}
+.StarParticles_particles__particle--2 {
+  box-shadow: 0 0 #ab66ff, 82.125rem 138.5625rem #ab66ff,
+    22.75rem 58.9375rem #ab66ff, 43.3125rem 72.8125rem #ab66ff,
+    74.375rem 14rem #ab66ff, 131.25rem 42.625rem #ab66ff,
+    19.875rem 91.6875rem #ab66ff, 67.875rem 25.125rem #ab66ff,
+    59rem 110.6875rem #ab66ff, 159.125rem 105.25rem #ab66ff,
+    81.8125rem 101.1875rem #ab66ff, 130.125rem 154rem #ab66ff,
+    70.25rem 77.125rem #ab66ff, 96.1875rem 88.5rem #ab66ff,
+    29.375rem 92.4375rem #ab66ff, 37.5625rem 112.125rem #ab66ff,
+    134.9375rem 2.8125rem #ab66ff, 135.8125rem 2.3125rem #ab66ff,
+    32.625rem 17.8125rem #ab66ff, 77.0625rem 49.3125rem #ab66ff,
+    114.875rem 66rem #ab66ff, 18.125rem 110.4375rem #ab66ff,
+    90.3125rem 135.9375rem #ab66ff, 79.625rem 133.75rem #ab66ff,
+    74.6875rem 102.4375rem #ab66ff, 17.875rem 2.1875rem #ab66ff,
+    42.8125rem 86.3125rem #ab66ff, 142.4375rem 21.125rem #ab66ff,
+    63.875rem 143.5rem #ab66ff, 130.875rem 81.6875rem #ab66ff,
+    94.875rem 96.5rem #ab66ff, 136.75rem 94.875rem #ab66ff,
+    43.4375rem 142.6875rem #ab66ff, 109.1875rem 47.0625rem #ab66ff,
+    35.6875rem 77.9375rem #ab66ff, 3.3125rem 4.875rem #ab66ff,
+    57.5625rem 12.25rem #ab66ff, 53.125rem 74.3125rem #ab66ff,
+    110.75rem 117rem #ab66ff, 56.1875rem 44.75rem #ab66ff,
+    81.25rem 90.8125rem #ab66ff, 47.375rem 45.5rem #ab66ff,
+    25.4375rem 144.25rem #ab66ff, 34.9375rem 136.5rem #ab66ff,
+    34.625rem 145.3125rem #ab66ff, 28.5625rem 26.1875rem #ab66ff,
+    4.625rem 100rem #ab66ff, 49.125rem 142.3125rem #ab66ff,
+    1rem 48.125rem #ab66ff, 123.625rem 59.5625rem #ab66ff,
+    124rem 145.6875rem #ab66ff, 62.25rem 14.5625rem #ab66ff,
+    86.3125rem 84.5rem #ab66ff, 115.5625rem 128.125rem #ab66ff,
+    116.6875rem 96.5rem #ab66ff, 53.375rem 11.5rem #ab66ff,
+    48.8125rem 149.3125rem #ab66ff, 135.125rem 110.9375rem #ab66ff,
+    5.4375rem 157.75rem #ab66ff, 65.375rem 73.6875rem #ab66ff,
+    49rem 143.125rem #ab66ff, 24.4375rem 74.875rem #ab66ff,
+    3.1875rem 2.0625rem #ab66ff, 46.5rem 20.9375rem #ab66ff,
+    158.75rem 22.875rem #ab66ff, 69.1875rem 28.875rem #ab66ff,
+    105.5rem 125.9375rem #ab66ff, 1.4375rem 121.4375rem #ab66ff,
+    32.6875rem 114.1875rem #ab66ff, 101.0625rem 76.8125rem #ab66ff,
+    75.4375rem 19.8125rem #ab66ff, 35.375rem 108.25rem #ab66ff,
+    71.625rem 149.5rem #ab66ff, 118.1875rem 75.625rem #ab66ff,
+    3.125rem 154.25rem #ab66ff, 76.375rem 87.875rem #ab66ff,
+    107.0625rem 136.5625rem #ab66ff, 150rem 159.1875rem #ab66ff,
+    64.375rem 14.75rem #ab66ff, 24.75rem 110.9375rem #ab66ff,
+    88.6875rem 103.125rem #ab66ff, 145.3125rem 67.375rem #ab66ff,
+    57.125rem 137.25rem #ab66ff, 147.4375rem 77.3125rem #ab66ff,
+    60.875rem 103.5625rem #ab66ff, 77.5rem 156.5625rem #ab66ff,
+    10.9375rem 156.8125rem #ab66ff, 111.8125rem 94.875rem #ab66ff,
+    125.4375rem 26.9375rem #ab66ff, 136.5rem 89.8125rem #ab66ff,
+    11.8125rem 5.6875rem #ab66ff, 79.625rem 65rem #ab66ff,
+    33.25rem 130.1875rem #ab66ff, 89.9375rem 125.9375rem #ab66ff,
+    71.25rem 133.875rem #ab66ff, 149.9375rem 128.375rem #ab66ff,
+    42.5625rem 62.75rem #ab66ff, 97.25rem 131.125rem #ab66ff, 6rem 15rem #ab66ff,
+    27.25rem 154.8125rem #ab66ff, 115rem 50.0625rem #ab66ff;
+  width: 0.125rem;
+  height: 0.125rem;
+  animation: StarParticles_animate-particles__IJq6Z 180s linear infinite;
+}
+.StarParticles_particles__particle--2:after {
+  box-shadow: 0 0 #ab66ff, 118.9375rem 33.1875rem #ab66ff,
+    144.875rem 153.3125rem #ab66ff, 74rem 136.375rem #ab66ff,
+    55.3125rem 73.4375rem #ab66ff, 7.9375rem 105.375rem #ab66ff,
+    70.6875rem 108.25rem #ab66ff, 98.3125rem 5rem #ab66ff,
+    8.75rem 26.125rem #ab66ff, 35.625rem 33.0625rem #ab66ff,
+    32.25rem 77.6875rem #ab66ff, 149.375rem 143.5rem #ab66ff,
+    117.75rem 150.5625rem #ab66ff, 1.25rem 155.5625rem #ab66ff,
+    5.875rem 14rem #ab66ff, 115.75rem 11.25rem #ab66ff,
+    148.5625rem 25.625rem #ab66ff, 81.8125rem 119.4375rem #ab66ff,
+    36.0625rem 155.375rem #ab66ff, 29.125rem 86.3125rem #ab66ff,
+    46.125rem 70.4375rem #ab66ff, 157.375rem 64.5625rem #ab66ff,
+    134.1875rem 106.5625rem #ab66ff, 158rem 134.0625rem #ab66ff,
+    97.5625rem 114.0625rem #ab66ff, 135.8125rem 143.25rem #ab66ff,
+    80.4375rem 58.875rem #ab66ff, 72.1875rem 144.9375rem #ab66ff,
+    145.9375rem 26.3125rem #ab66ff, 81rem 135.5625rem #ab66ff,
+    154.0625rem 146.4375rem #ab66ff, 111.9375rem 142.6875rem #ab66ff,
+    109.75rem 98.0625rem #ab66ff, 96rem 3.75rem #ab66ff,
+    17rem 15.4375rem #ab66ff, 39.25rem 60.6875rem #ab66ff,
+    138.25rem 106.5rem #ab66ff, 96.375rem 49rem #ab66ff,
+    9.5rem 76.8125rem #ab66ff, 57.1875rem 125.875rem #ab66ff,
+    151.625rem 23.875rem #ab66ff, 24.4375rem 69.5rem #ab66ff,
+    99.0625rem 129.625rem #ab66ff, 126.25rem 19.5rem #ab66ff,
+    39.5rem 43.875rem #ab66ff, 71.1875rem 14.9375rem #ab66ff,
+    52.1875rem 75.4375rem #ab66ff, 57.625rem 5.9375rem #ab66ff,
+    3.5625rem 139.4375rem #ab66ff, 3.125rem 52.1875rem #ab66ff,
+    2.625rem 124.4375rem #ab66ff, 107.4375rem 110.125rem #ab66ff,
+    99.1875rem 59.4375rem #ab66ff, 123.3125rem 15.9375rem #ab66ff,
+    39.5rem 87.875rem #ab66ff, 103.6875rem 42.125rem #ab66ff,
+    7.5625rem 19.9375rem #ab66ff, 151.8125rem 47.6875rem #ab66ff,
+    154.4375rem 25.375rem #ab66ff, 11.5625rem 4.375rem #ab66ff,
+    132.625rem 6.375rem #ab66ff, 144rem 8.1875rem #ab66ff,
+    93.75rem 27.75rem #ab66ff, 30.5rem 30.1875rem #ab66ff,
+    151.4375rem 141.25rem #ab66ff, 77.5rem 67.9375rem #ab66ff,
+    3.4375rem 0.9375rem #ab66ff, 127.25rem 70.9375rem #ab66ff,
+    23rem 33.375rem #ab66ff, 140.75rem 76rem #ab66ff,
+    107.8125rem 7.5625rem #ab66ff, 155.1875rem 98.375rem #ab66ff,
+    120.375rem 100.0625rem #ab66ff, 1.9375rem 77.75rem #ab66ff,
+    137.8125rem 140.875rem #ab66ff, 101.0625rem 141.3125rem #ab66ff,
+    57.875rem 81.875rem #ab66ff, 95.1875rem 0.125rem #ab66ff,
+    16.9375rem 97.5rem #ab66ff, 30.625rem 118.5rem #ab66ff,
+    26.125rem 45.375rem #ab66ff, 93.1875rem 101.4375rem #ab66ff,
+    66.5625rem 15.4375rem #ab66ff, 142.4375rem 89.25rem #ab66ff,
+    153.1875rem 50.5625rem #ab66ff, 132.3125rem 15.875rem #ab66ff,
+    142.5625rem 96rem #ab66ff, 104.5rem 29.25rem #ab66ff,
+    38.75rem 118.4375rem #ab66ff, 123.875rem 119.125rem #ab66ff,
+    156.25rem 99.0625rem #ab66ff, 114.5625rem 59rem #ab66ff,
+    63.375rem 142.3125rem #ab66ff, 97rem 97.3125rem #ab66ff,
+    155.8125rem 41.1875rem #ab66ff, 24.1875rem 94.375rem #ab66ff,
+    18.0625rem 42.9375rem #ab66ff, 153.9375rem 101.4375rem #ab66ff,
+    113.3125rem 139.375rem #ab66ff, 68.1875rem 37.5rem #ab66ff,
+    85.75rem 119.875rem #ab66ff;
+  width: 0.125rem;
+  height: 0.125rem;
+}
+@keyframes StarParticles_animate-particles__IJq6Z {
+  0% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-160rem);
+  }
+}

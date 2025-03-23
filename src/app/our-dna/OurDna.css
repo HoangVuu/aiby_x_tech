@@ -1,0 +1,342 @@
+/* Our DNA page styles */
+.dna-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.dna-hero {
+  width: 100%;
+  max-width: 1200px;
+  padding: 3rem 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.dna-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #00c16e -1.79%, #7fb685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dna-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.5;
+}
+
+.dna-mission-section {
+  width: 100%;
+  max-width: 1200px;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.dna-section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.dna-mission-text {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.dna-values-section {
+  width: 100%;
+  max-width: 1200px;
+  padding: 3rem 0;
+  margin-bottom: 3rem;
+}
+
+.dna-values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.dna-value-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 0.75rem;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.dna-value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.dna-value-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00c16e;
+}
+
+.dna-value-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.dna-value-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.dna-team-section {
+  width: 100%;
+  max-width: 1200px;
+  padding: 3rem 0;
+}
+
+.dna-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.dna-team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.dna-member-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.dna-team-member:hover .dna-member-image {
+  transform: scale(1.05);
+}
+
+.dna-member-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.dna-member-title {
+  font-size: 0.875rem;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+
+.dna-member-bio {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.dna-social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.dna-social-icon {
+  font-size: 1.25rem;
+  color: #00c16e;
+  transition: color 0.3s ease;
+}
+
+.dna-social-icon:hover {
+  color: #7fb685;
+}
+
+.dna-timeline-section {
+  width: 100%;
+  max-width: 1200px;
+  padding: 3rem 0;
+}
+
+.dna-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.dna-timeline::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: rgba(0, 193, 110, 0.3);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dna-timeline-item {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.dna-timeline-item:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.dna-timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.dna-timeline-content {
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 0.75rem;
+  position: relative;
+}
+
+.dna-timeline-item:nth-child(odd) .dna-timeline-content::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dna-timeline-item:nth-child(even) .dna-timeline-content::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dna-timeline-date {
+  position: absolute;
+  width: 100px;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #00c16e;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dna-timeline-item:nth-child(odd) .dna-timeline-date {
+  right: -150px;
+}
+
+.dna-timeline-item:nth-child(even) .dna-timeline-date {
+  left: -150px;
+}
+
+.dna-timeline-dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #00c16e;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dna-timeline-item:nth-child(odd) .dna-timeline-dot {
+  right: -8px;
+}
+
+.dna-timeline-item:nth-child(even) .dna-timeline-dot {
+  left: -8px;
+}
+
+.dna-timeline-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.dna-timeline-text {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .dna-title {
+    font-size: 2.5rem;
+  }
+  
+  .dna-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .dna-mission-text {
+    font-size: 1.125rem;
+  }
+  
+  .dna-section-title {
+    font-size: 1.75rem;
+  }
+  
+  .dna-timeline::before {
+    left: 40px;
+  }
+  
+  .dna-timeline-item {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 0;
+    text-align: left;
+  }
+  
+  .dna-timeline-item:nth-child(odd) {
+    text-align: left;
+  }
+  
+  .dna-timeline-item:nth-child(even) {
+    left: 0;
+  }
+  
+  .dna-timeline-date {
+    left: auto !important;
+    right: auto !important;
+    top: -30px;
+    transform: none;
+  }
+  
+  .dna-timeline-dot {
+    left: 32px !important;
+    right: auto !important;
+  }
+  
+  .dna-timeline-item:nth-child(odd) .dna-timeline-content::after,
+  .dna-timeline-item:nth-child(even) .dna-timeline-content::after {
+    left: -10px;
+    right: auto;
+  }
+}
