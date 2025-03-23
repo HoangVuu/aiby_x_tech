@@ -3,7 +3,7 @@
 import './tech.css';
 import { useRef } from 'react';
 import { motion } from 'motion/react';
-import './Technologies.css';
+import './tech.css';
 import { getMotionFadeInAndZoomInAnimation } from '../../utils/animation';
 
 
