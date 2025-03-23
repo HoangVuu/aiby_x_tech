@@ -9,6 +9,7 @@ import {
 import "./OurDna.css";
 import { OUR_DNA_ACCORDIONS } from "../../constants/mock-data";
 import Accordion from "../../components/accordion/Accordion";
+import Image from "next/image";
 
 export default function OurDNA() {
   const nextSectionRef = useRef<HTMLElement>(null);
@@ -23,7 +24,7 @@ export default function OurDNA() {
     <main>
       <section className="Hero_hero__dna">
         <motion.div {...getMotionFadeInAndZoomInAnimation()}>
-          <img
+          <Image
             src="assets/our-dna/hero.png"
             style={{
               opacity: "1",
@@ -33,6 +34,7 @@ export default function OurDNA() {
               maxHeight: "100%",
               objectFit: "cover",
             }}
+            alt={"hero"}
           />
         </motion.div>
 
@@ -349,7 +351,9 @@ export default function OurDNA() {
               href="/jobs"
               className="Button_button Button_button--variant-filled-dark Button_button--radius-large"
             >
-              <div className="Button_button__children">Careers at AIBY X Technology</div>
+              <div className="Button_button__children">
+                Careers at AIBY X Technology
+              </div>
               <div className="Button_button__spinner">
                 <span></span>
                 <span></span>

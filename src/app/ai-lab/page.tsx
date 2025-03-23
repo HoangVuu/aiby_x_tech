@@ -7,6 +7,7 @@ import {
   getMotionFadeInAndZoomInAnimation,
   getMotionFadeInFromLeftToRightAnimation,
 } from '../../utils/animation';
+import Image from 'next/image';
 
 export default function AILab() {
   return (
@@ -142,7 +143,7 @@ export default function AILab() {
                   to real-world problems.
                 </p>
                 <div className="ReasonItem_reason-item__globe ReasonItem_reason-item__globe--show">
-                  <img src="/assets/ai-lab/globe.avif" />
+                  <Image src="/assets/ai-lab/globe.avif" alt={'Globe'} />
                 </div>
               </div>
             </div>
@@ -208,7 +209,7 @@ export default function AILab() {
                   evolving industry.
                 </p>
                 <div className="ReasonItem_reason-item__cubes ReasonItem_reason-item__cubes--show">
-                  <img src="/assets/ai-lab/cubes.avif" />
+                  <Image src="/assets/ai-lab/cubes.avif" alt={'cubes'} />
                 </div>
               </div>
             </div>

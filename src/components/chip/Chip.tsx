@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import "./Chip.css";
 import { getMotionFadeInAndZoomInAnimation } from "../../utils/animation";
+import Image from "next/image";
 
 const getXAppearAnimation = () => ({
   initial: {
@@ -164,8 +165,8 @@ const Chip = () => {
                   paddingTop: "91.9%",
                 }}
               ></span>
-              <img
-                alt=""
+              <Image
+                alt="ltrX"
                 src="assets/home/ltrX.png"
                 decoding="async"
                 data-nimg="responsive"
@@ -228,9 +229,9 @@ const Chip = () => {
                     paddingTop: "15.192743764172336%",
                   }}
                 ></span>
-                <img
+                <Image
                   className="scale-75 xl:scale-100"
-                  alt=""
+                  alt="logoX"
                   src="assets/home/logorevenuex.bda6d26159f7762ca2f89c1777b0d563.svg"
                   decoding="async"
                   data-nimg="responsive"
@@ -286,8 +287,8 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <img
-                  alt=""
+                <Image
+                  alt="chip"
                   src="assets/home/ground_chip.png"
                   decoding="async"
                   data-nimg="responsive"
@@ -1190,8 +1191,8 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <img
-                  alt=""
+                <Image
+                  alt="android_circle"
                   src="assets/home/android_circle.png"
                   decoding="async"
                   data-nimg="responsive"
@@ -1265,8 +1266,8 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <img
-                  alt=""
+                <Image
+                  alt="clear"
                   src="assets/home/apple_circle_clear.png"
                   decoding="async"
                   data-nimg="responsive"
@@ -1329,8 +1330,8 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <img
-                  alt=""
+                <Image
+                  alt="light"
                   src="assets/home/light.png"
                   decoding="async"
                   data-nimg="responsive"
@@ -1390,8 +1391,8 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <img
-                  alt=""
+                <Image
+                  alt="line"
                   src="assets/home/revenuechip_line.png"
                   decoding="async"
                   data-nimg="responsive"
@@ -1452,8 +1453,8 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <img
-                  alt=""
+                <Image
+                  alt="revenuechip_clear"
                   src="assets/home/revenuechip_clear.png"
                   decoding="async"
                   data-nimg="responsive"
@@ -1492,8 +1493,8 @@ const Chip = () => {
               </span>
             </p>
             <p className="Text_text--headline-m__C9G6u Text_text--weight-medium__uNX0v RevenueX_description__A7QpP">
-              <span className="">
-                Our subscription revenue is up by 50% with RevenueX. It's time
+              <span>
+                Our subscription revenue is up by 50% with RevenueX. It&apos;s time
                 to launch the beta version of our first commercial B2B product
                 to other publishers.
               </span>

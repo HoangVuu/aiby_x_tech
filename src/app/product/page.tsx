@@ -3,6 +3,7 @@
 import { motion } from 'motion/react';
 import './Product.css';
 import ComingSoon from '@/components/coming-soon/ComingSoon';
+import Image from 'next/image';
 
 const getMotionAppearAnimation = () => ({
   initial: { opacity: 0, scale: 0.9 },
@@ -67,8 +68,8 @@ export default function ProductPage() {
                   paddingTop: "62.5%",
                 }}
               ></span>
-              <img
-                alt=""
+              <Image
+                alt="hero"
                 sizes="100vw"
                 src="assets/product-page/hero.png"
                 decoding="async"

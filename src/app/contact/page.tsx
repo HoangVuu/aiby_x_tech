@@ -3,6 +3,7 @@
 import { motion } from 'motion/react';
 import './Contact.css';
 import { getMotionFadeInAnimation } from '../../utils/animation';
+import Image from 'next/image';
 
 export default function Contact() {
   return (
@@ -116,8 +117,8 @@ export default function Contact() {
 
     <section className="contact__support">
       <div className="contact__support__container">
-        <img
-          alt=""
+        <Image
+          alt="support"
           src="/assets/contact/contact-support.png"
           decoding="async"
           data-nimg="fill"
@@ -242,10 +243,9 @@ export default function Contact() {
             <h2 className="contac-us_address__title">Address</h2>
             <div className="CompanyAddress_map__image-wrapper">
               <div className="CompanyAddress_map__image-container">
-                <img
-                  src="assets/contact/gg-map.png"
-                  className="contact-us__map"
-                />
+                <Image
+                    src="assets/contact/gg-map.png"
+                    className="contact-us__map" alt={'GG map'}                />
               </div>
             </div>
             <p className="contact-us_address__details">

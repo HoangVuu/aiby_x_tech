@@ -3,6 +3,7 @@
 import { motion } from 'motion/react';
 import './Jobs.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const getTeamCardOpenCardAnimation = () => ({
   initial: { transform: 'rotateX(1deg)' },
@@ -70,8 +71,8 @@ export default function JobsPage() {
             inset: '0px',
           }}
         >
-          <img
-            alt=""
+          <Image
+            alt="hero"
             src="assets/jobs-page/hero.png"
             decoding="async"
             data-nimg="fill"
@@ -128,8 +129,8 @@ export default function JobsPage() {
                 padding: '93.2579% 0px 0px',
               }}
             ></span>
-            <img
-              alt=""
+            <Image
+              alt="players"
               sizes="100vw"
               src="assets/jobs-page/team-of-players.png"
               decoding="async"
@@ -243,8 +244,8 @@ export default function JobsPage() {
               inset: '0px',
             }}
           >
-            <img
-              alt=""
+            <Image
+              alt="compesation"
               src="assets/jobs-page/compensation.png"
               decoding="async"
               data-nimg="fill"
@@ -1048,7 +1049,7 @@ export default function JobsPage() {
           </div>
         </motion.div>
         <div className="TeamCard_visual__background">
-          <img
+          <Image
             src="assets/jobs-page/icon.565970310eb6a176d876434d8f174dc2.svg"
             alt="TechX Icon"
           />
