@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="Text_text--footer-link text-address">
             <span className="text-address">- Company name:</span>{" "}
-            <span className="text-bold">TECHNIFY</span>
+            <span className="text-bold">TECHNIFY GROUP LIMITED</span>
             <p className="text-address">
               - Address 1:{" "}
               <span className="text-bold">
