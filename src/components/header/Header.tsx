@@ -24,10 +24,10 @@ const Header: React.FC = () => {
       <div className="Header_header__container">
         <div className="Header_header__static-container">
           <div
-            style={{ fontSize: "18px", fontWeight: "bold" }}
+            style={{ fontSize: "22px", fontWeight: "bold" }}
             className="text-white "
           >
-            AIBY X Technology
+            Technify
           </div>
           <Link aria-label="Logo" className="Logo_logo" href="/">
             {/* <svg

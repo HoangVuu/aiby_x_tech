@@ -7,7 +7,7 @@ import Footer from "../components/footer/Footer";
 import TitleManager from "../components/TitleManager";
 
 export const metadata: Metadata = {
-  title: "AIBY X Technology",
+  title: "Technify",
   description: "Innovative technology solutions for a better future",
 };
 

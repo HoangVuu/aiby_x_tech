@@ -166,8 +166,9 @@ const Chip = () => {
                 }}
               ></span>
               <Image
+                fill
                 alt="ltrX"
-                src="assets/home/ltrX.png"
+                src="/assets/home/ltrX.png"
                 decoding="async"
                 data-nimg="responsive"
                 style={{
@@ -181,12 +182,7 @@ const Chip = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0",
-                  height: "0",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  height: "100%",
                 }}
                 sizes="100vw"
               />
@@ -230,9 +226,10 @@ const Chip = () => {
                   }}
                 ></span>
                 <Image
+                  fill
                   className="scale-75 xl:scale-100"
                   alt="logoX"
-                  src="assets/home/logorevenuex.bda6d26159f7762ca2f89c1777b0d563.svg"
+                  src="/assets/home/logorevenuex.bda6d26159f7762ca2f89c1777b0d563.svg"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -246,12 +243,7 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    width: "0",
-                    height: "0",
-                    minWidth: "100%",
-                    maxWidth: "100%",
-                    minHeight: "100%",
-                    maxHeight: "100%",
+                    height: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -288,8 +280,9 @@ const Chip = () => {
                   }}
                 ></span>
                 <Image
+                  fill
                   alt="chip"
-                  src="assets/home/ground_chip.png"
+                  src="/assets/home/ground_chip.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -303,12 +296,7 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    width: "0",
-                    height: "0",
-                    minWidth: "100%",
-                    maxWidth: "100%",
-                    minHeight: "100%",
-                    maxHeight: "100%",
+                    height: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1192,8 +1180,9 @@ const Chip = () => {
                   }}
                 ></span>
                 <Image
+                  fill
                   alt="android_circle"
-                  src="assets/home/android_circle.png"
+                  src="/assets/home/android_circle.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -1207,12 +1196,7 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    width: "0",
-                    height: "0",
-                    minWidth: "100%",
-                    maxWidth: "100%",
-                    minHeight: "100%",
-                    maxHeight: "100%",
+                    height: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1267,8 +1251,9 @@ const Chip = () => {
                   }}
                 ></span>
                 <Image
+                  fill
                   alt="clear"
-                  src="assets/home/apple_circle_clear.png"
+                  src="/assets/home/apple_circle_clear.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -1282,12 +1267,7 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    width: "0",
-                    height: "0",
-                    minWidth: "100%",
-                    maxWidth: "100%",
-                    minHeight: "100%",
-                    maxHeight: "100%",
+                    height: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1331,8 +1311,9 @@ const Chip = () => {
                   }}
                 ></span>
                 <Image
+                  fill
                   alt="light"
-                  src="assets/home/light.png"
+                  src="/assets/home/light.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -1346,12 +1327,7 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    width: "0",
-                    height: "0",
-                    minWidth: "100%",
-                    maxWidth: "100%",
-                    minHeight: "100%",
-                    maxHeight: "100%",
+                    height: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1392,8 +1368,9 @@ const Chip = () => {
                   }}
                 ></span>
                 <Image
+                  fill
                   alt="line"
-                  src="assets/home/revenuechip_line.png"
+                  src="/assets/home/revenuechip_line.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -1407,12 +1384,7 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    width: "0",
-                    height: "0",
-                    minWidth: "100%",
-                    maxWidth: "100%",
-                    minHeight: "100%",
-                    maxHeight: "100%",
+                    height: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1454,8 +1426,9 @@ const Chip = () => {
                   }}
                 ></span>
                 <Image
+                  fill
                   alt="revenuechip_clear"
-                  src="assets/home/revenuechip_clear.png"
+                  src="/assets/home/revenuechip_clear.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -1469,12 +1442,7 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    width: "0",
-                    height: "0",
-                    minWidth: "100%",
-                    maxWidth: "100%",
-                    minHeight: "100%",
-                    maxHeight: "100%",
+                    height:'100%'
                   }}
                   sizes="100vw"
                 />
@@ -1494,9 +1462,9 @@ const Chip = () => {
             </p>
             <p className="Text_text--headline-m__C9G6u Text_text--weight-medium__uNX0v RevenueX_description__A7QpP">
               <span>
-                Our subscription revenue is up by 50% with RevenueX. It&apos;s time
-                to launch the beta version of our first commercial B2B product
-                to other publishers.
+                Our subscription revenue is up by 50% with RevenueX. It&apos;s
+                time to launch the beta version of our first commercial B2B
+                product to other publishers.
               </span>
             </p>
           </motion.div>

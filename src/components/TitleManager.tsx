@@ -11,7 +11,7 @@ export default function TitleManager() {
     const title = ROUTES.find((route) => route.path === pathname)?.name;
 
     if (title) {
-      document.title = `AIBY X Technology - ${title}`;
+      document.title = `Technify - ${title}`;
     }
 
     window.scrollTo(0, 0);

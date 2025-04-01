@@ -23,20 +23,19 @@ export default function OurDNA() {
   return (
     <main>
       <section className="Hero_hero__dna">
-        <motion.div {...getMotionFadeInAndZoomInAnimation()}>
+        {/* <motion.div {...getMotionFadeInAndZoomInAnimation()}> */}
           <Image
-            src="assets/our-dna/hero.png"
+            fill
+            src="/assets/our-dna/hero.png"
             style={{
               opacity: "1",
-              minWidth: "100%",
-              maxWidth: "100%",
-              minHeight: "100%",
-              maxHeight: "100%",
+              width: "100%",
+              height: "100%",
               objectFit: "cover",
             }}
             alt={"hero"}
           />
-        </motion.div>
+        {/* </motion.div> */}
 
         <div
           className="Hero_content__dna"
@@ -351,9 +350,7 @@ export default function OurDNA() {
               href="/jobs"
               className="Button_button Button_button--variant-filled-dark Button_button--radius-large"
             >
-              <div className="Button_button__children">
-                Careers at AIBY X Technology
-              </div>
+              <div className="Button_button__children">Careers at Technify</div>
               <div className="Button_button__spinner">
                 <span></span>
                 <span></span>

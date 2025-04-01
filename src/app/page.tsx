@@ -99,7 +99,7 @@ const Home: React.FC = () => {
               </h1>
               <p className="Text_text--headline-m Text_text--weight-medium Hero_content__description  mt-10">
                 <span className="">
-                  AIBY X Technology is a technology hub, building next-gen apps
+                  Technify is a technology hub, building next-gen apps
                   using world-className expertise and cutting-edge tech.
                 </span>
               </p>
@@ -261,7 +261,7 @@ const Home: React.FC = () => {
               </p>
               <p className="Text_text--headline-m Text_text--weight-medium">
                 <span className="">
-                  At AIBY X Technology, we are building and growing
+                  At Technify, we are building and growing
                   highly-scalable mobile apps with a track record to be proud of
                   — our apps and games have reached over million users across
                   160 countries.
@@ -303,9 +303,10 @@ const Home: React.FC = () => {
                   }}
                 ></span>
                 <Image
+                  fill
                   alt="we do"
                   sizes="100vw"
-                  src="assets/home/what-we-do.png"
+                  src={`/assets/home/what-we-do.png`}
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -316,12 +317,6 @@ const Home: React.FC = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    width: "0px",
-                    height: "0px",
-                    minWidth: "100%",
-                    maxWidth: "100%",
-                    minHeight: "100%",
-                    maxHeight: "100%",
                   }}
                 />
               </span>
@@ -427,8 +422,9 @@ const Home: React.FC = () => {
                           }}
                         ></span>
                         <Image
+                          fill
                           alt="app"
-                          src="assets/home/sell-your-app.png"
+                          src="/assets/home/sell-your-app.png"
                           decoding="async"
                           data-nimg="responsive"
                           style={{
@@ -439,12 +435,7 @@ const Home: React.FC = () => {
                             border: "none",
                             margin: "auto",
                             display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
+                            height: "100%",
                           }}
                         />
                         <noscript></noscript>
@@ -514,8 +505,9 @@ const Home: React.FC = () => {
                           }}
                         ></span>
                         <Image
+                          fill
                           alt="investments"
-                          src="assets/home/investments.png"
+                          src="/assets/home/investments.png"
                           decoding="async"
                           data-nimg="responsive"
                           style={{
@@ -526,12 +518,7 @@ const Home: React.FC = () => {
                             border: "none",
                             margin: "auto",
                             display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
+                            height: "100%",
                           }}
                         />
                         <noscript></noscript>
@@ -603,8 +590,9 @@ const Home: React.FC = () => {
                           }}
                         ></span>
                         <Image
+                          fill
                           alt="publishing"
-                          src="assets/home/publishing.png"
+                          src="/assets/home/publishing.png"
                           decoding="async"
                           data-nimg="responsive"
                           style={{
@@ -615,12 +603,7 @@ const Home: React.FC = () => {
                             border: "none",
                             margin: "auto",
                             display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
+                            height: "100%",
                           }}
                         />
                         <noscript></noscript>
@@ -705,8 +688,9 @@ const Home: React.FC = () => {
                         }}
                       ></span>
                       <Image
+                        fill
                         alt="component"
-                        src="assets/home/key-component-1.png"
+                        src="/assets/home/key-component-1.png"
                         decoding="async"
                         data-nimg="responsive"
                         style={{
@@ -717,12 +701,7 @@ const Home: React.FC = () => {
                           border: "none",
                           margin: "auto",
                           display: "block",
-                          width: "0px",
-                          height: "0px",
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
+                          height: "100%",
                         }}
                       />
 
@@ -787,8 +766,9 @@ const Home: React.FC = () => {
                         }}
                       ></span>
                       <Image
-                        alt="AIBY X Technology computer producing mobile application"
-                        src="/assets/home/key-component-2.png"
+                        fill
+                        alt="Technify computer producing mobile application"
+                        src="/assets/home/key2.png"
                         decoding="async"
                         data-nimg="responsive"
                         style={{
@@ -799,12 +779,7 @@ const Home: React.FC = () => {
                           border: "none",
                           margin: "auto",
                           display: "block",
-                          width: "0px",
-                          height: "0px",
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
+                          height: "100%",
                         }}
                       />
                       <noscript></noscript>
@@ -864,6 +839,7 @@ const Home: React.FC = () => {
                         }}
                       ></span>
                       <Image
+                        fill
                         alt="component 3"
                         src="/assets/home/key-component-3.png"
                         decoding="async"
@@ -876,12 +852,7 @@ const Home: React.FC = () => {
                           border: "none",
                           margin: "auto",
                           display: "block",
-                          width: "0px",
-                          height: "0px",
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
+                          height: "100%",
                         }}
                       />
                       <noscript></noscript>
@@ -897,7 +868,7 @@ const Home: React.FC = () => {
                   </h3>
                   <p className="Text_text--body-l Text_text--weight-medium KeyComponentItem_key-component-item__description">
                     <span className="">
-                      At AIBY X Technology, we believe in cultivating a culture
+                      At Technify, we believe in cultivating a culture
                       with strong shared values that serve a specific vision and
                       strategy — that is our magic formula.
                     </span>
@@ -992,7 +963,7 @@ const Home: React.FC = () => {
                   </p>
                   <p className="Text_text--body-l Text_text--weight-medium KeyComponentItem_key-component-item__description">
                     <span className="">
-                      AIBY X Technology, our central hub, orchestrates the whole
+                      Technify, our central hub, orchestrates the whole
                       structure with shared resources such as various central
                       departments, office space, in-house data tools, funding
                       and strong know-how.
@@ -1052,8 +1023,9 @@ const Home: React.FC = () => {
               }}
             >
               <Image
+                fill
                 alt="home we"
-                src="assets/home/we.png"
+                src="/assets/home/we.png"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -1064,12 +1036,7 @@ const Home: React.FC = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  height: "100%",
                   objectFit: "cover",
                 }}
               />
@@ -1436,7 +1403,7 @@ const Home: React.FC = () => {
               className="LatestNews_latest-news__title"
             >
               <h2 className="Text_text--headline-xl Text_text--weight-bold">
-                <span className="">Latest News From AIBY X Technology</span>
+                <span className="">Latest News From Technify</span>
               </h2>
             </motion.div>
             <motion.div
@@ -1501,7 +1468,7 @@ const Home: React.FC = () => {
                         <span className="">Newsroom</span>
                       </p>
                       <p className="Text_text--headline-xl Text_text--weight-bold LatestNewsItem_content__title">
-                        <span className="">&nbsp;AI Lab by AIBY X Technology</span>
+                        <span className="">&nbsp;AI Lab by Technify</span>
                       </p>
                       <p className="Text_text--body-m Text_text--weight-regular LatestNewsItem_content__date">
                         <span className="">May 24, 2024</span>
@@ -1634,7 +1601,7 @@ const Home: React.FC = () => {
                         <span className="">Newsroom</span>
                       </p>
                       <p className="Text_text--headline-xl Text_text--weight-bold LatestNewsItem_content__title">
-                        <span className="">AIBY X Technology New Grad Program</span>
+                        <span className="">Technify New Grad Program</span>
                       </p>
                       <p className="Text_text--body-m Text_text--weight-regular LatestNewsItem_content__date">
                         <span className="">May 23, 2023</span>
@@ -1767,7 +1734,7 @@ const Home: React.FC = () => {
                       </p>
                       <p className="Text_text--headline-xl Text_text--weight-bold LatestNewsItem_content__title">
                         <span className="">
-                          AIBY X Technology is moving to its new office in June
+                          Technify is moving to its new office in June
                         </span>
                       </p>
                       <p className="Text_text--body-m Text_text--weight-regular LatestNewsItem_content__date">

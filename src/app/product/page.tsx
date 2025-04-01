@@ -1,9 +1,9 @@
 "use client";
 
-import { motion } from 'motion/react';
-import './Product.css';
-import ComingSoon from '@/components/coming-soon/ComingSoon';
-import Image from 'next/image';
+import { motion } from "motion/react";
+import "./Product.css";
+import ComingSoon from "@/components/coming-soon/ComingSoon";
+import Image from "next/image";
 
 const getMotionAppearAnimation = () => ({
   initial: { opacity: 0, scale: 0.9 },
@@ -18,46 +18,32 @@ const getMotionAppearAnimation = () => ({
 export default function ProductPage() {
   return (
     <>
-    <section className="Hero_hero__product">
-      <div className="Hero_container__product">
-        <h1 className="Text_text--display-m Text_text--weight-bold">
-          <span className="Text_text--gradient-orange">
-            Portfolio of apps
-          </span>
-        </h1>
-        <p className="Text_text--body-xl Text_text--weight-medium Hero_description__product">
-          <span className="">
-            We are passionately building and publishing apps that are used and
-            loved all around the world. Below you&apos;ll find a few examples of
-            the products that we build, invest & publish.
-          </span>
-        </p>
-      </div>
-      <motion.div
-        {...getMotionAppearAnimation()}
-        className="Hero_image__product"
-      >
-        <div className="Hero_image__container__product">
-          <div className="Hero_image__wrapper__product">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: 1,
-                border: 0,
-                margin: 0,
-                padding: 0,
-                position: "relative",
-              }}
-            >
+      <section className="Hero_hero__product">
+        <div className="Hero_container__product">
+          <h1 className="Text_text--display-m Text_text--weight-bold">
+            <span className="Text_text--gradient-orange">
+              Portfolio of apps
+            </span>
+          </h1>
+          <p className="Text_text--body-xl Text_text--weight-medium Hero_description__product">
+            <span className="">
+              We are passionately building and publishing apps that are used and
+              loved all around the world. Below you&apos;ll find a few examples
+              of the products that we build, invest & publish.
+            </span>
+          </p>
+        </div>
+        <motion.div
+          {...getMotionAppearAnimation()}
+          className="Hero_image__product"
+        >
+          <div className="Hero_image__container__product">
+            <div className="Hero_image__wrapper__product">
               <span
                 style={{
                   boxSizing: "border-box",
                   display: "block",
+                  overflow: "hidden",
                   width: "initial",
                   height: "initial",
                   background: "none",
@@ -65,46 +51,56 @@ export default function ProductPage() {
                   border: 0,
                   margin: 0,
                   padding: 0,
-                  paddingTop: "62.5%",
+                  position: "relative",
                 }}
-              ></span>
-              <Image
-                alt="hero"
-                sizes="100vw"
-                src="assets/product-page/hero.png"
-                decoding="async"
-                data-nimg="responsive"
-                style={{
-                  opacity: 1,
-                  transform: "scale(1)",
-                  transitionDuration: "1000ms",
-                  transitionProperty: "opacity, transform",
-                  position: "absolute",
-                  inset: "0px",
-                  boxSizing: "border-box",
-                  padding: "0px",
-                  border: "none",
-                  margin: "auto",
-                  display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
-                }}
-              />
-            </span>
+              >
+                <span
+                  style={{
+                    boxSizing: "border-box",
+                    display: "block",
+                    width: "initial",
+                    height: "initial",
+                    background: "none",
+                    opacity: 1,
+                    border: 0,
+                    margin: 0,
+                    padding: 0,
+                    paddingTop: "62.5%",
+                  }}
+                ></span>
+                <Image
+                  fill
+                  alt="hero"
+                  sizes="100vw"
+                  src="/assets/product-page/hero.png"
+                  decoding="async"
+                  data-nimg="responsive"
+                  style={{
+                    opacity: 1,
+                    transform: "scale(1)",
+                    transitionDuration: "1000ms",
+                    transitionProperty: "opacity, transform",
+                    position: "absolute",
+                    inset: "0px",
+                    boxSizing: "border-box",
+                    padding: "0px",
+                    border: "none",
+                    margin: "auto",
+                    display: "block",
+                    height: "100%",
+                  }}
+                />
+              </span>
+            </div>
           </div>
-        </div>
-      </motion.div>
-    </section>
+        </motion.div>
+      </section>
 
-    <section>
-      <ComingSoon title="Products"/>
-    </section>
+      <section>
+        <ComingSoon title="Products" />
+      </section>
 
-    {/* <section className="Product_product Product_product--dark Nova_nova">
+      {/* <section className="Product_product Product_product--dark Nova_nova">
       <div className="Product_product__container">
         <div className="ProductHero_product-hero ProductHero_product-hero--image-on-left">
           <div className="Nova_nova__mockup-container">
@@ -13509,6 +13505,6 @@ export default function ProductPage() {
         </div>
       </motion.div>
     </section> */}
-  </>
+    </>
   );
 }

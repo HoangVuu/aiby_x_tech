@@ -14,7 +14,7 @@ export default function AILab() {
     <main>
     <section className="ai-lab-welcome Hero_hero--reveal">
       <div className="Hero_hero__container__ailab">
-        <h1 className="Hero_hero__title__ailab">AI Lab by AIBY X Technology</h1>
+        <h1 className="Hero_hero__title__ailab">AI Lab by Technify</h1>
         <p className="Hero_hero__description__ailab">
           Welcoming Vietnam’s Finest Machine Learning Engineers
         </p>
@@ -34,7 +34,7 @@ export default function AILab() {
         <div className="WhatsNewGrad_whats-new-grad__container">
           <p className="WhatsNewGrad_whats-new-grad__title">
             What is the AI Lab <br />
-            by AIBY X Technology?
+            by Technify?
           </p>
           <p className="WhatsNewGrad_whats-new-grad__description">
             Welcome to the AI Lab, where innovation meets intelligence. Our
@@ -82,14 +82,14 @@ export default function AILab() {
         <h1 className="WhatWeDoAtAiLab_what-we-do__title">What We Do?</h1>
         <p className="WhatWeDoAtAiLab_what-we-do__subtitle">at the AI Lab</p>
         <p className="WhatWeDoAtAiLab_what-we-do__description">
-          At AIBY X Technology, we are building and growing highly-scalable AI-based mobile
+          At Technify, we are building and growing highly-scalable AI-based mobile
           apps with a track record to be proud of — our apps and games have
           reached over million users across 160 countries.
           <br />
           <br />
-          In addition to our ML team at AIBY X Technology HQ, we have established an ML
+          In addition to our ML team at Technify HQ, we have established an ML
           center at the Ho Chi Minh City of Technology. At the AI Lab
-          by AIBY X Technology, we are dedicated to pioneering advancements in machine
+          by Technify, we are dedicated to pioneering advancements in machine
           learning and artificial intelligence. Through our multifaceted
           approach, we drive innovation, foster collaboration, and empower
           individuals to shape the future of AI.
@@ -136,14 +136,14 @@ export default function AILab() {
                   Cutting-edge Research Opportunities:
                 </p>
                 <p className="ReasonItem_reason-item__description">
-                  Participants in the AI Lab by AIBY X Technology gain access to
+                  Participants in the AI Lab by Technify gain access to
                   cutting-edge research projects at the forefront of machine
                   learning and artificial intelligence. Engage with
                   groundbreaking technologies and explore innovative solutions
                   to real-world problems.
                 </p>
                 <div className="ReasonItem_reason-item__globe ReasonItem_reason-item__globe--show">
-                  <Image src="/assets/ai-lab/globe.avif" alt={'Globe'} />
+                  <Image fill src="/assets/ai-lab/globe.avif" alt={'Globe'}  style={{width: '100%', height: '100%'}}/>
                 </div>
               </div>
             </div>
@@ -160,7 +160,7 @@ export default function AILab() {
                 </p>
                 <p className="ReasonItem_reason-item__description">
                   By facilitating research, collaboration, and knowledge
-                  dissemination, the AI Lab by AIBY X Technology plays a pivotal role in
+                  dissemination, the AI Lab by Technify plays a pivotal role in
                   advancing the AI-based mobile application industry as a whole.
                   Through groundbreaking research, in-depth studies, and
                   community engagement, the Lab aims to contribute to shaping
@@ -202,14 +202,14 @@ export default function AILab() {
                   Career Development Opportunities:
                 </p>
                 <p className="ReasonItem_reason-item__description">
-                  The AI Lab by AIBY X Technology offers ample opportunities for career
+                  The AI Lab by Technify offers ample opportunities for career
                   development and advancement in the field of machine learning.
                   Gain practical experience, build a strong professional
                   network, and position yourself for success in a rapidly
                   evolving industry.
                 </p>
                 <div className="ReasonItem_reason-item__cubes ReasonItem_reason-item__cubes--show">
-                  <Image src="/assets/ai-lab/cubes.avif" alt={'cubes'} />
+                  <Image fill src="/assets/ai-lab/cubes.avif" alt={'cubes'} style={{width: '100%', height: '100%'}}/>
                 </div>
               </div>
             </div>
