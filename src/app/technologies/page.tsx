@@ -154,7 +154,7 @@ export default function Technology() {
             <div className="ProductHeroInfo_product-hero-info">
               <div className="ProductHeroInfo_heading">
                 <h2 className="Text_text--display-s Text_text--weight-bold MarketingX_marketing-x__title">
-                  <span className="">MarketingX</span>
+                  <span className="">MarketingT</span>
                 </h2>
                 <p className="Text_text--display-xs Text_text--weight-bold ProductHeroInfo_heading__subtitle">
                   <span className="">Marketing Analytics Platform</span>
@@ -164,7 +164,7 @@ export default function Technology() {
                 <p className="ProductHeroInfo_description__paragraph">
                   To see the big picture of the marketing spend and actual or
                   predicted revenue from each cohort of users, we build our own
-                  in-house marketing analytics platform: MarketingX.
+                  in-house marketing analytics platform: MarketingT.
                 </p>
                 <p className="ProductHeroInfo_description__paragraph">
                   It provides centralized dashboards with the most up-to-date
@@ -244,7 +244,7 @@ export default function Technology() {
             <div className="ProductHeroInfo_product-hero-info">
               <div className="ProductHeroInfo_heading">
                 <h2 className="Text_text--display-s Text_text--weight-bold">
-                  <span className="">RevenueX</span>
+                  <span className="">RevenueT</span>
                 </h2>
                 <p className="Text_text--display-xs Text_text--weight-bold ProductHeroInfo_heading__subtitle">
                   <span className="">Ultimate revenue maximization engine</span>
@@ -252,7 +252,7 @@ export default function Technology() {
               </div>
               <div className="ProductHeroInfo_description">
                 <p className="ProductHeroInfo_description__paragraph">
-                  RevenueX is the ultimate in-app purchase tracking and revenue
+                  RevenueT is the ultimate in-app purchase tracking and revenue
                   maximization engine that we developed internally to power our
                   family of apps.
                 </p>
@@ -326,10 +326,10 @@ export default function Technology() {
             <div className="ProductHeroInfo_product-hero-info">
               <div className="ProductHeroInfo_heading">
                 <h2 className="Text_text--display-s Text_text--weight-bold XRay_xray__title">
-                  <span className="">XRay</span>
+                  <span className="">TRay</span>
                 </h2>
                 <p className="Text_text--display-xs Text_text--weight-bold ProductHeroInfo_heading__subtitle">
-                  <span className="">X-Ray Vision For The App Store.</span>
+                  <span className="">T-Ray Vision For The App Store.</span>
                 </p>
               </div>
               <div className="ProductHeroInfo_description">
@@ -346,12 +346,12 @@ export default function Technology() {
                   developed by our data science team.
                 </p>
                 <p className="ProductHeroInfo_description__paragraph">
-                  We call this powerful tool: XRay.
+                  We call this powerful tool: TRay.
                 </p>
                 <p className="ProductHeroInfo_description__paragraph">
                   It helps us uncover key metrics of our competitors, let us see
                   trends, and identify emerging app categories we can get into —
-                  XRay is one of our biggest competitive advantages in the
+                  TRay is one of our biggest competitive advantages in the
                   industry.
                 </p>
               </div>

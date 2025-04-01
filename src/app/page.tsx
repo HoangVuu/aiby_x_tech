@@ -100,7 +100,7 @@ const Home: React.FC = () => {
               <p className="Text_text--headline-m Text_text--weight-medium Hero_content__description  mt-10">
                 <span className="">
                   Technify is a technology hub, building next-gen apps
-                  using world-className expertise and cutting-edge tech.
+                  using world-class expertise and cutting-edge tech.
                 </span>
               </p>
 

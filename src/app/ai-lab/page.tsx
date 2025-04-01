@@ -14,7 +14,7 @@ export default function AILab() {
     <main>
     <section className="ai-lab-welcome Hero_hero--reveal">
       <div className="Hero_hero__container__ailab">
-        <h1 className="Hero_hero__title__ailab">AI Lab by Technify</h1>
+        <h1 className="Hero_hero__title__ailab mt-20">AI Lab by Technify</h1>
         <p className="Hero_hero__description__ailab">
           Welcoming Vietnam’s Finest Machine Learning Engineers
         </p>
