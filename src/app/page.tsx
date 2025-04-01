@@ -89,7 +89,7 @@ const Home: React.FC = () => {
                   autoPlay={true}
                   loop={true}
                   preload="metadata"
-                  // playsinline=""
+                  playsInline={true}
                   src="/assets/home/header.mp4"
                 ></video>
               </div>
