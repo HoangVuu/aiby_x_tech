@@ -42,17 +42,17 @@ const Contact: React.FC = () => (
         </p>
         <p className="contact__info__address-details Hero_section__address">
           <span className="">
-            Address 1: 520/19 PHAN VAN TRI SREET, WARD 7, GO VAP, HO CHI MINH
+            Address: 520/19 PHAN VAN TRI SREET, WARD 7, GO VAP, HO CHI MINH
             CITY, VIETNAM
           </span>
         </p>
 
-        <p className="contact__info__address-details Hero_section__address">
+        {/* <p className="contact__info__address-details Hero_section__address">
           <span className="">
             Address 2: WEST WING, 2/F., 822 LAI CHI KOK ROAD, CHEUNG SHA WAN,
             HONG KONG
           </span>
-        </p>
+        </p> */}
       </div>
     </section>
 
@@ -222,12 +222,12 @@ const Contact: React.FC = () => (
             <div className="CompanyAddress_map__image-container"></div>
           </div>
           <p className="contact-us_address__details">
-            Address 1: 520/19 PHAN VAN TRI SREET, WARD 7, GO VAP, HO CHI MINH
+            Address : 520/19 PHAN VAN TRI SREET, WARD 7, GO VAP, HO CHI MINH
             CITY, VIETNAM 
             <br />
             <br />
-            Address 2: WEST WING, 2/F., 822 LAI CHI KOK ROAD,
-            CHEUNG SHA WAN, HONG KONG
+            {/* Address 2: WEST WING, 2/F., 822 LAI CHI KOK ROAD,
+            CHEUNG SHA WAN, HONG KONG */}
           </p>
           <p className="contact-us_address__hours">09:00 AM - 06:00 PM</p>
         </div>

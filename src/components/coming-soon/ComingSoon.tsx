@@ -1,3 +1,5 @@
+'use client';
+
 import './ComingSoon.css';
 import { motion } from 'framer-motion';
 import { getMotionFadeInAndSlideUpAnimation } from '@/utils/animation';

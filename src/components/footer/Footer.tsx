@@ -47,20 +47,20 @@ const Footer: React.FC = () => {
           </div>
           <div className="Text_text--footer-link text-address">
             <span className="text-address">- Company name:</span>{" "}
-            <span className="text-bold">TECHNIFY GROUP LIMITED</span>
+            <span className="text-bold">Technify Technology Joint Stock Company</span>
             <p className="text-address">
-              - Address 1:{" "}
+              - Address:{" "}
               <span className="text-bold">
                 520/19 PHAN VAN TRI SREET, WARD 7, GO VAP, HO CHI MINH CITY,
                 VIETNAM
               </span>
             </p>
-            <p className="text-address">
+            {/* <p className="text-address">
               - Address 2:{" "}
               <span className="text-bold">
                 WEST WING, 2/F., 822 LAI CHI KOK ROAD, CHEUNG SHA WAN, HONG KONG
               </span>
-            </p>
+            </p> */}
             <p className="text-address">
               - Phone:
               <span className="text-bold"> +84986710732</span>
@@ -202,6 +202,15 @@ const Footer: React.FC = () => {
                 >
                   <span className="Text_text--footer-link Text_text--weight-regular">
                     <span className="">Privacy Policy</span>
+                  </span>
+                </Link>
+
+                <Link
+                  className="NavigationList_nav__link NavigationList_nav__link--variant-light"
+                  href="/term-of-service"
+                >
+                  <span className="Text_text--footer-link Text_text--weight-regular">
+                    <span className="">Term of service</span>
                   </span>
                 </Link>
               </div>

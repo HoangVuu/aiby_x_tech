@@ -23,13 +23,13 @@ const Header: React.FC = () => {
     <header className="Header_header Header_header--theme-dark">
       <div className="Header_header__container">
         <div className="Header_header__static-container">
-          <div
-            style={{ fontSize: "22px", fontWeight: "bold" }}
-            className="text-white "
-          >
-            Technify
-          </div>
           <Link aria-label="Logo" className="Logo_logo" href="/">
+            <div
+              style={{ fontSize: "22px", fontWeight: "bold" }}
+              className="text-white "
+            >
+              Technify
+            </div>
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="xMidYMid meet"
