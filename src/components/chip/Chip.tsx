@@ -1455,14 +1455,14 @@ const Chip = () => {
           >
             <p className="Text_text--display-m__q0ZjI Text_text--weight-bold__jl20H RevenueX_subtitle__kqFZJ">
               <span className="">
-                RevenueX is the ultimate <b>In-app purchase</b> tracking and
+                RevenueT is the ultimate <b>In-app purchase</b> tracking and
                 revenue maximization engine that we internally developed to
                 power our family of apps.
               </span>
             </p>
             <p className="Text_text--headline-m__C9G6u Text_text--weight-medium__uNX0v RevenueX_description__A7QpP">
               <span>
-                Our subscription revenue is up by 50% with RevenueX. It&apos;s
+                Our subscription revenue is up by 50% with RevenueT. It&apos;s
                 time to launch the beta version of our first commercial B2B
                 product to other publishers.
               </span>
