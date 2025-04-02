@@ -9,6 +9,9 @@ import TitleManager from "../components/TitleManager";
 export const metadata: Metadata = {
   title: "Technify",
   description: "Innovative technology solutions for a better future",
+  icons: {
+    icon: [{ url: "/icon.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
