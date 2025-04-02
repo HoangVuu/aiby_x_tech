@@ -1,6 +1,7 @@
 .contact {
   position: relative;
   z-index: 1;
+  background-color: var(--color-black);
 }
 
 .contact__info {
