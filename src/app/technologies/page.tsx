@@ -5,7 +5,6 @@ import { useRef } from "react";
 import { motion } from "motion/react";
 import "./tech.css";
 import { getMotionFadeInAndZoomInAnimation } from "../../utils/animation";
-import Image from "next/image";
 
 export default function Technology() {
   const nextSectionRef = useRef<HTMLElement>(null);
@@ -30,15 +29,18 @@ export default function Technology() {
     <>
       <section>
         <motion.div {...getMotionAppearAnimation()}>
-          <Image
-            fill
+          <img
             alt="hero"
             src="/assets/technologies/hero.png"
             className="Hero_image__image__3RkdF banner_img"
             style={{
               opacity: "1",
-              height: "100%",
-              width: "100%",
+              width: "0px",
+              height: "0px",
+              minWidth: "100%",
+              maxWidth: "100%",
+              minHeight: "100%",
+              maxHeight: "100%",
               objectFit: "cover",
             }}
           />
@@ -131,8 +133,7 @@ export default function Technology() {
                       }}
                     ></span>
                     {/* <img alt="" src="./Technifynologies That We Found - HubX_files/marketingx.png" decoding="async" data-nimg="responsive" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarketingx.f03c972f.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarketingx.f03c972f.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarketingx.f03c972f.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarketingx.f03c972f.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarketingx.f03c972f.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarketingx.f03c972f.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarketingx.f03c972f.png&amp;w=2048&amp;q=75 2048w"> */}
-                    <Image
-                    fill
+                    <img
                       alt="marketingx"
                       src="/assets/technologies/marketingx.png"
                       style={{
@@ -143,8 +144,12 @@ export default function Technology() {
                         border: "none",
                         margin: "auto",
                         display: "block",
-                        width: "100%",
-                        height: "100%",
+                        width: "0px",
+                        height: "0px",
+                        minWidth: "100%",
+                        maxWidth: "100%",
+                        minHeight: "100%",
+                        maxHeight: "100%",
                       }}
                     />
                   </span>
@@ -221,8 +226,7 @@ export default function Technology() {
                       }}
                     ></span>
                     {/* <img alt="" src="./Technifynologies That We Found - HubX_files/revenuex.png" decoding="async" data-nimg="responsive" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;" sizes="100vw" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frevenuex.29686dae.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frevenuex.29686dae.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frevenuex.29686dae.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frevenuex.29686dae.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frevenuex.29686dae.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frevenuex.29686dae.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frevenuex.29686dae.png&amp;w=2048&amp;q=75 2048w"> */}
-                    <Image
-                    fill
+                    <img
                       alt="revenuex"
                       src="/assets/technologies/revenuex.png"
                       style={{
@@ -233,8 +237,12 @@ export default function Technology() {
                         border: "none",
                         margin: "auto",
                         display: "block",
-                        width: "100%",
-                        height: "100%",
+                        width: "0px",
+                        height: "0px",
+                        minWidth: "100%",
+                        maxWidth: "100%",
+                        minHeight: "100%",
+                        maxHeight: "100%",
                       }}
                     />
                   </span>
@@ -303,8 +311,7 @@ export default function Technology() {
                         padding: "90.9091% 0px 0px",
                       }}
                     ></span>
-                    <Image
-                    fill
+                    <img
                       alt="xray"
                       src="/assets/technologies/xray.png"
                       style={{
@@ -315,8 +322,12 @@ export default function Technology() {
                         border: "none",
                         margin: "auto",
                         display: "block",
-                        width: "100%",
-                        height: "100%",
+                        width: "0px",
+                        height: "0px",
+                        minWidth: "100%",
+                        maxWidth: "100%",
+                        minHeight: "100%",
+                        maxHeight: "100%",
                       }}
                     />
                   </span>
@@ -399,8 +410,7 @@ export default function Technology() {
                     {/* <img alt="" src="./Technifynologies That We Found - HubX_files/zeus.png" decoding="async" data-nimg="responsive"
                    style=
                     sizes="100vw" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzeus.4cf8c693.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzeus.4cf8c693.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzeus.4cf8c693.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzeus.4cf8c693.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzeus.4cf8c693.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzeus.4cf8c693.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzeus.4cf8c693.png&amp;w=2048&amp;q=75 2048w"> */}
-                    <Image
-                    fill
+                    <img
                       alt="zeus"
                       src="/assets/technologies/zeus.png"
                       style={{
@@ -411,8 +421,12 @@ export default function Technology() {
                         border: "none",
                         margin: "auto",
                         display: "block",
-                        width: "100%",
-                        height: "100%",
+                        width: "0px",
+                        height: "0px",
+                        minWidth: "100%",
+                        maxWidth: "100%",
+                        minHeight: "100%",
+                        maxHeight: "100%",
                       }}
                     />
                   </span>

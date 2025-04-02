@@ -3,7 +3,6 @@
 import { motion } from "motion/react";
 import "./Jobs.css";
 import Link from "next/link";
-import Image from "next/image";
 
 const getTeamCardOpenCardAnimation = () => ({
   initial: { transform: "rotateX(1deg)" },
@@ -71,8 +70,7 @@ export default function JobsPage() {
               inset: "0px",
             }}
           >
-            <Image
-              fill
+            <img
               alt="hero"
               src="/assets/jobs-page/hero.png"
               decoding="async"
@@ -86,8 +84,12 @@ export default function JobsPage() {
                 border: "none",
                 margin: "auto",
                 display: "block",
-                width: "100%",
-                height: "100%",
+                width: "0px",
+                height: "0px",
+                minWidth: "100%",
+                maxWidth: "100%",
+                minHeight: "100%",
+                maxHeight: "100%",
                 objectFit: "cover",
               }}
               sizes="100vw"
@@ -126,8 +128,7 @@ export default function JobsPage() {
                   padding: "93.2579% 0px 0px",
                 }}
               ></span>
-              <Image
-                fill
+              <img
                 alt="players"
                 sizes="100vw"
                 src="/assets/jobs-page/team-of-players.png"
@@ -141,8 +142,13 @@ export default function JobsPage() {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "100%",
-                  height: "100%",
+                  width: "0px",
+                  height: "0px",
+                  minWidth: "100%",
+                  maxWidth: "100%",
+                  minHeight: "100%",
+                  maxHeight: "100%",
+                  objectFit: "cover",
                 }}
               />
             </span>
@@ -238,8 +244,7 @@ export default function JobsPage() {
                 inset: "0px",
               }}
             >
-              <Image
-                fill
+              <img
                 alt="compesation"
                 src="/assets/jobs-page/compensation.png"
                 decoding="async"
@@ -252,8 +257,12 @@ export default function JobsPage() {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "100%",
-                  height: "100%",
+                  width: "0px",
+                  height: "0px",
+                  minWidth: "100%",
+                  maxWidth: "100%",
+                  minHeight: "100%",
+                  maxHeight: "100%",
                   objectFit: "cover",
                 }}
                 sizes="100vw"
@@ -1042,11 +1051,9 @@ export default function JobsPage() {
             </div>
           </motion.div>
           <div className="TeamCard_visual__background">
-            <Image
-              fill
+            <img
               src="/assets/jobs-page/icon.565970310eb6a176d876434d8f174dc2.svg"
               alt="Technify Icon"
-              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>

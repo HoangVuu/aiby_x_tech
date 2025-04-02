@@ -3,7 +3,6 @@
 import { motion } from "motion/react";
 import "./Contact.css";
 import { getMotionFadeInAnimation } from "../../utils/animation";
-import Image from "next/image";
 
 const Contact: React.FC = () => (
   <main>
@@ -94,15 +93,13 @@ const Contact: React.FC = () => (
 
     <section className="contact__support">
       <div className="contact__support__container">
-        <Image
-          fill
+        <img
           alt="support"
           src="/assets/contact/contact-support.png"
           decoding="async"
           data-nimg="fill"
           style={{
             width: "100%",
-
             objectFit: "cover",
           }}
           sizes="100vw"

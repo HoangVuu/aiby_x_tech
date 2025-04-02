@@ -1,7 +1,6 @@
 import { motion } from "motion/react";
 import "./Chip.css";
 import { getMotionFadeInAndZoomInAnimation } from "../../utils/animation";
-import Image from "next/image";
 
 const getXAppearAnimation = () => ({
   initial: {
@@ -165,8 +164,7 @@ const Chip = () => {
                   paddingTop: "91.9%",
                 }}
               ></span>
-              <Image
-                fill
+              <img
                 alt="ltrX"
                 src="/assets/home/ltrX.png"
                 decoding="async"
@@ -182,7 +180,12 @@ const Chip = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  height: "100%",
+                  width: "0px",
+                  height: "0px",
+                  minWidth: "100%",
+                  maxWidth: "100%",
+                  minHeight: "100%",
+                  maxHeight: "100%",
                 }}
                 sizes="100vw"
               />
@@ -225,8 +228,7 @@ const Chip = () => {
                     paddingTop: "15.192743764172336%",
                   }}
                 ></span>
-                <Image
-                  fill
+                <img
                   className="scale-75 xl:scale-100"
                   alt="logoX"
                   src="/assets/home/logorevenuex.bda6d26159f7762ca2f89c1777b0d563.svg"
@@ -243,7 +245,12 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    height: "100%",
+                    width: "0px",
+                    height: "0px",
+                    minWidth: "100%",
+                    maxWidth: "100%",
+                    minHeight: "100%",
+                    maxHeight: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -279,8 +286,7 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <Image
-                  fill
+                <img
                   alt="chip"
                   src="/assets/home/ground_chip.png"
                   decoding="async"
@@ -296,7 +302,12 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    height: "100%",
+                    width: "0px",
+                    height: "0px",
+                    minWidth: "100%",
+                    maxWidth: "100%",
+                    minHeight: "100%",
+                    maxHeight: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1179,8 +1190,7 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <Image
-                  fill
+                <img
                   alt="android_circle"
                   src="/assets/home/android_circle.png"
                   decoding="async"
@@ -1196,7 +1206,12 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    height: "100%",
+                    width: "0px",
+                    height: "0px",
+                    minWidth: "100%",
+                    maxWidth: "100%",
+                    minHeight: "100%",
+                    maxHeight: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1250,8 +1265,7 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <Image
-                  fill
+                <img
                   alt="clear"
                   src="/assets/home/apple_circle_clear.png"
                   decoding="async"
@@ -1267,7 +1281,12 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    height: "100%",
+                    width: "0px",
+                    height: "0px",
+                    minWidth: "100%",
+                    maxWidth: "100%",
+                    minHeight: "100%",
+                    maxHeight: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1310,8 +1329,7 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <Image
-                  fill
+                <img
                   alt="light"
                   src="/assets/home/light.png"
                   decoding="async"
@@ -1327,7 +1345,12 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    height: "100%",
+                    width: "0px",
+                    height: "0px",
+                    minWidth: "100%",
+                    maxWidth: "100%",
+                    minHeight: "100%",
+                    maxHeight: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1367,8 +1390,7 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <Image
-                  fill
+                <img
                   alt="line"
                   src="/assets/home/revenuechip_line.png"
                   decoding="async"
@@ -1384,7 +1406,12 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    height: "100%",
+                    width: "0px",
+                    height: "0px",
+                    minWidth: "100%",
+                    maxWidth: "100%",
+                    minHeight: "100%",
+                    maxHeight: "100%",
                   }}
                   sizes="100vw"
                 />
@@ -1425,8 +1452,7 @@ const Chip = () => {
                     paddingTop: "68.125%",
                   }}
                 ></span>
-                <Image
-                  fill
+                <img
                   alt="revenuechip_clear"
                   src="/assets/home/revenuechip_clear.png"
                   decoding="async"
@@ -1442,7 +1468,12 @@ const Chip = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
-                    height:'100%'
+                    width: "0px",
+                    height: "0px",
+                    minWidth: "100%",
+                    maxWidth: "100%",
+                    minHeight: "100%",
+                    maxHeight: "100%",
                   }}
                   sizes="100vw"
                 />

@@ -9,9 +9,9 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   .Hero_hero__dna {
-    min-height: 370px;
+    min-height: 300px;
   }
 }
 .Hero_image__FlQan {

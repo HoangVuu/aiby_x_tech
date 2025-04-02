@@ -192,16 +192,14 @@
 
 .contact-us {
   background-color: var(--color-mercury);
-  margin-top: 25em;
 }
 
 @media (max-width: 768px) {
   .contact-us {
-    padding: 0 2em;
+    padding: 1em 2em;
   }
 
   .contact__support__content{
-    margin-top: 7em;
   }
 }
 

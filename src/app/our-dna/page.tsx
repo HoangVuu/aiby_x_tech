@@ -9,7 +9,6 @@ import {
 import "./OurDna.css";
 import { OUR_DNA_ACCORDIONS } from "../../constants/mock-data";
 import Accordion from "../../components/accordion/Accordion";
-import Image from "next/image";
 
 export default function OurDNA() {
   const nextSectionRef = useRef<HTMLElement>(null);
@@ -24,8 +23,7 @@ export default function OurDNA() {
     <main>
       <section className="Hero_hero__dna">
         {/* <motion.div {...getMotionFadeInAndZoomInAnimation()}> */}
-          <Image
-            fill
+          <img
             src="/assets/our-dna/hero.png"
             style={{
               opacity: "1",

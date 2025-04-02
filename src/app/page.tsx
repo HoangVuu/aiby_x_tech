@@ -12,7 +12,6 @@ import {
 import "./Home.css";
 import Chip from "@/components/chip/Chip";
 import Link from "next/link";
-import Image from "next/image";
 
 const Home: React.FC = () => {
   // const [isDisabledPrevNews, setIsDisabledPrevNews] = useState(true);
@@ -302,11 +301,10 @@ const Home: React.FC = () => {
                     padding: "45.8559% 0px 0px",
                   }}
                 ></span>
-                <Image
-                  fill
+                <img
                   alt="we do"
                   sizes="100vw"
-                  src={`/assets/home/what-we-do.png`}
+                  src="assets/home/what-we-do.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -317,6 +315,12 @@ const Home: React.FC = () => {
                     border: "none",
                     margin: "auto",
                     display: "block",
+                    width: "0px",
+                    height: "0px",
+                    minWidth: "100%",
+                    maxWidth: "100%",
+                    minHeight: "100%",
+                    maxHeight: "100%",
                   }}
                 />
               </span>
@@ -421,8 +425,7 @@ const Home: React.FC = () => {
                             padding: "97.1919% 0px 0px",
                           }}
                         ></span>
-                        <Image
-                          fill
+                        <img
                           alt="app"
                           src="/assets/home/sell-your-app.png"
                           decoding="async"
@@ -435,7 +438,12 @@ const Home: React.FC = () => {
                             border: "none",
                             margin: "auto",
                             display: "block",
-                            height: "100%",
+                            width: "0px",
+                            height: "0px",
+                            minWidth: "100%",
+                            maxWidth: "100%",
+                            minHeight: "100%",
+                            maxHeight: "100%",
                           }}
                         />
                         <noscript></noscript>
@@ -504,8 +512,7 @@ const Home: React.FC = () => {
                             padding: "82.5193% 0px 0px",
                           }}
                         ></span>
-                        <Image
-                          fill
+                        <img
                           alt="investments"
                           src="/assets/home/investments.png"
                           decoding="async"
@@ -518,7 +525,12 @@ const Home: React.FC = () => {
                             border: "none",
                             margin: "auto",
                             display: "block",
-                            height: "100%",
+                            width: "0px",
+                            height: "0px",
+                            minWidth: "100%",
+                            maxWidth: "100%",
+                            minHeight: "100%",
+                            maxHeight: "100%",
                           }}
                         />
                         <noscript></noscript>
@@ -589,8 +601,7 @@ const Home: React.FC = () => {
                             padding: "74.8698% 0px 0px",
                           }}
                         ></span>
-                        <Image
-                          fill
+                        <img
                           alt="publishing"
                           src="/assets/home/publishing.png"
                           decoding="async"
@@ -603,7 +614,12 @@ const Home: React.FC = () => {
                             border: "none",
                             margin: "auto",
                             display: "block",
-                            height: "100%",
+                            width: "0px",
+                            height: "0px",
+                            minWidth: "100%",
+                            maxWidth: "100%",
+                            minHeight: "100%",
+                            maxHeight: "100%",
                           }}
                         />
                         <noscript></noscript>
@@ -687,8 +703,7 @@ const Home: React.FC = () => {
                           padding: "101.595% 0px 0px",
                         }}
                       ></span>
-                      <Image
-                        fill
+                      <img
                         alt="component"
                         src="/assets/home/key-component-1.png"
                         decoding="async"
@@ -701,7 +716,12 @@ const Home: React.FC = () => {
                           border: "none",
                           margin: "auto",
                           display: "block",
-                          height: "100%",
+                          width: "0px",
+                          height: "0px",
+                          minWidth: "100%",
+                          maxWidth: "100%",
+                          minHeight: "100%",
+                          maxHeight: "100%",
                         }}
                       />
 
@@ -765,8 +785,7 @@ const Home: React.FC = () => {
                           padding: "82.9862% 0px 0px",
                         }}
                       ></span>
-                      <Image
-                        fill
+                      <img
                         alt="Technify computer producing mobile application"
                         src="/assets/home/key2.png"
                         decoding="async"
@@ -779,7 +798,12 @@ const Home: React.FC = () => {
                           border: "none",
                           margin: "auto",
                           display: "block",
-                          height: "100%",
+                          width: "0px",
+                          height: "0px",
+                          minWidth: "100%",
+                          maxWidth: "100%",
+                          minHeight: "100%",
+                          maxHeight: "100%",
                         }}
                       />
                       <noscript></noscript>
@@ -838,8 +862,7 @@ const Home: React.FC = () => {
                           padding: "103.709% 0px 0px",
                         }}
                       ></span>
-                      <Image
-                        fill
+                      <img
                         alt="component 3"
                         src="/assets/home/key-component-3.png"
                         decoding="async"
@@ -852,7 +875,12 @@ const Home: React.FC = () => {
                           border: "none",
                           margin: "auto",
                           display: "block",
-                          height: "100%",
+                          width: "0px",
+                          height: "0px",
+                          minWidth: "100%",
+                          maxWidth: "100%",
+                          minHeight: "100%",
+                          maxHeight: "100%",
                         }}
                       />
                       <noscript></noscript>
@@ -1022,8 +1050,8 @@ const Home: React.FC = () => {
                 inset: "0px",
               }}
             >
-              <Image
-                fill
+              <img
+                
                 alt="home we"
                 src="/assets/home/we.png"
                 decoding="async"
@@ -1036,7 +1064,12 @@ const Home: React.FC = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  height: "100%",
+                  width: "0px",
+                  height: "0px",
+                  minWidth: "100%",
+                  maxWidth: "100%",
+                  minHeight: "100%",
+                  maxHeight: "100%",
                   objectFit: "cover",
                 }}
               />
