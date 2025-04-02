@@ -23,16 +23,16 @@ export default function OurDNA() {
     <main>
       <section className="Hero_hero__dna">
         {/* <motion.div {...getMotionFadeInAndZoomInAnimation()}> */}
-          <img
-            src="/assets/our-dna/hero.png"
-            style={{
-              opacity: "1",
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-            alt={"hero"}
-          />
+        <img
+          src="/assets/our-dna/hero.png"
+          style={{
+            opacity: "1",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+          alt={"hero"}
+        />
         {/* </motion.div> */}
 
         <div
@@ -144,7 +144,7 @@ export default function OurDNA() {
                 ></span>
                 <motion.img
                   alt=""
-                  src="assets/our-dna/dna.png"
+                  src="/assets/our-dna/dna.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -210,7 +210,7 @@ export default function OurDNA() {
                 ></span>
                 <motion.img
                   alt=""
-                  src="assets/our-dna/blurred-bubble-small.png"
+                  src="/assets/our-dna/blurred-bubble-small.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -264,7 +264,7 @@ export default function OurDNA() {
                   }}
                 ></span>
                 <motion.img
-                  src="assets/our-dna/blurred-bubble-medium.png"
+                  src="/assets/our-dna/blurred-bubble-medium.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
@@ -319,7 +319,7 @@ export default function OurDNA() {
                 ></span>
                 <motion.img
                   alt=""
-                  src="assets/our-dna/blurred-bubble-large.png"
+                  src="/assets/our-dna/blurred-bubble-large.png"
                   decoding="async"
                   data-nimg="responsive"
                   style={{
