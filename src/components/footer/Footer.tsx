@@ -15,12 +15,12 @@ const Footer: React.FC = () => {
         <div className="Footer_navigation__container">
           <div className="TopNavigation_top-navigation">
             <Link aria-label="Home page" className="Logo_logo" href="/">
-              <h1
-                style={{ fontSize: "25px", fontWeight: "bold" }}
-                className="text-black "
-              >
-                Technify
-              </h1>
+            <div>
+              <img
+                src="/assets/home/logo.png"
+                alt="Logo"
+              />
+            </div>
             </Link>
             <button
               type="button"
