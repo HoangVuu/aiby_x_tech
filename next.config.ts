@@ -9,6 +9,16 @@ const nextConfig: NextConfig = {
   //   loader: "akamai",
   //   path: "/",
   // },
+  
+  // Add rewrites for .well-known paths
+  async rewrites() {
+    return [
+      {
+        source: '/.well-known/assetlinks.json',
+        destination: '/assetlinks.json',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
