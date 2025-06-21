@@ -46,13 +46,12 @@ const Footer: React.FC = () => {
             </button>
           </div>
           <div className="Text_text--footer-link text-address">
-            <span className="text-address">- Company name:</span>{" "}
-            <span className="text-bold">Technify Technology Joint Stock Company</span>
+            <span className="text-address">- Company:</span>{" "}
+            <span className="text-bold">Technify Group Limited</span>
             <p className="text-address">
               - Address:{" "}
               <span className="text-bold">
-                520/19 PHAN VAN TRI SREET, WARD 7, GO VAP, HO CHI MINH CITY,
-                VIETNAM
+              2/F West Wing, 822 Lai Chi Kok Road, Cheung Sha Wan, Hong Kong
               </span>
             </p>
             {/* <p className="text-address">
@@ -63,7 +62,7 @@ const Footer: React.FC = () => {
             </p> */}
             <p className="text-address">
               - Phone:
-              <span className="text-bold"> +84986710732</span>
+              <span className="text-bold"> +85265079961</span>
             </p>
             <p className="text-address">
               - Email:{" "}

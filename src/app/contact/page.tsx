@@ -41,8 +41,7 @@ const Contact: React.FC = () => (
         </p>
         <p className="contact__info__address-details Hero_section__address">
           <span className="">
-            Address: 520/19 PHAN VAN TRI SREET, WARD 7, GO VAP, HO CHI MINH
-            CITY, VIETNAM
+            Address: 2/F West Wing, 822 Lai Chi Kok Road, Cheung Sha Wan, Hong Kong
           </span>
         </p>
 
@@ -219,8 +218,7 @@ const Contact: React.FC = () => (
             <div className="CompanyAddress_map__image-container"></div>
           </div>
           <p className="contact-us_address__details">
-            Address : 520/19 PHAN VAN TRI SREET, WARD 7, GO VAP, HO CHI MINH
-            CITY, VIETNAM 
+            Address : 2/F West Wing, 822 Lai Chi Kok Road, Cheung Sha Wan, Hong Kong
             <br />
             <br />
             {/* Address 2: WEST WING, 2/F., 822 LAI CHI KOK ROAD,
